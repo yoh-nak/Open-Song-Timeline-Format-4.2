@@ -1,0 +1,115 @@
+{
+  "format": "OSTF",
+  "version": "4.2.0",
+  "ppq": 960,
+  "song": {
+    "title": "MPE Per Note Expression"
+  },
+  "timeline": {
+    "sections": [],
+    "tempoChanges": [
+      {
+        "at": 0,
+        "bpm": 120
+      }
+    ],
+    "meterChanges": [
+      {
+        "at": 0,
+        "numerator": 4,
+        "denominator": 4
+      }
+    ],
+    "duration": 30720
+  },
+  "harmony": {
+    "chords": [],
+    "scales": []
+  },
+  "tracks": [
+    {
+      "id": "tr",
+      "name": "MPE Lead",
+      "clips": [
+        {
+          "id": "cl",
+          "start": 0,
+          "duration": 3840,
+          "notes": [
+            {
+              "id": "n1",
+              "start": 0,
+              "duration": 3840,
+              "pitch": 60,
+              "velocity": 100,
+              "channel": 2
+            },
+            {
+              "id": "n2",
+              "start": 0,
+              "duration": 3840,
+              "pitch": 64,
+              "velocity": 100,
+              "channel": 3
+            }
+          ],
+          "midiEvents": [
+            {
+              "id": "bend-n1",
+              "start": 240,
+              "type": "pitchBend",
+              "value14": 10000,
+              "channel": 2,
+              "targetNoteId": "n1",
+              "order": 1
+            },
+            {
+              "id": "press-n2",
+              "start": 240,
+              "type": "channelPressure",
+              "value": 75,
+              "channel": 3,
+              "targetNoteId": "n2",
+              "order": 1
+            },
+            {
+              "id": "cc74-n1",
+              "start": 240,
+              "type": "controlChange",
+              "controller": 74,
+              "value": 90,
+              "channel": 2,
+              "targetNoteId": "n1",
+              "order": 1
+            }
+          ]
+        }
+      ],
+      "trackType": "melodic",
+      "midi": {
+        "busId": "bus",
+        "mode": "mpe",
+        "mpe": {
+          "zone": "lower",
+          "memberChannelCount": 4
+        }
+      }
+    }
+  ],
+  "soundSlots": [],
+  "lyrics": {
+    "documents": [],
+    "phrases": [],
+    "units": [],
+    "alignments": []
+  },
+  "resources": [],
+  "midi": {
+    "buses": [
+      {
+        "id": "bus",
+        "name": "MPE"
+      }
+    ]
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "format": "OSTF",
+  "version": "4.2.0",
+  "ppq": 960,
+  "song": {
+    "title": "Generation Intent"
+  },
+  "timeline": {
+    "sections": [],
+    "tempoChanges": [
+      {
+        "at": 0,
+        "bpm": 120
+      }
+    ],
+    "meterChanges": [
+      {
+        "at": 0,
+        "numerator": 4,
+        "denominator": 4
+      }
+    ],
+    "duration": 30720
+  },
+  "harmony": {
+    "chords": [],
+    "scales": []
+  },
+  "tracks": [
+    {
+      "id": "tr",
+      "name": "Generated",
+      "clips": [
+        {
+          "id": "cl",
+          "start": 0,
+          "duration": 3840,
+          "notes": [
+            {
+              "id": "n",
+              "start": 0,
+              "duration": 960,
+              "pitch": 60
+            }
+          ]
+        }
+      ],
+      "trackType": "melodic"
+    }
+  ],
+  "soundSlots": [],
+  "lyrics": {
+    "documents": [],
+    "phrases": [],
+    "units": [],
+    "alignments": []
+  },
+  "resources": [],
+  "generation": {
+    "status": "unverified",
+    "dependencies": {
+      "scope": "none"
+    },
+    "processes": [
+      {
+        "id": "gen",
+        "generator": {
+          "id": "com.example.ai",
+          "version": "2.0"
+        },
+        "inputs": [],
+        "outputs": [
+          {
+            "type": "note",
+            "id": "n"
+          }
+        ],
+        "protectedNoteIds": [],
+        "intent": {
+          "genreNames": [
+            "Techno"
+          ],
+          "moodNames": [
+            "Hypnotic"
+          ],
+          "groove": {
+            "name": "Swing 55",
+            "unitTicks": 480,
+            "longWeight": 55,
+            "shortWeight": 45
+          },
+          "prompt": "Sparse syncopated motif.",
+          "seed": "demo-seed"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,230 @@
+{
+  "format": "OSTF",
+  "version": "4.2.0",
+  "ppq": 960,
+  "song": {
+    "title": "Lead + Harmony — separate vocal voices",
+    "languages": [
+      "ja-JP"
+    ],
+    "melodyTrackIds": [
+      "track-lead"
+    ],
+    "primaryMelodyTrackId": "track-lead",
+    "primaryLyricDocumentId": "doc-ja"
+  },
+  "timeline": {
+    "sections": [
+      {
+        "id": "verse",
+        "name": "Verse",
+        "start": 0,
+        "duration": 3840,
+        "role": "verse"
+      }
+    ],
+    "tempoChanges": [
+      {
+        "at": 0,
+        "bpm": 120
+      }
+    ],
+    "meterChanges": [
+      {
+        "at": 0,
+        "numerator": 4,
+        "denominator": 4
+      }
+    ],
+    "duration": 3840
+  },
+  "harmony": {
+    "chords": [],
+    "scales": []
+  },
+  "tracks": [
+    {
+      "id": "track-lead",
+      "name": "Lead Vocal",
+      "role": "lead",
+      "trackType": "melodic",
+      "clips": [
+        {
+          "id": "clip-lead",
+          "start": 0,
+          "duration": 3840,
+          "notes": [
+            {
+              "id": "note-ka",
+              "start": 0,
+              "duration": 960,
+              "pitch": 69,
+              "velocity": 85
+            },
+            {
+              "id": "note-ze",
+              "start": 960,
+              "duration": 960,
+              "pitch": 71,
+              "velocity": 90
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "track-harmony",
+      "name": "Backing Vocal",
+      "role": "harmony",
+      "trackType": "melodic",
+      "clips": [
+        {
+          "id": "clip-harmony",
+          "start": 0,
+          "duration": 3840,
+          "notes": [
+            {
+              "id": "hnote-ka",
+              "start": 0,
+              "duration": 960,
+              "pitch": 64
+            },
+            {
+              "id": "hnote-ze",
+              "start": 960,
+              "duration": 960,
+              "pitch": 66
+            }
+          ],
+          "vocalPerformances": [
+            {
+              "id": "vperf-harmony",
+              "voiceId": "voice-harmony",
+              "expressionCurves": [
+                {
+                  "id": "h-dynamics",
+                  "parameter": "dynamics",
+                  "interpolation": "linear",
+                  "points": [
+                    {
+                      "at": 0,
+                      "value": 0.3
+                    },
+                    {
+                      "at": 1920,
+                      "value": 0.45
+                    }
+                  ]
+                }
+              ],
+              "noteIds": [
+                "hnote-ka",
+                "hnote-ze"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "soundSlots": [],
+  "lyrics": {
+    "documents": [
+      {
+        "id": "doc-ja",
+        "title": "Japanese lyrics",
+        "language": "ja-JP"
+      }
+    ],
+    "phrases": [
+      {
+        "id": "phrase-1",
+        "documentId": "doc-ja",
+        "text": "かぜ",
+        "start": 0,
+        "duration": 1920
+      }
+    ],
+    "units": [
+      {
+        "id": "unit-ka",
+        "phraseId": "phrase-1",
+        "text": "か",
+        "pronunciation": "か",
+        "start": 0,
+        "duration": 960
+      },
+      {
+        "id": "unit-ze",
+        "phraseId": "phrase-1",
+        "text": "ぜ",
+        "pronunciation": "ぜ",
+        "start": 960,
+        "duration": 960
+      }
+    ],
+    "alignments": [
+      {
+        "id": "align-ka",
+        "voiceId": "voice-lead",
+        "unitIds": [
+          "unit-ka"
+        ],
+        "noteIds": [
+          "note-ka"
+        ]
+      },
+      {
+        "id": "align-ze",
+        "voiceId": "voice-lead",
+        "unitIds": [
+          "unit-ze"
+        ],
+        "noteIds": [
+          "note-ze"
+        ]
+      },
+      {
+        "id": "h-align-ka",
+        "unitIds": [
+          "unit-ka"
+        ],
+        "noteIds": [
+          "hnote-ka"
+        ],
+        "voiceId": "voice-harmony"
+      },
+      {
+        "id": "h-align-ze",
+        "unitIds": [
+          "unit-ze"
+        ],
+        "noteIds": [
+          "hnote-ze"
+        ],
+        "voiceId": "voice-harmony"
+      }
+    ],
+    "voices": [
+      {
+        "id": "voice-lead",
+        "name": "Lead",
+        "role": "lead",
+        "trackId": "track-lead",
+        "documentId": "doc-ja"
+      },
+      {
+        "id": "voice-harmony",
+        "name": "Backing",
+        "role": "harmony",
+        "trackId": "track-harmony",
+        "documentId": "doc-ja",
+        "vocalProfile": {
+          "language": "ja-JP",
+          "deliveryMode": "sing"
+        }
+      }
+    ]
+  },
+  "resources": []
+}

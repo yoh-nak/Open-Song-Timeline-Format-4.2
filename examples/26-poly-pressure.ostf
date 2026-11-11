@@ -1,0 +1,85 @@
+{
+  "format": "OSTF",
+  "version": "4.2.0",
+  "ppq": 960,
+  "song": {
+    "title": "Poly Pressure"
+  },
+  "timeline": {
+    "sections": [],
+    "tempoChanges": [
+      {
+        "at": 0,
+        "bpm": 120
+      }
+    ],
+    "meterChanges": [
+      {
+        "at": 0,
+        "numerator": 4,
+        "denominator": 4
+      }
+    ],
+    "duration": 30720
+  },
+  "harmony": {
+    "chords": [],
+    "scales": []
+  },
+  "tracks": [
+    {
+      "id": "tr",
+      "name": "Poly Aftertouch",
+      "clips": [
+        {
+          "id": "cl",
+          "start": 0,
+          "duration": 3840,
+          "notes": [
+            {
+              "id": "n",
+              "start": 0,
+              "duration": 3840,
+              "pitch": 60,
+              "channel": 1
+            }
+          ],
+          "midiEvents": [
+            {
+              "id": "pat",
+              "start": 240,
+              "type": "polyPressure",
+              "pitch": 60,
+              "value": 88,
+              "channel": 1,
+              "order": 1,
+              "targetNoteId": "n"
+            }
+          ]
+        }
+      ],
+      "trackType": "melodic",
+      "midi": {
+        "busId": "bus",
+        "mode": "singleChannel",
+        "channel": 1
+      }
+    }
+  ],
+  "soundSlots": [],
+  "lyrics": {
+    "documents": [],
+    "phrases": [],
+    "units": [],
+    "alignments": []
+  },
+  "resources": [],
+  "midi": {
+    "buses": [
+      {
+        "id": "bus",
+        "name": "Main"
+      }
+    ]
+  }
+}

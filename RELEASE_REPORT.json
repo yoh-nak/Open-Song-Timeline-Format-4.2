@@ -1,0 +1,376 @@
+{
+  "release": "OSTF 4.2.0",
+  "release_type": "formal-core-specification",
+  "prepared_date": "2026-11-11",
+  "recommended_tag": "v4.2.0",
+  "github_upload_performed": false,
+  "file_count": 87,
+  "file_limit": 100,
+  "file_categories": {
+    "root": 16,
+    "docs": 14,
+    "examples": 53,
+    "resources": 1,
+    "schema": 2,
+    "tools": 1
+  },
+  "demo_count": 53,
+  "technical_demo_count": 50,
+  "musical_demo_count": 3,
+  "all_demo_versions": [
+    "4.2.0"
+  ],
+  "static_checks": {
+    "strict_json": true,
+    "schema_examples_passed": 53,
+    "schema_examples_total": 53,
+    "reachable_field_declarations": 569,
+    "covered_field_declarations": 569,
+    "core_declarations": 481,
+    "legacy_preservation_declarations": 88,
+    "missing_fields": 0,
+    "broken_local_markdown_links": 0,
+    "frozen_properties_and_defs_unchanged": true,
+    "base41_bytes_unchanged": true,
+    "subset_reference_semantic_diagnostics": 0
+  },
+  "schema_core_sha256": "7341ec5055949120d1e578107e6c1b1d4fc516306497dba1e238f18511ece87f",
+  "schema_sha256": "6933e2b52332e8b58b9c34b53ca7e101c3f0b689fd5f50f593809480b35e0fa2",
+  "base41_sha256": "73a78871435f0593b8ad739c74ce2bae0fb6c9128a84ab3e012df6f0818628c5",
+  "coverage_definition": "reachable named property declaration positions, not all values/enum combinations or arbitrary map/vendor keys",
+  "evidence_scope": "Static structure, reference-subset diagnostics, documentation links and archive integrity only.",
+  "not_claimed": [
+    "external application import/playback/synthesis",
+    "acoustic equivalence",
+    "complete normative semantic-rule certification",
+    "fresh execution of historic regression totals",
+    "existing public GitHub repository or tag"
+  ],
+  "licenses": {
+    "specification_schema_documentation_examples": "CC0-1.0",
+    "python_utility": "MIT"
+  },
+  "fixes": [
+    "Corrected the inherited wordless-humming example primary lyric document reference to doc-wordless."
+  ],
+  "examples": [
+    {
+      "file": "examples/01-all-core.ostf",
+      "version": "4.2.0",
+      "schema_valid": true,
+      "fields_covered": 301
+    },
+    {
+      "file": "examples/02-all-vocal-parameters.ostf",
+      "version": "4.2.0",
+      "schema_valid": true,
+      "fields_covered": 126
+    },
+    {
+      "file": "examples/03-all-legacy-profiles.ostf",
+      "version": "4.2.0",
+      "schema_valid": true,
+      "fields_covered": 390
+    },
+    {
+      "file": "examples/04-basic-vocal.ostf",
+      "version": "4.2.0",
+      "schema_valid": true,
+      "fields_covered": 73
+    },
+    {
+      "file": "examples/05-expressive-vocal.ostf",
+      "version": "4.2.0",
+      "schema_valid": true,
+      "fields_covered": 122
+    },
+    {
+      "file": "examples/06-instrument-midi-unchanged.ostf",
+      "version": "4.2.0",
+      "schema_valid": true,
+      "fields_covered": 66
+    },
+    {
+      "file": "examples/07-multivoice-same-lyrics.ostf",
+      "version": "4.2.0",
+      "schema_valid": true,
+      "fields_covered": 87
+    },
+    {
+      "file": "examples/08-wordless-humming.ostf",
+      "version": "4.2.0",
+      "schema_valid": true,
+      "fields_covered": 70
+    },
+    {
+      "file": "examples/09-two-voices-one-track.ostf",
+      "version": "4.2.0",
+      "schema_valid": true,
+      "fields_covered": 77
+    },
+    {
+      "file": "examples/10-parallel-phonetic-alphabets.ostf",
+      "version": "4.2.0",
+      "schema_valid": true,
+      "fields_covered": 122
+    },
+    {
+      "file": "examples/11-note-expression-override.ostf",
+      "version": "4.2.0",
+      "schema_valid": true,
+      "fields_covered": 123
+    },
+    {
+      "file": "examples/12-melisma.ostf",
+      "version": "4.2.0",
+      "schema_valid": true,
+      "fields_covered": 82
+    },
+    {
+      "file": "examples/13-pre-note-consonant.ostf",
+      "version": "4.2.0",
+      "schema_valid": true,
+      "fields_covered": 122
+    },
+    {
+      "file": "examples/14-instrument-and-vocal.ostf",
+      "version": "4.2.0",
+      "schema_valid": true,
+      "fields_covered": 134
+    },
+    {
+      "file": "examples/15-phoneme-same-tick-order.ostf",
+      "version": "4.2.0",
+      "schema_valid": true,
+      "fields_covered": 123
+    },
+    {
+      "file": "examples/16-ambiguous-many-to-many.ostf",
+      "version": "4.2.0",
+      "schema_valid": true,
+      "fields_covered": 115
+    },
+    {
+      "file": "examples/17-tick-rounding-loss.ostf",
+      "version": "4.2.0",
+      "schema_valid": true,
+      "fields_covered": 122
+    },
+    {
+      "file": "examples/18-same-tick-implicit-order.ostf",
+      "version": "4.2.0",
+      "schema_valid": true,
+      "fields_covered": 122
+    },
+    {
+      "file": "examples/19-tempo-change-vocal.ostf",
+      "version": "4.2.0",
+      "schema_valid": true,
+      "fields_covered": 122
+    },
+    {
+      "file": "examples/20-meter-change-vocal.ostf",
+      "version": "4.2.0",
+      "schema_valid": true,
+      "fields_covered": 122
+    },
+    {
+      "file": "examples/21-single-late-pitch-anchor.ostf",
+      "version": "4.2.0",
+      "schema_valid": true,
+      "fields_covered": 122
+    },
+    {
+      "file": "examples/22-pre-note-consonant.ostf",
+      "version": "4.2.0",
+      "schema_valid": true,
+      "fields_covered": 122
+    },
+    {
+      "file": "examples/23-mpe-per-note-expression.ostf",
+      "version": "4.2.0",
+      "schema_valid": true,
+      "fields_covered": 73
+    },
+    {
+      "file": "examples/24-pitch-range-high-register.ostf",
+      "version": "4.2.0",
+      "schema_valid": true,
+      "fields_covered": 46
+    },
+    {
+      "file": "examples/25-integrated-jazz-session.ostf",
+      "version": "4.2.0",
+      "schema_valid": true,
+      "fields_covered": 64
+    },
+    {
+      "file": "examples/26-poly-pressure.ostf",
+      "version": "4.2.0",
+      "schema_valid": true,
+      "fields_covered": 56
+    },
+    {
+      "file": "examples/27-generation-intent.ostf",
+      "version": "4.2.0",
+      "schema_valid": true,
+      "fields_covered": 62
+    },
+    {
+      "file": "examples/28-channel-mode.ostf",
+      "version": "4.2.0",
+      "schema_valid": true,
+      "fields_covered": 50
+    },
+    {
+      "file": "examples/29-vendor-range-direction.ostf",
+      "version": "4.2.0",
+      "schema_valid": true,
+      "fields_covered": 42
+    },
+    {
+      "file": "examples/30-bank-select-program-change.ostf",
+      "version": "4.2.0",
+      "schema_valid": true,
+      "fields_covered": 56
+    },
+    {
+      "file": "examples/31-effective-key-scale.ostf",
+      "version": "4.2.0",
+      "schema_valid": true,
+      "fields_covered": 53
+    },
+    {
+      "file": "examples/32-document-identity-revision.ostf",
+      "version": "4.2.0",
+      "schema_valid": true,
+      "fields_covered": 37
+    },
+    {
+      "file": "examples/33-chord-voicing.ostf",
+      "version": "4.2.0",
+      "schema_valid": true,
+      "fields_covered": 37
+    },
+    {
+      "file": "examples/34-sound-source-external-midi.ostf",
+      "version": "4.2.0",
+      "schema_valid": true,
+      "fields_covered": 33
+    },
+    {
+      "file": "examples/35-provenance.ostf",
+      "version": "4.2.0",
+      "schema_valid": true,
+      "fields_covered": 42
+    },
+    {
+      "file": "examples/36-localized-names.ostf",
+      "version": "4.2.0",
+      "schema_valid": true,
+      "fields_covered": 34
+    },
+    {
+      "file": "examples/37-note-performance-state.ostf",
+      "version": "4.2.0",
+      "schema_valid": true,
+      "fields_covered": 41
+    },
+    {
+      "file": "examples/38-note-probability-deviation.ostf",
+      "version": "4.2.0",
+      "schema_valid": true,
+      "fields_covered": 41
+    },
+    {
+      "file": "examples/39-sound-slot-midi-mapping.ostf",
+      "version": "4.2.0",
+      "schema_valid": true,
+      "fields_covered": 33
+    },
+    {
+      "file": "examples/40-meter-map.ostf",
+      "version": "4.2.0",
+      "schema_valid": true,
+      "fields_covered": 27
+    },
+    {
+      "file": "examples/41-bar-origin.ostf",
+      "version": "4.2.0",
+      "schema_valid": true,
+      "fields_covered": 27
+    },
+    {
+      "file": "examples/42-slash-chord.ostf",
+      "version": "4.2.0",
+      "schema_valid": true,
+      "fields_covered": 35
+    },
+    {
+      "file": "examples/43-timed-harmony-scales.ostf",
+      "version": "4.2.0",
+      "schema_valid": true,
+      "fields_covered": 34
+    },
+    {
+      "file": "examples/44-fixed-trigger-note.ostf",
+      "version": "4.2.0",
+      "schema_valid": true,
+      "fields_covered": 40
+    },
+    {
+      "file": "examples/45-lyrics-pronunciation.ostf",
+      "version": "4.2.0",
+      "schema_valid": true,
+      "fields_covered": 37
+    },
+    {
+      "file": "examples/46-contributors-credits.ostf",
+      "version": "4.2.0",
+      "schema_valid": true,
+      "fields_covered": 35
+    },
+    {
+      "file": "examples/47-rights-statement.ostf",
+      "version": "4.2.0",
+      "schema_valid": true,
+      "fields_covered": 34
+    },
+    {
+      "file": "examples/48-genres-moods.ostf",
+      "version": "4.2.0",
+      "schema_valid": true,
+      "fields_covered": 33
+    },
+    {
+      "file": "examples/49-generation-process.ostf",
+      "version": "4.2.0",
+      "schema_valid": true,
+      "fields_covered": 59
+    },
+    {
+      "file": "examples/50-song-scale-improvisation.ostf",
+      "version": "4.2.0",
+      "schema_valid": true,
+      "fields_covered": 48
+    },
+    {
+      "file": "examples/51-musical-pop-vocal.ostf",
+      "version": "4.2.0",
+      "schema_valid": true,
+      "fields_covered": 165
+    },
+    {
+      "file": "examples/52-musical-jazz-quartet.ostf",
+      "version": "4.2.0",
+      "schema_valid": true,
+      "fields_covered": 108
+    },
+    {
+      "file": "examples/53-musical-electronic.ostf",
+      "version": "4.2.0",
+      "schema_valid": true,
+      "fields_covered": 98
+    }
+  ]
+}

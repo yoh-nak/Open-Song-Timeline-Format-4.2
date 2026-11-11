@@ -1,0 +1,341 @@
+{
+  "format": "OSTF",
+  "version": "4.2.0",
+  "ppq": 960,
+  "song": {
+    "title": "Meter Shift / 拍子の変化 — 4/4 to 3/4 vocal example",
+    "languages": [
+      "ja-JP"
+    ],
+    "melodyTrackIds": [
+      "track-lead"
+    ],
+    "primaryMelodyTrackId": "track-lead",
+    "primaryLyricDocumentId": "doc-ja"
+  },
+  "timeline": {
+    "sections": [
+      {
+        "id": "verse",
+        "name": "Verse 4/4",
+        "start": 0,
+        "duration": 3840,
+        "role": "verse"
+      },
+      {
+        "id": "chorus",
+        "name": "Chorus 3/4",
+        "start": 3840,
+        "duration": 2880,
+        "role": "chorus"
+      }
+    ],
+    "tempoChanges": [
+      {
+        "at": 0,
+        "bpm": 120
+      },
+      {
+        "at": 480,
+        "bpm": 60
+      },
+      {
+        "at": 1440,
+        "bpm": 160
+      }
+    ],
+    "meterChanges": [
+      {
+        "at": 0,
+        "numerator": 4,
+        "denominator": 4
+      },
+      {
+        "at": 3840,
+        "numerator": 3,
+        "denominator": 4
+      }
+    ],
+    "duration": 6720
+  },
+  "harmony": {
+    "chords": [],
+    "scales": []
+  },
+  "tracks": [
+    {
+      "id": "track-lead",
+      "name": "Lead Vocal",
+      "role": "lead",
+      "trackType": "melodic",
+      "clips": [
+        {
+          "id": "clip-lead",
+          "start": 0,
+          "duration": 6720,
+          "notes": [
+            {
+              "id": "note-ka",
+              "start": 0,
+              "duration": 960,
+              "pitch": 69,
+              "velocity": 85
+            },
+            {
+              "id": "note-ze",
+              "start": 3840,
+              "duration": 960,
+              "pitch": 71,
+              "velocity": 90
+            }
+          ],
+          "vocalPerformances": [
+            {
+              "id": "vperf-lead",
+              "voiceId": "voice-lead",
+              "phonemeEvents": [
+                {
+                  "id": "pe-k",
+                  "unitId": "unit-ka",
+                  "noteId": "note-ka",
+                  "alphabet": "ipa",
+                  "symbol": "k",
+                  "start": 0,
+                  "duration": 90
+                },
+                {
+                  "id": "pe-a",
+                  "unitId": "unit-ka",
+                  "noteId": "note-ka",
+                  "alphabet": "ipa",
+                  "symbol": "a",
+                  "start": 90,
+                  "duration": 870
+                },
+                {
+                  "id": "pe-z",
+                  "unitId": "unit-ze",
+                  "noteId": "note-ze",
+                  "alphabet": "ipa",
+                  "symbol": "z",
+                  "start": 3840,
+                  "duration": 70
+                },
+                {
+                  "id": "pe-e",
+                  "unitId": "unit-ze",
+                  "noteId": "note-ze",
+                  "alphabet": "ipa",
+                  "symbol": "e",
+                  "start": 3910,
+                  "duration": 890
+                }
+              ],
+              "pitchCurves": [
+                {
+                  "id": "pitch-ka",
+                  "targetNoteId": "note-ka",
+                  "unit": "cents",
+                  "interpolation": "linear",
+                  "points": [
+                    {
+                      "at": 0,
+                      "value": -80
+                    },
+                    {
+                      "at": 120,
+                      "value": 0
+                    },
+                    {
+                      "at": 900,
+                      "value": 10
+                    }
+                  ]
+                },
+                {
+                  "id": "pitch-ze",
+                  "targetNoteId": "note-ze",
+                  "unit": "cents",
+                  "interpolation": "linear",
+                  "points": [
+                    {
+                      "at": 3840,
+                      "value": 0
+                    },
+                    {
+                      "at": 4140,
+                      "value": 5
+                    },
+                    {
+                      "at": 4740,
+                      "value": -18
+                    }
+                  ]
+                }
+              ],
+              "expressionCurves": [
+                {
+                  "id": "breathiness-1",
+                  "parameter": "breathiness",
+                  "interpolation": "linear",
+                  "points": [
+                    {
+                      "at": 0,
+                      "value": 0.3
+                    },
+                    {
+                      "at": 960,
+                      "value": 0.55
+                    },
+                    {
+                      "at": 1920,
+                      "value": 0.35
+                    }
+                  ]
+                },
+                {
+                  "id": "dynamics-1",
+                  "parameter": "dynamics",
+                  "interpolation": "linear",
+                  "points": [
+                    {
+                      "at": 0,
+                      "value": 0.45
+                    },
+                    {
+                      "at": 960,
+                      "value": 0.65
+                    },
+                    {
+                      "at": 1920,
+                      "value": 0.5
+                    }
+                  ]
+                }
+              ],
+              "techniques": [
+                {
+                  "id": "scoop1",
+                  "start": 0,
+                  "duration": 200,
+                  "kind": "scoop",
+                  "intensity": 0.45,
+                  "targetNoteId": "note-ka"
+                }
+              ],
+              "breathEvents": [
+                {
+                  "id": "breath1",
+                  "start": 2170,
+                  "duration": 140,
+                  "kind": "inhale",
+                  "intensity": 0.3
+                }
+              ],
+              "noteIds": [
+                "note-ka",
+                "note-ze"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "soundSlots": [],
+  "lyrics": {
+    "documents": [
+      {
+        "id": "doc-ja",
+        "title": "Japanese lyrics",
+        "language": "ja-JP"
+      }
+    ],
+    "phrases": [
+      {
+        "id": "phrase-1",
+        "documentId": "doc-ja",
+        "text": "かぜ",
+        "start": 0,
+        "duration": 4800
+      }
+    ],
+    "units": [
+      {
+        "id": "unit-ka",
+        "phraseId": "phrase-1",
+        "text": "か",
+        "pronunciation": "か",
+        "start": 0,
+        "duration": 960,
+        "phonetics": [
+          {
+            "alphabet": "ipa",
+            "language": "ja-JP",
+            "symbols": [
+              "k",
+              "a"
+            ],
+            "preferred": true
+          }
+        ]
+      },
+      {
+        "id": "unit-ze",
+        "phraseId": "phrase-1",
+        "text": "ぜ",
+        "pronunciation": "ぜ",
+        "start": 3840,
+        "duration": 960,
+        "phonetics": [
+          {
+            "alphabet": "ipa",
+            "language": "ja-JP",
+            "symbols": [
+              "z",
+              "e"
+            ],
+            "preferred": true
+          }
+        ]
+      }
+    ],
+    "alignments": [
+      {
+        "id": "align-ka",
+        "voiceId": "voice-lead",
+        "unitIds": [
+          "unit-ka"
+        ],
+        "noteIds": [
+          "note-ka"
+        ]
+      },
+      {
+        "id": "align-ze",
+        "voiceId": "voice-lead",
+        "unitIds": [
+          "unit-ze"
+        ],
+        "noteIds": [
+          "note-ze"
+        ]
+      }
+    ],
+    "voices": [
+      {
+        "id": "voice-lead",
+        "name": "Lead",
+        "role": "lead",
+        "trackId": "track-lead",
+        "documentId": "doc-ja",
+        "vocalProfile": {
+          "language": "ja-JP",
+          "deliveryMode": "sing",
+          "voiceDescription": "Soft lead with a brighter chorus"
+        }
+      }
+    ]
+  },
+  "resources": []
+}

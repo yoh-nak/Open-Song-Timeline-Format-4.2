@@ -1,0 +1,73 @@
+{
+  "format": "OSTF",
+  "version": "4.2.0",
+  "ppq": 960,
+  "song": {
+    "title": "Provenance"
+  },
+  "timeline": {
+    "sections": [],
+    "tempoChanges": [
+      {
+        "at": 0,
+        "bpm": 120
+      }
+    ],
+    "meterChanges": [
+      {
+        "at": 0,
+        "numerator": 4,
+        "denominator": 4
+      }
+    ],
+    "duration": 30720
+  },
+  "harmony": {
+    "chords": [],
+    "scales": []
+  },
+  "tracks": [],
+  "soundSlots": [],
+  "lyrics": {
+    "documents": [],
+    "phrases": [],
+    "units": [],
+    "alignments": []
+  },
+  "resources": [],
+  "provenance": {
+    "records": [
+      {
+        "id": "prov-create",
+        "action": "create",
+        "description": "Created for documentation.",
+        "tool": {
+          "name": "OSTF Example Generator",
+          "version": "4.1"
+        }
+      },
+      {
+        "id": "prov-transpose",
+        "action": "transpose",
+        "description": "Transposed demo.",
+        "semitones": 2,
+        "beforeKey": {
+          "state": "tonal",
+          "tonic": {
+            "step": "C",
+            "alter": 0
+          },
+          "mode": "major"
+        },
+        "afterKey": {
+          "state": "tonal",
+          "tonic": {
+            "step": "D",
+            "alter": 0
+          },
+          "mode": "major"
+        }
+      }
+    ]
+  }
+}

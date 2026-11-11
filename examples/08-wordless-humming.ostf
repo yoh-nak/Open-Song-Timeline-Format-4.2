@@ -1,0 +1,121 @@
+{
+  "format": "OSTF",
+  "version": "4.2.0",
+  "ppq": 960,
+  "song": {
+    "title": "Wordless vocal phrase — noteIds only",
+    "languages": [
+      "ja-JP"
+    ],
+    "melodyTrackIds": [
+      "track-lead"
+    ],
+    "primaryMelodyTrackId": "track-lead",
+    "primaryLyricDocumentId": "doc-wordless"
+  },
+  "timeline": {
+    "sections": [
+      {
+        "id": "verse",
+        "name": "Verse",
+        "start": 0,
+        "duration": 3840,
+        "role": "verse"
+      }
+    ],
+    "tempoChanges": [
+      {
+        "at": 0,
+        "bpm": 120
+      }
+    ],
+    "meterChanges": [
+      {
+        "at": 0,
+        "numerator": 4,
+        "denominator": 4
+      }
+    ],
+    "duration": 3840
+  },
+  "harmony": {
+    "chords": [],
+    "scales": []
+  },
+  "tracks": [
+    {
+      "id": "track-lead",
+      "name": "Lead Vocal",
+      "role": "lead",
+      "trackType": "melodic",
+      "clips": [
+        {
+          "id": "clip-lead",
+          "start": 0,
+          "duration": 3840,
+          "notes": [
+            {
+              "id": "note-ka",
+              "start": 0,
+              "duration": 960,
+              "pitch": 69,
+              "velocity": 85
+            },
+            {
+              "id": "note-ze",
+              "start": 960,
+              "duration": 960,
+              "pitch": 71,
+              "velocity": 90
+            }
+          ],
+          "vocalPerformances": [
+            {
+              "id": "hum-performance",
+              "voiceId": "voice-lead",
+              "noteIds": [
+                "note-ka",
+                "note-ze"
+              ],
+              "techniques": [
+                {
+                  "id": "humming-phrase",
+                  "start": 0,
+                  "duration": 1920,
+                  "kind": "humming"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "soundSlots": [],
+  "lyrics": {
+    "documents": [
+      {
+        "id": "doc-wordless",
+        "title": "Wordless vocals",
+        "language": "ja-JP"
+      }
+    ],
+    "phrases": [],
+    "units": [],
+    "alignments": [],
+    "voices": [
+      {
+        "id": "voice-lead",
+        "name": "Lead",
+        "role": "lead",
+        "trackId": "track-lead",
+        "documentId": "doc-wordless",
+        "vocalProfile": {
+          "language": "ja-JP",
+          "deliveryMode": "hum"
+        }
+      }
+    ]
+  },
+  "resources": []
+}

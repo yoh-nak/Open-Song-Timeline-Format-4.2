@@ -1,0 +1,64 @@
+{
+  "format": "OSTF",
+  "version": "4.2.0",
+  "ppq": 960,
+  "song": {
+    "title": "Vendor Range Direction"
+  },
+  "timeline": {
+    "sections": [],
+    "tempoChanges": [
+      {
+        "at": 0,
+        "bpm": 120
+      }
+    ],
+    "meterChanges": [
+      {
+        "at": 0,
+        "numerator": 4,
+        "denominator": 4
+      }
+    ],
+    "duration": 30720
+  },
+  "harmony": {
+    "chords": [],
+    "scales": []
+  },
+  "tracks": [
+    {
+      "id": "gtr",
+      "name": "Guitar",
+      "clips": [],
+      "trackType": "melodic",
+      "directions": [
+        {
+          "id": "vd",
+          "start": 3840,
+          "duration": 7680,
+          "type": "vendor",
+          "parameters": {
+            "namespace": "com.example.guitar.engine",
+            "name": "phraseStyle",
+            "version": "1.0",
+            "data": {
+              "style": "wide-bends",
+              "density": 0.6
+            }
+          },
+          "label": "Direction label",
+          "instruction": "Interpret structured parameters; do not execute this text."
+        }
+      ]
+    }
+  ],
+  "soundSlots": [],
+  "lyrics": {
+    "documents": [],
+    "phrases": [],
+    "units": [],
+    "alignments": []
+  },
+  "resources": []
+}

@@ -1,0 +1,108 @@
+{
+  "format": "OSTF",
+  "version": "4.2.0",
+  "ppq": 960,
+  "song": {
+    "title": "Instrumental Melody — no vocals",
+    "languages": [
+      "ja-JP"
+    ],
+    "melodyTrackIds": [
+      "track-lead"
+    ],
+    "primaryMelodyTrackId": "track-lead"
+  },
+  "timeline": {
+    "sections": [
+      {
+        "id": "verse",
+        "name": "Verse",
+        "start": 0,
+        "duration": 3840,
+        "role": "verse"
+      }
+    ],
+    "tempoChanges": [
+      {
+        "at": 0,
+        "bpm": 120
+      }
+    ],
+    "meterChanges": [
+      {
+        "at": 0,
+        "numerator": 4,
+        "denominator": 4
+      }
+    ],
+    "duration": 3840
+  },
+  "harmony": {
+    "chords": [],
+    "scales": []
+  },
+  "tracks": [
+    {
+      "id": "track-lead",
+      "name": "Lead Synth",
+      "role": "lead",
+      "trackType": "melodic",
+      "clips": [
+        {
+          "id": "clip-lead",
+          "start": 0,
+          "duration": 3840,
+          "notes": [
+            {
+              "id": "note-ka",
+              "start": 0,
+              "duration": 960,
+              "pitch": 69,
+              "velocity": 85
+            },
+            {
+              "id": "note-ze",
+              "start": 960,
+              "duration": 960,
+              "pitch": 71,
+              "velocity": 90
+            }
+          ],
+          "midiEvents": [
+            {
+              "id": "cc-mod",
+              "start": 0,
+              "type": "controlChange",
+              "channel": 1,
+              "controller": 1,
+              "value": 40
+            },
+            {
+              "id": "bend-1",
+              "start": 200,
+              "type": "pitchBend",
+              "channel": 1,
+              "value14": 8600
+            }
+          ]
+        }
+      ],
+      "instrument": {
+        "name": "Synthesizer",
+        "family": "electronic"
+      },
+      "midi": {
+        "mode": "singleChannel",
+        "channel": 1
+      }
+    }
+  ],
+  "soundSlots": [],
+  "lyrics": {
+    "documents": [],
+    "phrases": [],
+    "units": [],
+    "alignments": []
+  },
+  "resources": []
+}

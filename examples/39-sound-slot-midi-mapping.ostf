@@ -1,0 +1,58 @@
+{
+  "format": "OSTF",
+  "version": "4.2.0",
+  "ppq": 960,
+  "song": {
+    "title": "Sound Slot Mappings"
+  },
+  "timeline": {
+    "sections": [],
+    "tempoChanges": [
+      {
+        "at": 0,
+        "bpm": 120
+      }
+    ],
+    "meterChanges": [
+      {
+        "at": 0,
+        "numerator": 4,
+        "denominator": 4
+      }
+    ],
+    "duration": 30720
+  },
+  "harmony": {
+    "chords": [],
+    "scales": []
+  },
+  "tracks": [],
+  "soundSlots": [
+    {
+      "id": "slot-kick",
+      "name": "Kick",
+      "role": "kick",
+      "midiNote": 36,
+      "midiMapping": {
+        "standard": "gm1",
+        "note": 36
+      }
+    },
+    {
+      "id": "slot-clap",
+      "name": "Clap",
+      "role": "clap",
+      "midiMapping": {
+        "standard": "custom",
+        "note": 39
+      }
+    }
+  ],
+  "lyrics": {
+    "documents": [],
+    "phrases": [],
+    "units": [],
+    "alignments": []
+  },
+  "resources": []
+}

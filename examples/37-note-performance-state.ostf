@@ -1,0 +1,71 @@
+{
+  "format": "OSTF",
+  "version": "4.2.0",
+  "ppq": 960,
+  "song": {
+    "title": "Note Performance State"
+  },
+  "timeline": {
+    "sections": [],
+    "tempoChanges": [
+      {
+        "at": 0,
+        "bpm": 120
+      }
+    ],
+    "meterChanges": [
+      {
+        "at": 0,
+        "numerator": 4,
+        "denominator": 4
+      }
+    ],
+    "duration": 30720
+  },
+  "harmony": {
+    "chords": [],
+    "scales": []
+  },
+  "tracks": [
+    {
+      "id": "tr",
+      "name": "Keys",
+      "clips": [
+        {
+          "id": "cl",
+          "start": 0,
+          "duration": 7680,
+          "notes": [
+            {
+              "id": "n1",
+              "start": 0,
+              "duration": 960,
+              "pitch": 60,
+              "velocity": 100,
+              "releaseVelocity": 45,
+              "enabled": true
+            },
+            {
+              "id": "n2",
+              "start": 960,
+              "duration": 960,
+              "pitch": 62,
+              "velocity": 80,
+              "releaseVelocity": 20,
+              "enabled": false
+            }
+          ]
+        }
+      ],
+      "trackType": "melodic"
+    }
+  ],
+  "soundSlots": [],
+  "lyrics": {
+    "documents": [],
+    "phrases": [],
+    "units": [],
+    "alignments": []
+  },
+  "resources": []
+}

@@ -1,0 +1,71 @@
+{
+  "format": "OSTF",
+  "version": "4.2.0",
+  "ppq": 960,
+  "song": {
+    "title": "Note Probability"
+  },
+  "timeline": {
+    "sections": [],
+    "tempoChanges": [
+      {
+        "at": 0,
+        "bpm": 120
+      }
+    ],
+    "meterChanges": [
+      {
+        "at": 0,
+        "numerator": 4,
+        "denominator": 4
+      }
+    ],
+    "duration": 30720
+  },
+  "harmony": {
+    "chords": [],
+    "scales": []
+  },
+  "tracks": [
+    {
+      "id": "tr",
+      "name": "Percussive Synth",
+      "clips": [
+        {
+          "id": "cl",
+          "start": 0,
+          "duration": 3840,
+          "notes": [
+            {
+              "id": "n1",
+              "start": 0,
+              "duration": 240,
+              "pitch": 60,
+              "velocity": 90,
+              "probability": 0.7,
+              "velocityDeviation": -12
+            },
+            {
+              "id": "n2",
+              "start": 480,
+              "duration": 240,
+              "pitch": 67,
+              "velocity": 100,
+              "probability": 0.5,
+              "velocityDeviation": 10
+            }
+          ]
+        }
+      ],
+      "trackType": "melodic"
+    }
+  ],
+  "soundSlots": [],
+  "lyrics": {
+    "documents": [],
+    "phrases": [],
+    "units": [],
+    "alignments": []
+  },
+  "resources": []
+}

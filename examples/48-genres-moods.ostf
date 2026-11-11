@@ -1,0 +1,51 @@
+{
+  "format": "OSTF",
+  "version": "4.2.0",
+  "ppq": 960,
+  "song": {
+    "title": "Genres Moods",
+    "genres": [
+      {
+        "id": "gen-techno",
+        "name": "Techno",
+        "externalUri": "https://example.invalid/genre/techno"
+      }
+    ],
+    "moods": [
+      {
+        "id": "mood-hypnotic",
+        "name": "Hypnotic"
+      }
+    ]
+  },
+  "timeline": {
+    "sections": [],
+    "tempoChanges": [
+      {
+        "at": 0,
+        "bpm": 120
+      }
+    ],
+    "meterChanges": [
+      {
+        "at": 0,
+        "numerator": 4,
+        "denominator": 4
+      }
+    ],
+    "duration": 30720
+  },
+  "harmony": {
+    "chords": [],
+    "scales": []
+  },
+  "tracks": [],
+  "soundSlots": [],
+  "lyrics": {
+    "documents": [],
+    "phrases": [],
+    "units": [],
+    "alignments": []
+  },
+  "resources": []
+}

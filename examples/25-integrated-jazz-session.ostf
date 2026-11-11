@@ -1,0 +1,212 @@
+{
+  "format": "OSTF",
+  "version": "4.2.0",
+  "ppq": 960,
+  "song": {
+    "title": "Integrated Jazz Session",
+    "key": {
+      "state": "tonal",
+      "tonic": {
+        "step": "C",
+        "alter": 0
+      },
+      "mode": "major",
+      "label": "C major"
+    }
+  },
+  "timeline": {
+    "sections": [],
+    "tempoChanges": [
+      {
+        "at": 0,
+        "bpm": 132
+      }
+    ],
+    "meterChanges": [
+      {
+        "at": 0,
+        "numerator": 4,
+        "denominator": 4
+      }
+    ],
+    "duration": 30720
+  },
+  "harmony": {
+    "chords": [
+      {
+        "id": "dm7",
+        "start": 0,
+        "duration": 7680,
+        "label": "Dm7",
+        "root": {
+          "step": "D",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          3,
+          7,
+          10
+        ]
+      },
+      {
+        "id": "g7",
+        "start": 7680,
+        "duration": 7680,
+        "label": "G7",
+        "root": {
+          "step": "G",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          4,
+          7,
+          10
+        ]
+      },
+      {
+        "id": "cmaj7",
+        "start": 15360,
+        "duration": 15360,
+        "label": "Cmaj7",
+        "root": {
+          "step": "C",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          4,
+          7,
+          11
+        ]
+      }
+    ],
+    "scales": [
+      {
+        "id": "dor",
+        "start": 0,
+        "duration": 7680,
+        "tonic": {
+          "step": "D",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          2,
+          3,
+          5,
+          7,
+          9,
+          10
+        ],
+        "targets": [
+          {
+            "type": "chord",
+            "id": "dm7"
+          }
+        ]
+      },
+      {
+        "id": "mix",
+        "start": 7680,
+        "duration": 7680,
+        "tonic": {
+          "step": "G",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          2,
+          4,
+          5,
+          7,
+          9,
+          10
+        ],
+        "targets": [
+          {
+            "type": "chord",
+            "id": "g7"
+          }
+        ]
+      },
+      {
+        "id": "ion",
+        "start": 15360,
+        "duration": 15360,
+        "tonic": {
+          "step": "C",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          2,
+          4,
+          5,
+          7,
+          9,
+          11
+        ],
+        "targets": [
+          {
+            "type": "chord",
+            "id": "cmaj7"
+          }
+        ]
+      }
+    ]
+  },
+  "tracks": [
+    {
+      "id": "sax",
+      "name": "Tenor Sax",
+      "clips": [],
+      "role": "lead",
+      "trackType": "melodic",
+      "directions": [
+        {
+          "id": "solo-scales",
+          "start": 0,
+          "duration": 30720,
+          "type": "improvisation",
+          "parameters": {
+            "pitchSource": {
+              "type": "harmonyScales",
+              "scaleIds": [
+                "dor",
+                "mix",
+                "ion"
+              ]
+            },
+            "adherence": "preferred"
+          },
+          "label": "Direction label",
+          "instruction": "Interpret structured parameters; do not execute this text."
+        }
+      ]
+    },
+    {
+      "id": "piano",
+      "name": "Piano",
+      "clips": [],
+      "role": "comping",
+      "trackType": "melodic"
+    },
+    {
+      "id": "bass",
+      "name": "Bass",
+      "clips": [],
+      "role": "bassline",
+      "trackType": "melodic"
+    }
+  ],
+  "soundSlots": [],
+  "lyrics": {
+    "documents": [],
+    "phrases": [],
+    "units": [],
+    "alignments": []
+  },
+  "resources": []
+}

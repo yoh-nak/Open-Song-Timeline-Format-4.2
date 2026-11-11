@@ -1,0 +1,57 @@
+{
+  "format": "OSTF",
+  "version": "4.2.0",
+  "ppq": 960,
+  "song": {
+    "title": "Meter Map"
+  },
+  "timeline": {
+    "sections": [],
+    "tempoChanges": [
+      {
+        "at": 0,
+        "bpm": 120
+      }
+    ],
+    "meterChanges": [
+      {
+        "at": 0,
+        "numerator": 4,
+        "denominator": 4
+      },
+      {
+        "at": 7680,
+        "numerator": 7,
+        "denominator": 8,
+        "beatGroups": [
+          2,
+          2,
+          3
+        ]
+      },
+      {
+        "at": 15360,
+        "numerator": 6,
+        "denominator": 8,
+        "beatGroups": [
+          3,
+          3
+        ]
+      }
+    ],
+    "duration": 30720
+  },
+  "harmony": {
+    "chords": [],
+    "scales": []
+  },
+  "tracks": [],
+  "soundSlots": [],
+  "lyrics": {
+    "documents": [],
+    "phrases": [],
+    "units": [],
+    "alignments": []
+  },
+  "resources": []
+}

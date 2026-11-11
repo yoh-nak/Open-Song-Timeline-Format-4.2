@@ -1,0 +1,202 @@
+{
+  "format": "OSTF",
+  "version": "4.2.0",
+  "ppq": 960,
+  "song": {
+    "title": "Two vocal parts on one logical Track",
+    "languages": [
+      "ja-JP"
+    ],
+    "melodyTrackIds": [
+      "track-lead"
+    ],
+    "primaryMelodyTrackId": "track-lead",
+    "primaryLyricDocumentId": "doc-ja"
+  },
+  "timeline": {
+    "sections": [
+      {
+        "id": "verse",
+        "name": "Verse",
+        "start": 0,
+        "duration": 3840,
+        "role": "verse"
+      }
+    ],
+    "tempoChanges": [
+      {
+        "at": 0,
+        "bpm": 120
+      }
+    ],
+    "meterChanges": [
+      {
+        "at": 0,
+        "numerator": 4,
+        "denominator": 4
+      }
+    ],
+    "duration": 3840
+  },
+  "harmony": {
+    "chords": [],
+    "scales": []
+  },
+  "tracks": [
+    {
+      "id": "track-lead",
+      "name": "Lead Vocal",
+      "role": "lead",
+      "trackType": "melodic",
+      "clips": [
+        {
+          "id": "clip-lead",
+          "start": 0,
+          "duration": 3840,
+          "notes": [
+            {
+              "id": "note-ka",
+              "start": 0,
+              "duration": 960,
+              "pitch": 69,
+              "velocity": 85
+            },
+            {
+              "id": "note-ze",
+              "start": 960,
+              "duration": 960,
+              "pitch": 71,
+              "velocity": 90
+            },
+            {
+              "id": "note-ka-harmony",
+              "start": 0,
+              "duration": 960,
+              "pitch": 64
+            },
+            {
+              "id": "note-ze-harmony",
+              "start": 960,
+              "duration": 960,
+              "pitch": 66
+            }
+          ],
+          "vocalPerformances": [
+            {
+              "id": "lead-ownership",
+              "voiceId": "voice-lead",
+              "noteIds": [
+                "note-ka",
+                "note-ze"
+              ]
+            },
+            {
+              "id": "harmony-ownership",
+              "voiceId": "voice-harmony",
+              "noteIds": [
+                "note-ka-harmony",
+                "note-ze-harmony"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "soundSlots": [],
+  "lyrics": {
+    "documents": [
+      {
+        "id": "doc-ja",
+        "title": "Japanese lyrics",
+        "language": "ja-JP"
+      }
+    ],
+    "phrases": [
+      {
+        "id": "phrase-1",
+        "documentId": "doc-ja",
+        "text": "かぜ",
+        "start": 0,
+        "duration": 1920
+      }
+    ],
+    "units": [
+      {
+        "id": "unit-ka",
+        "phraseId": "phrase-1",
+        "text": "か",
+        "pronunciation": "か",
+        "start": 0,
+        "duration": 960
+      },
+      {
+        "id": "unit-ze",
+        "phraseId": "phrase-1",
+        "text": "ぜ",
+        "pronunciation": "ぜ",
+        "start": 960,
+        "duration": 960
+      }
+    ],
+    "alignments": [
+      {
+        "id": "align-ka",
+        "voiceId": "voice-lead",
+        "unitIds": [
+          "unit-ka"
+        ],
+        "noteIds": [
+          "note-ka"
+        ]
+      },
+      {
+        "id": "align-ze",
+        "voiceId": "voice-lead",
+        "unitIds": [
+          "unit-ze"
+        ],
+        "noteIds": [
+          "note-ze"
+        ]
+      },
+      {
+        "id": "align-h-ka",
+        "voiceId": "voice-harmony",
+        "unitIds": [
+          "unit-ka"
+        ],
+        "noteIds": [
+          "note-ka-harmony"
+        ]
+      },
+      {
+        "id": "align-h-ze",
+        "voiceId": "voice-harmony",
+        "unitIds": [
+          "unit-ze"
+        ],
+        "noteIds": [
+          "note-ze-harmony"
+        ]
+      }
+    ],
+    "voices": [
+      {
+        "id": "voice-lead",
+        "name": "Lead",
+        "role": "lead",
+        "trackId": "track-lead",
+        "documentId": "doc-ja"
+      },
+      {
+        "id": "voice-harmony",
+        "name": "Harmony",
+        "role": "harmony",
+        "trackId": "track-lead",
+        "documentId": "doc-ja"
+      }
+    ]
+  },
+  "resources": []
+}

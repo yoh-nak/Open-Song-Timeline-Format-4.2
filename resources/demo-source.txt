@@ -1,0 +1,2 @@
+OSTF 4.2.0 fictional demo provenance source.
+This local text is illustrative source material, not a voicebank, audio file, or executable.

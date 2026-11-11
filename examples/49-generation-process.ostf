@@ -1,0 +1,104 @@
+{
+  "format": "OSTF",
+  "version": "4.2.0",
+  "ppq": 960,
+  "song": {
+    "title": "Generation Process"
+  },
+  "timeline": {
+    "sections": [],
+    "tempoChanges": [
+      {
+        "at": 0,
+        "bpm": 120
+      }
+    ],
+    "meterChanges": [
+      {
+        "at": 0,
+        "numerator": 4,
+        "denominator": 4
+      }
+    ],
+    "duration": 30720
+  },
+  "harmony": {
+    "chords": [],
+    "scales": []
+  },
+  "tracks": [
+    {
+      "id": "tr",
+      "name": "Generated",
+      "clips": [
+        {
+          "id": "cl",
+          "start": 0,
+          "duration": 3840,
+          "notes": [
+            {
+              "id": "n",
+              "start": 0,
+              "duration": 960,
+              "pitch": 60
+            }
+          ]
+        }
+      ],
+      "trackType": "melodic"
+    }
+  ],
+  "soundSlots": [],
+  "lyrics": {
+    "documents": [],
+    "phrases": [],
+    "units": [],
+    "alignments": []
+  },
+  "resources": [],
+  "generation": {
+    "status": "current",
+    "dependencies": {
+      "scope": "objects",
+      "refs": [
+        {
+          "type": "track",
+          "id": "tr"
+        }
+      ]
+    },
+    "processes": [
+      {
+        "id": "gen-1",
+        "generator": {
+          "id": "com.example.generator",
+          "version": "1.2"
+        },
+        "inputs": [
+          {
+            "role": "context",
+            "ref": {
+              "type": "track",
+              "id": "tr"
+            },
+            "readRange": {
+              "start": 0,
+              "duration": 3840
+            }
+          }
+        ],
+        "outputs": [
+          {
+            "type": "note",
+            "id": "n"
+          }
+        ],
+        "targetRange": {
+          "start": 0,
+          "duration": 3840
+        },
+        "protectedNoteIds": []
+      }
+    ]
+  }
+}

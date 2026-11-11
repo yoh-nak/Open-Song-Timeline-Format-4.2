@@ -1,0 +1,69 @@
+{
+  "format": "OSTF",
+  "version": "4.2.0",
+  "ppq": 960,
+  "song": {
+    "title": "Fixed Trigger"
+  },
+  "timeline": {
+    "sections": [],
+    "tempoChanges": [
+      {
+        "at": 0,
+        "bpm": 120
+      }
+    ],
+    "meterChanges": [
+      {
+        "at": 0,
+        "numerator": 4,
+        "denominator": 4
+      }
+    ],
+    "duration": 30720
+  },
+  "harmony": {
+    "chords": [],
+    "scales": []
+  },
+  "tracks": [
+    {
+      "id": "tr",
+      "name": "Keyswitch Instrument",
+      "clips": [
+        {
+          "id": "cl",
+          "start": 0,
+          "duration": 3840,
+          "notes": [
+            {
+              "id": "n-mus",
+              "start": 0,
+              "duration": 960,
+              "pitch": 60,
+              "velocity": 90,
+              "pitchRole": "musical"
+            },
+            {
+              "id": "n-ks",
+              "start": 0,
+              "duration": 120,
+              "pitch": 24,
+              "velocity": 64,
+              "pitchRole": "fixedTrigger"
+            }
+          ]
+        }
+      ],
+      "trackType": "melodic"
+    }
+  ],
+  "soundSlots": [],
+  "lyrics": {
+    "documents": [],
+    "phrases": [],
+    "units": [],
+    "alignments": []
+  },
+  "resources": []
+}

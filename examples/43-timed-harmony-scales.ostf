@@ -1,0 +1,96 @@
+{
+  "format": "OSTF",
+  "version": "4.2.0",
+  "ppq": 960,
+  "song": {
+    "title": "Timed Harmony Scales"
+  },
+  "timeline": {
+    "sections": [],
+    "tempoChanges": [
+      {
+        "at": 0,
+        "bpm": 120
+      }
+    ],
+    "meterChanges": [
+      {
+        "at": 0,
+        "numerator": 4,
+        "denominator": 4
+      }
+    ],
+    "duration": 11520
+  },
+  "harmony": {
+    "chords": [],
+    "scales": [
+      {
+        "id": "sc-dor",
+        "start": 0,
+        "duration": 3840,
+        "tonic": {
+          "step": "D",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          2,
+          3,
+          5,
+          7,
+          9,
+          10
+        ],
+        "label": "D Dorian"
+      },
+      {
+        "id": "sc-mixo",
+        "start": 3840,
+        "duration": 3840,
+        "tonic": {
+          "step": "G",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          2,
+          4,
+          5,
+          7,
+          9,
+          10
+        ],
+        "label": "G Mixolydian"
+      },
+      {
+        "id": "sc-ion",
+        "start": 7680,
+        "duration": 3840,
+        "tonic": {
+          "step": "C",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          2,
+          4,
+          5,
+          7,
+          9,
+          11
+        ],
+        "label": "C Ionian"
+      }
+    ]
+  },
+  "tracks": [],
+  "soundSlots": [],
+  "lyrics": {
+    "documents": [],
+    "phrases": [],
+    "units": [],
+    "alignments": []
+  },
+  "resources": []
+}

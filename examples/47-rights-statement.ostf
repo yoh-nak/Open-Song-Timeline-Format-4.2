@@ -1,0 +1,52 @@
+{
+  "format": "OSTF",
+  "version": "4.2.0",
+  "ppq": 960,
+  "song": {
+    "title": "Rights",
+    "rights": {
+      "notice": "Example rights notice.",
+      "licenseUri": "https://example.invalid/license",
+      "rightsHolderIds": [
+        "holder"
+      ]
+    }
+  },
+  "timeline": {
+    "sections": [],
+    "tempoChanges": [
+      {
+        "at": 0,
+        "bpm": 120
+      }
+    ],
+    "meterChanges": [
+      {
+        "at": 0,
+        "numerator": 4,
+        "denominator": 4
+      }
+    ],
+    "duration": 30720
+  },
+  "harmony": {
+    "chords": [],
+    "scales": []
+  },
+  "tracks": [],
+  "soundSlots": [],
+  "lyrics": {
+    "documents": [],
+    "phrases": [],
+    "units": [],
+    "alignments": []
+  },
+  "resources": [],
+  "contributors": [
+    {
+      "id": "holder",
+      "name": "Example Rights Holder",
+      "kind": "organization"
+    }
+  ]
+}

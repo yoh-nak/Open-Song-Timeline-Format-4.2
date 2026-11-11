@@ -1,0 +1,93 @@
+{
+  "format": "OSTF",
+  "version": "4.2.0",
+  "ppq": 960,
+  "song": {
+    "title": "Bank Program Change"
+  },
+  "timeline": {
+    "sections": [],
+    "tempoChanges": [
+      {
+        "at": 0,
+        "bpm": 120
+      }
+    ],
+    "meterChanges": [
+      {
+        "at": 0,
+        "numerator": 4,
+        "denominator": 4
+      }
+    ],
+    "duration": 30720
+  },
+  "harmony": {
+    "chords": [],
+    "scales": []
+  },
+  "tracks": [
+    {
+      "id": "tr",
+      "name": "External Strings",
+      "clips": [
+        {
+          "id": "cl",
+          "start": 0,
+          "duration": 3840,
+          "notes": [],
+          "midiEvents": [
+            {
+              "id": "bank-msb",
+              "start": 0,
+              "order": 0,
+              "type": "controlChange",
+              "controller": 0,
+              "value": 0,
+              "channel": 2
+            },
+            {
+              "id": "bank-lsb",
+              "start": 0,
+              "order": 1,
+              "type": "controlChange",
+              "controller": 32,
+              "value": 4,
+              "channel": 2
+            },
+            {
+              "id": "pc",
+              "start": 0,
+              "order": 2,
+              "type": "programChange",
+              "program": 40,
+              "channel": 2
+            }
+          ]
+        }
+      ],
+      "trackType": "melodic",
+      "midi": {
+        "busId": "bus",
+        "mode": "singleChannel",
+        "channel": 2
+      }
+    }
+  ],
+  "soundSlots": [],
+  "lyrics": {
+    "documents": [],
+    "phrases": [],
+    "units": [],
+    "alignments": []
+  },
+  "resources": [],
+  "midi": {
+    "buses": [
+      {
+        "id": "bus",
+        "name": "Module"
+      }
+    ]
+  }
+}

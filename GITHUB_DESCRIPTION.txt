@@ -1,0 +1,1 @@
+Open, DAW-independent song interchange: harmony, MIDI, lyrics, track directions and optional vocal performance. OSTF 4.2.0 specification, full manuals/references and 53 demos.

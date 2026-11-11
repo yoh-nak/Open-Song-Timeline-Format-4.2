@@ -1,0 +1,86 @@
+{
+  "format": "OSTF",
+  "version": "4.2.0",
+  "ppq": 960,
+  "song": {
+    "title": "Effective Key Scale",
+    "key": {
+      "state": "tonal",
+      "tonic": {
+        "step": "G",
+        "alter": 0
+      },
+      "mode": "major",
+      "label": "G major"
+    }
+  },
+  "timeline": {
+    "sections": [],
+    "tempoChanges": [
+      {
+        "at": 0,
+        "bpm": 120
+      }
+    ],
+    "meterChanges": [
+      {
+        "at": 0,
+        "numerator": 4,
+        "denominator": 4
+      }
+    ],
+    "duration": 46080,
+    "keyChanges": [
+      {
+        "id": "kc",
+        "at": 23040,
+        "key": {
+          "state": "tonal",
+          "tonic": {
+            "step": "E",
+            "alter": 0
+          },
+          "mode": "minor",
+          "label": "E minor"
+        },
+        "label": "Explicit key change"
+      }
+    ]
+  },
+  "harmony": {
+    "chords": [],
+    "scales": []
+  },
+  "tracks": [
+    {
+      "id": "lead",
+      "name": "Lead Synth",
+      "clips": [],
+      "trackType": "melodic",
+      "directions": [
+        {
+          "id": "dir",
+          "start": 0,
+          "duration": 46080,
+          "type": "improvisation",
+          "parameters": {
+            "pitchSource": {
+              "type": "effectiveKeyScale"
+            },
+            "adherence": "strict"
+          },
+          "label": "Direction label",
+          "instruction": "Interpret structured parameters; do not execute this text."
+        }
+      ]
+    }
+  ],
+  "soundSlots": [],
+  "lyrics": {
+    "documents": [],
+    "phrases": [],
+    "units": [],
+    "alignments": []
+  },
+  "resources": []
+}

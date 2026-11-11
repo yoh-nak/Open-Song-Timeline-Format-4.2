@@ -1,0 +1,76 @@
+{
+  "format": "OSTF",
+  "version": "4.2.0",
+  "ppq": 960,
+  "song": {
+    "title": "Channel Mode"
+  },
+  "timeline": {
+    "sections": [],
+    "tempoChanges": [
+      {
+        "at": 0,
+        "bpm": 120
+      }
+    ],
+    "meterChanges": [
+      {
+        "at": 0,
+        "numerator": 4,
+        "denominator": 4
+      }
+    ],
+    "duration": 30720
+  },
+  "harmony": {
+    "chords": [],
+    "scales": []
+  },
+  "tracks": [
+    {
+      "id": "tr",
+      "name": "Channel Mode",
+      "clips": [
+        {
+          "id": "cl",
+          "start": 0,
+          "duration": 3840,
+          "notes": [],
+          "midiEvents": [
+            {
+              "id": "mode",
+              "start": 0,
+              "type": "channelMode",
+              "controller": 123,
+              "value": 0,
+              "channel": 1,
+              "order": 1
+            }
+          ]
+        }
+      ],
+      "trackType": "melodic",
+      "midi": {
+        "busId": "bus",
+        "mode": "singleChannel",
+        "channel": 1
+      }
+    }
+  ],
+  "soundSlots": [],
+  "lyrics": {
+    "documents": [],
+    "phrases": [],
+    "units": [],
+    "alignments": []
+  },
+  "resources": [],
+  "midi": {
+    "buses": [
+      {
+        "id": "bus",
+        "name": "Main"
+      }
+    ]
+  }
+}

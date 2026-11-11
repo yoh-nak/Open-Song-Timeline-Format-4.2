@@ -1,0 +1,57 @@
+{
+  "format": "OSTF",
+  "version": "4.2.0",
+  "ppq": 960,
+  "song": {
+    "title": "Document Identity"
+  },
+  "timeline": {
+    "sections": [],
+    "tempoChanges": [
+      {
+        "at": 0,
+        "bpm": 120
+      }
+    ],
+    "meterChanges": [
+      {
+        "at": 0,
+        "numerator": 4,
+        "denominator": 4
+      }
+    ],
+    "duration": 30720
+  },
+  "harmony": {
+    "chords": [],
+    "scales": []
+  },
+  "tracks": [],
+  "soundSlots": [],
+  "lyrics": {
+    "documents": [],
+    "phrases": [],
+    "units": [],
+    "alignments": []
+  },
+  "resources": [],
+  "document": {
+    "id": "doc-uuid-like-001",
+    "revisionId": "rev-0002",
+    "parents": [
+      {
+        "documentId": "doc-uuid-like-001",
+        "revisionId": "rev-0001",
+        "sha256": "1111111111111111111111111111111111111111111111111111111111111111"
+      }
+    ],
+    "createdBy": {
+      "name": "OSTF Example Tool",
+      "version": "1.0"
+    },
+    "modifiedBy": {
+      "name": "OSTF Editor",
+      "version": "2.0"
+    }
+  }
+}

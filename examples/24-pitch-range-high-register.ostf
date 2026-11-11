@@ -1,0 +1,67 @@
+{
+  "format": "OSTF",
+  "version": "4.2.0",
+  "ppq": 960,
+  "song": {
+    "title": "Pitch Range Direction"
+  },
+  "timeline": {
+    "sections": [],
+    "tempoChanges": [
+      {
+        "at": 0,
+        "bpm": 120
+      }
+    ],
+    "meterChanges": [
+      {
+        "at": 0,
+        "numerator": 4,
+        "denominator": 4
+      }
+    ],
+    "duration": 30720
+  },
+  "harmony": {
+    "chords": [],
+    "scales": []
+  },
+  "tracks": [
+    {
+      "id": "lead",
+      "name": "Lead",
+      "clips": [],
+      "trackType": "melodic",
+      "instrument": {
+        "name": "Synth",
+        "playablePitchRange": {
+          "lowPitch": 36,
+          "highPitch": 96
+        }
+      },
+      "directions": [
+        {
+          "id": "range",
+          "start": 0,
+          "duration": 7680,
+          "type": "pitchRange",
+          "parameters": {
+            "lowPitch": 72,
+            "highPitch": 88,
+            "constraint": "preferred"
+          },
+          "label": "Direction label",
+          "instruction": "Interpret structured parameters; do not execute this text."
+        }
+      ]
+    }
+  ],
+  "soundSlots": [],
+  "lyrics": {
+    "documents": [],
+    "phrases": [],
+    "units": [],
+    "alignments": []
+  },
+  "resources": []
+}

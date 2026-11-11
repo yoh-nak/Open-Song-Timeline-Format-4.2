@@ -1,0 +1,78 @@
+{
+  "format": "OSTF",
+  "version": "4.2.0",
+  "ppq": 960,
+  "song": {
+    "title": "Song Scale Improvisation",
+    "scale": {
+      "id": "song-scale",
+      "tonic": {
+        "step": "D",
+        "alter": 0
+      },
+      "intervals": [
+        0,
+        2,
+        3,
+        5,
+        7,
+        9,
+        10
+      ],
+      "label": "D Dorian"
+    }
+  },
+  "timeline": {
+    "sections": [],
+    "tempoChanges": [
+      {
+        "at": 0,
+        "bpm": 120
+      }
+    ],
+    "meterChanges": [
+      {
+        "at": 0,
+        "numerator": 4,
+        "denominator": 4
+      }
+    ],
+    "duration": 30720
+  },
+  "harmony": {
+    "chords": [],
+    "scales": []
+  },
+  "tracks": [
+    {
+      "id": "lead",
+      "name": "Lead",
+      "clips": [],
+      "trackType": "melodic",
+      "directions": [
+        {
+          "id": "dir",
+          "start": 0,
+          "duration": 15360,
+          "type": "improvisation",
+          "parameters": {
+            "pitchSource": {
+              "type": "songScale"
+            },
+            "adherence": "preferred"
+          },
+          "label": "Direction label",
+          "instruction": "Interpret structured parameters; do not execute this text."
+        }
+      ]
+    }
+  ],
+  "soundSlots": [],
+  "lyrics": {
+    "documents": [],
+    "phrases": [],
+    "units": [],
+    "alignments": []
+  },
+  "resources": []
+}

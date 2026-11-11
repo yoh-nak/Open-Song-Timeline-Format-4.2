@@ -1,0 +1,492 @@
+{
+  "format": "OSTF",
+  "version": "4.2.0",
+  "ppq": 960,
+  "song": {
+    "title": "All Vocal Parameters — Namespaces and Expression",
+    "languages": [
+      "ja-JP"
+    ],
+    "melodyTrackIds": [
+      "track-lead"
+    ],
+    "primaryMelodyTrackId": "track-lead",
+    "primaryLyricDocumentId": "doc-ja"
+  },
+  "timeline": {
+    "sections": [
+      {
+        "id": "verse",
+        "name": "Verse",
+        "start": 0,
+        "duration": 3840,
+        "role": "verse"
+      }
+    ],
+    "tempoChanges": [
+      {
+        "at": 0,
+        "bpm": 120
+      }
+    ],
+    "meterChanges": [
+      {
+        "at": 0,
+        "numerator": 4,
+        "denominator": 4
+      }
+    ],
+    "duration": 3840
+  },
+  "harmony": {
+    "chords": [],
+    "scales": []
+  },
+  "tracks": [
+    {
+      "id": "track-lead",
+      "name": "Lead Vocal",
+      "role": "lead",
+      "trackType": "melodic",
+      "clips": [
+        {
+          "id": "clip-lead",
+          "start": 0,
+          "duration": 3840,
+          "notes": [
+            {
+              "id": "note-ka",
+              "start": 0,
+              "duration": 960,
+              "pitch": 69,
+              "velocity": 85
+            },
+            {
+              "id": "note-ze",
+              "start": 960,
+              "duration": 960,
+              "pitch": 71,
+              "velocity": 90
+            }
+          ],
+          "vocalPerformances": [
+            {
+              "id": "vperf-lead",
+              "voiceId": "voice-lead",
+              "phonemeEvents": [
+                {
+                  "id": "pe-k",
+                  "unitId": "unit-ka",
+                  "noteId": "note-ka",
+                  "alphabet": "other",
+                  "symbol": "demo_unit-ka",
+                  "start": 0,
+                  "duration": 90,
+                  "namespace": "com.example.demo.phonemes",
+                  "order": 0
+                },
+                {
+                  "id": "pe-a",
+                  "unitId": "unit-ka",
+                  "noteId": "note-ka",
+                  "alphabet": "other",
+                  "symbol": "demo_unit-ka",
+                  "start": 90,
+                  "duration": 870,
+                  "namespace": "com.example.demo.phonemes",
+                  "order": 1
+                },
+                {
+                  "id": "pe-z",
+                  "unitId": "unit-ze",
+                  "noteId": "note-ze",
+                  "alphabet": "other",
+                  "symbol": "demo_unit-ze",
+                  "start": 960,
+                  "duration": 70,
+                  "namespace": "com.example.demo.phonemes",
+                  "order": 2
+                },
+                {
+                  "id": "pe-e",
+                  "unitId": "unit-ze",
+                  "noteId": "note-ze",
+                  "alphabet": "other",
+                  "symbol": "demo_unit-ze",
+                  "start": 1030,
+                  "duration": 890,
+                  "namespace": "com.example.demo.phonemes",
+                  "order": 3
+                }
+              ],
+              "pitchCurves": [
+                {
+                  "id": "pitch-ka",
+                  "targetNoteId": "note-ka",
+                  "unit": "cents",
+                  "interpolation": "linear",
+                  "points": [
+                    {
+                      "at": 0,
+                      "value": -80
+                    },
+                    {
+                      "at": 120,
+                      "value": 0
+                    },
+                    {
+                      "at": 900,
+                      "value": 10
+                    }
+                  ]
+                },
+                {
+                  "id": "pitch-ze",
+                  "targetNoteId": "note-ze",
+                  "unit": "cents",
+                  "interpolation": "linear",
+                  "points": [
+                    {
+                      "at": 960,
+                      "value": 0
+                    },
+                    {
+                      "at": 1260,
+                      "value": 5
+                    },
+                    {
+                      "at": 1860,
+                      "value": -18
+                    }
+                  ]
+                }
+              ],
+              "expressionCurves": [
+                {
+                  "id": "expr-all-0",
+                  "parameter": "dynamics",
+                  "interpolation": "linear",
+                  "points": [
+                    {
+                      "at": 0,
+                      "value": 0.3
+                    },
+                    {
+                      "at": 959,
+                      "value": 0.7
+                    }
+                  ]
+                },
+                {
+                  "id": "expr-all-1",
+                  "parameter": "breathiness",
+                  "interpolation": "linear",
+                  "points": [
+                    {
+                      "at": 0,
+                      "value": 0.3
+                    },
+                    {
+                      "at": 959,
+                      "value": 0.7
+                    }
+                  ]
+                },
+                {
+                  "id": "expr-all-2",
+                  "parameter": "tension",
+                  "interpolation": "linear",
+                  "points": [
+                    {
+                      "at": 0,
+                      "value": 0.3
+                    },
+                    {
+                      "at": 959,
+                      "value": 0.7
+                    }
+                  ]
+                },
+                {
+                  "id": "expr-all-3",
+                  "parameter": "brightness",
+                  "interpolation": "linear",
+                  "points": [
+                    {
+                      "at": 0,
+                      "value": 0.3
+                    },
+                    {
+                      "at": 959,
+                      "value": 0.7
+                    }
+                  ]
+                },
+                {
+                  "id": "expr-all-4",
+                  "parameter": "voicing",
+                  "interpolation": "linear",
+                  "points": [
+                    {
+                      "at": 0,
+                      "value": 0.3
+                    },
+                    {
+                      "at": 959,
+                      "value": 0.7
+                    }
+                  ]
+                },
+                {
+                  "id": "expr-note-override",
+                  "parameter": "dynamics",
+                  "targetNoteId": "note-ka",
+                  "interpolation": "step",
+                  "points": [
+                    {
+                      "at": 0,
+                      "value": 0.6
+                    }
+                  ]
+                }
+              ],
+              "techniques": [
+                {
+                  "id": "tech-all-0",
+                  "kind": "scoop",
+                  "start": 0,
+                  "duration": 73,
+                  "intensity": 0.4,
+                  "targetNoteId": "note-ka"
+                },
+                {
+                  "id": "tech-all-1",
+                  "kind": "fall",
+                  "start": 73,
+                  "duration": 73,
+                  "intensity": 0.4,
+                  "targetNoteId": "note-ka"
+                },
+                {
+                  "id": "tech-all-2",
+                  "kind": "vibrato",
+                  "start": 146,
+                  "duration": 73,
+                  "intensity": 0.4,
+                  "targetNoteId": "note-ka"
+                },
+                {
+                  "id": "tech-all-3",
+                  "kind": "portamento",
+                  "start": 219,
+                  "duration": 73,
+                  "intensity": 0.4,
+                  "targetNoteId": "note-ka"
+                },
+                {
+                  "id": "tech-all-4",
+                  "kind": "legato",
+                  "start": 292,
+                  "duration": 73,
+                  "intensity": 0.4,
+                  "targetNoteId": "note-ka"
+                },
+                {
+                  "id": "tech-all-5",
+                  "kind": "staccato",
+                  "start": 365,
+                  "duration": 73,
+                  "intensity": 0.4,
+                  "targetNoteId": "note-ka"
+                },
+                {
+                  "id": "tech-all-6",
+                  "kind": "accent",
+                  "start": 438,
+                  "duration": 73,
+                  "intensity": 0.4,
+                  "targetNoteId": "note-ka"
+                },
+                {
+                  "id": "tech-all-7",
+                  "kind": "whisper",
+                  "start": 511,
+                  "duration": 73,
+                  "intensity": 0.4,
+                  "targetNoteId": "note-ka"
+                },
+                {
+                  "id": "tech-all-8",
+                  "kind": "growl",
+                  "start": 584,
+                  "duration": 73,
+                  "intensity": 0.4,
+                  "targetNoteId": "note-ka"
+                },
+                {
+                  "id": "tech-all-9",
+                  "kind": "falsetto",
+                  "start": 657,
+                  "duration": 73,
+                  "intensity": 0.4,
+                  "targetNoteId": "note-ka"
+                },
+                {
+                  "id": "tech-all-10",
+                  "kind": "humming",
+                  "start": 730,
+                  "duration": 73,
+                  "intensity": 0.4,
+                  "targetNoteId": "note-ka"
+                },
+                {
+                  "id": "tech-all-11",
+                  "kind": "rap",
+                  "start": 803,
+                  "duration": 73,
+                  "intensity": 0.4,
+                  "targetNoteId": "note-ka"
+                },
+                {
+                  "id": "tech-all-12",
+                  "kind": "melisma",
+                  "start": 876,
+                  "duration": 73,
+                  "intensity": 0.4,
+                  "targetNoteId": "note-ka"
+                }
+              ],
+              "breathEvents": [
+                {
+                  "id": "breath1",
+                  "start": 2170,
+                  "duration": 140,
+                  "kind": "inhale",
+                  "intensity": 0.3
+                }
+              ],
+              "noteIds": [
+                "note-ka",
+                "note-ze"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "soundSlots": [],
+  "lyrics": {
+    "documents": [
+      {
+        "id": "doc-ja",
+        "title": "Japanese lyrics",
+        "language": "ja-JP"
+      }
+    ],
+    "phrases": [
+      {
+        "id": "phrase-1",
+        "documentId": "doc-ja",
+        "text": "かぜ",
+        "start": 0,
+        "duration": 1920
+      }
+    ],
+    "units": [
+      {
+        "id": "unit-ka",
+        "phraseId": "phrase-1",
+        "text": "か",
+        "pronunciation": "か",
+        "start": 0,
+        "duration": 960,
+        "phonetics": [
+          {
+            "alphabet": "ipa",
+            "language": "ja-JP",
+            "symbols": [
+              "k",
+              "a"
+            ],
+            "preferred": true
+          },
+          {
+            "alphabet": "other",
+            "namespace": "com.example.demo.phonemes",
+            "symbols": [
+              "demo_unit-ka"
+            ],
+            "language": "en",
+            "preferred": true
+          }
+        ]
+      },
+      {
+        "id": "unit-ze",
+        "phraseId": "phrase-1",
+        "text": "ぜ",
+        "pronunciation": "ぜ",
+        "start": 960,
+        "duration": 960,
+        "phonetics": [
+          {
+            "alphabet": "ipa",
+            "language": "ja-JP",
+            "symbols": [
+              "z",
+              "e"
+            ],
+            "preferred": true
+          },
+          {
+            "alphabet": "other",
+            "namespace": "com.example.demo.phonemes",
+            "symbols": [
+              "demo_unit-ze"
+            ],
+            "language": "en",
+            "preferred": true
+          }
+        ]
+      }
+    ],
+    "alignments": [
+      {
+        "id": "align-ka",
+        "voiceId": "voice-lead",
+        "unitIds": [
+          "unit-ka"
+        ],
+        "noteIds": [
+          "note-ka"
+        ]
+      },
+      {
+        "id": "align-ze",
+        "voiceId": "voice-lead",
+        "unitIds": [
+          "unit-ze"
+        ],
+        "noteIds": [
+          "note-ze"
+        ]
+      }
+    ],
+    "voices": [
+      {
+        "id": "voice-lead",
+        "name": "Lead",
+        "role": "lead",
+        "trackId": "track-lead",
+        "documentId": "doc-ja",
+        "vocalProfile": {
+          "language": "ja-JP",
+          "deliveryMode": "sing",
+          "voiceDescription": "Soft lead with a brighter chorus"
+        }
+      }
+    ]
+  },
+  "resources": []
+}

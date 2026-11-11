@@ -1,0 +1,5481 @@
+{
+  "format": "OSTF",
+  "version": "4.2.0",
+  "ppq": 960,
+  "song": {
+    "title": "Evening Turns",
+    "description": "Original structured multi-track musical demo for the OSTF 4.2 specification. No audio or synthesizer compatibility certification.",
+    "genres": [
+      {
+        "id": "genre",
+        "name": "Jazz"
+      }
+    ],
+    "key": {
+      "state": "tonal",
+      "tonic": {
+        "step": "C",
+        "alter": 0
+      },
+      "mode": "major",
+      "label": "C major"
+    },
+    "languages": [
+      "en"
+    ],
+    "melodyTrackIds": [
+      "melody"
+    ],
+    "primaryMelodyTrackId": "melody"
+  },
+  "timeline": {
+    "sections": [
+      {
+        "id": "sec-1",
+        "name": "Intro",
+        "role": "intro",
+        "start": 0,
+        "duration": 15360
+      },
+      {
+        "id": "sec-2",
+        "name": "Theme",
+        "role": "verse",
+        "start": 15360,
+        "duration": 30720
+      },
+      {
+        "id": "sec-3",
+        "name": "Solo",
+        "role": "bridge",
+        "start": 46080,
+        "duration": 30720
+      },
+      {
+        "id": "sec-4",
+        "name": "Coda",
+        "role": "outro",
+        "start": 76800,
+        "duration": 15360
+      }
+    ],
+    "tempoChanges": [
+      {
+        "at": 0,
+        "bpm": 124
+      }
+    ],
+    "meterChanges": [
+      {
+        "at": 0,
+        "numerator": 4,
+        "denominator": 4
+      }
+    ],
+    "duration": 92160
+  },
+  "harmony": {
+    "chords": [
+      {
+        "id": "chord-0",
+        "start": 0,
+        "duration": 3840,
+        "label": "Dm7",
+        "root": {
+          "step": "D",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          3,
+          7,
+          10
+        ],
+        "voicing": {
+          "pitches": [
+            53,
+            57,
+            60,
+            62
+          ],
+          "velocities": [
+            76,
+            76,
+            76,
+            76
+          ]
+        }
+      },
+      {
+        "id": "chord-1",
+        "start": 3840,
+        "duration": 3840,
+        "label": "G7",
+        "root": {
+          "step": "G",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          4,
+          7,
+          10
+        ],
+        "voicing": {
+          "pitches": [
+            53,
+            55,
+            59,
+            62
+          ],
+          "velocities": [
+            76,
+            76,
+            76,
+            76
+          ]
+        }
+      },
+      {
+        "id": "chord-2",
+        "start": 7680,
+        "duration": 3840,
+        "label": "Cmaj7",
+        "root": {
+          "step": "C",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          4,
+          7,
+          11
+        ],
+        "voicing": {
+          "pitches": [
+            52,
+            55,
+            59,
+            60
+          ],
+          "velocities": [
+            76,
+            76,
+            76,
+            76
+          ]
+        }
+      },
+      {
+        "id": "chord-3",
+        "start": 11520,
+        "duration": 3840,
+        "label": "Am7",
+        "root": {
+          "step": "A",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          3,
+          7,
+          10
+        ],
+        "voicing": {
+          "pitches": [
+            52,
+            55,
+            57,
+            60
+          ],
+          "velocities": [
+            76,
+            76,
+            76,
+            76
+          ]
+        }
+      },
+      {
+        "id": "chord-4",
+        "start": 15360,
+        "duration": 3840,
+        "label": "G7",
+        "root": {
+          "step": "G",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          4,
+          7,
+          10
+        ],
+        "voicing": {
+          "pitches": [
+            53,
+            55,
+            59,
+            62
+          ],
+          "velocities": [
+            76,
+            76,
+            76,
+            76
+          ]
+        }
+      },
+      {
+        "id": "chord-5",
+        "start": 19200,
+        "duration": 3840,
+        "label": "Cmaj7",
+        "root": {
+          "step": "C",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          4,
+          7,
+          11
+        ],
+        "voicing": {
+          "pitches": [
+            52,
+            55,
+            59,
+            60
+          ],
+          "velocities": [
+            76,
+            76,
+            76,
+            76
+          ]
+        }
+      },
+      {
+        "id": "chord-6",
+        "start": 23040,
+        "duration": 3840,
+        "label": "Am7",
+        "root": {
+          "step": "A",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          3,
+          7,
+          10
+        ],
+        "voicing": {
+          "pitches": [
+            52,
+            55,
+            57,
+            60
+          ],
+          "velocities": [
+            76,
+            76,
+            76,
+            76
+          ]
+        }
+      },
+      {
+        "id": "chord-7",
+        "start": 26880,
+        "duration": 3840,
+        "label": "Dm7",
+        "root": {
+          "step": "D",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          3,
+          7,
+          10
+        ],
+        "voicing": {
+          "pitches": [
+            53,
+            57,
+            60,
+            62
+          ],
+          "velocities": [
+            76,
+            76,
+            76,
+            76
+          ]
+        }
+      },
+      {
+        "id": "chord-8",
+        "start": 30720,
+        "duration": 3840,
+        "label": "G7",
+        "root": {
+          "step": "G",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          4,
+          7,
+          10
+        ],
+        "voicing": {
+          "pitches": [
+            53,
+            55,
+            59,
+            62
+          ],
+          "velocities": [
+            76,
+            76,
+            76,
+            76
+          ]
+        }
+      },
+      {
+        "id": "chord-9",
+        "start": 34560,
+        "duration": 3840,
+        "label": "Cmaj7",
+        "root": {
+          "step": "C",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          4,
+          7,
+          11
+        ],
+        "voicing": {
+          "pitches": [
+            52,
+            55,
+            59,
+            60
+          ],
+          "velocities": [
+            76,
+            76,
+            76,
+            76
+          ]
+        }
+      },
+      {
+        "id": "chord-10",
+        "start": 38400,
+        "duration": 3840,
+        "label": "Am7",
+        "root": {
+          "step": "A",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          3,
+          7,
+          10
+        ],
+        "voicing": {
+          "pitches": [
+            52,
+            55,
+            57,
+            60
+          ],
+          "velocities": [
+            76,
+            76,
+            76,
+            76
+          ]
+        }
+      },
+      {
+        "id": "chord-11",
+        "start": 42240,
+        "duration": 3840,
+        "label": "Dm7",
+        "root": {
+          "step": "D",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          3,
+          7,
+          10
+        ],
+        "voicing": {
+          "pitches": [
+            53,
+            57,
+            60,
+            62
+          ],
+          "velocities": [
+            76,
+            76,
+            76,
+            76
+          ]
+        }
+      },
+      {
+        "id": "chord-12",
+        "start": 46080,
+        "duration": 3840,
+        "label": "Cmaj7",
+        "root": {
+          "step": "C",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          4,
+          7,
+          11
+        ],
+        "voicing": {
+          "pitches": [
+            52,
+            55,
+            59,
+            60
+          ],
+          "velocities": [
+            76,
+            76,
+            76,
+            76
+          ]
+        }
+      },
+      {
+        "id": "chord-13",
+        "start": 49920,
+        "duration": 3840,
+        "label": "Am7",
+        "root": {
+          "step": "A",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          3,
+          7,
+          10
+        ],
+        "voicing": {
+          "pitches": [
+            52,
+            55,
+            57,
+            60
+          ],
+          "velocities": [
+            76,
+            76,
+            76,
+            76
+          ]
+        }
+      },
+      {
+        "id": "chord-14",
+        "start": 53760,
+        "duration": 3840,
+        "label": "Dm7",
+        "root": {
+          "step": "D",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          3,
+          7,
+          10
+        ],
+        "voicing": {
+          "pitches": [
+            53,
+            57,
+            60,
+            62
+          ],
+          "velocities": [
+            76,
+            76,
+            76,
+            76
+          ]
+        }
+      },
+      {
+        "id": "chord-15",
+        "start": 57600,
+        "duration": 3840,
+        "label": "G7",
+        "root": {
+          "step": "G",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          4,
+          7,
+          10
+        ],
+        "voicing": {
+          "pitches": [
+            53,
+            55,
+            59,
+            62
+          ],
+          "velocities": [
+            76,
+            76,
+            76,
+            76
+          ]
+        }
+      },
+      {
+        "id": "chord-16",
+        "start": 61440,
+        "duration": 3840,
+        "label": "Cmaj7",
+        "root": {
+          "step": "C",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          4,
+          7,
+          11
+        ],
+        "voicing": {
+          "pitches": [
+            52,
+            55,
+            59,
+            60
+          ],
+          "velocities": [
+            76,
+            76,
+            76,
+            76
+          ]
+        }
+      },
+      {
+        "id": "chord-17",
+        "start": 65280,
+        "duration": 3840,
+        "label": "Am7",
+        "root": {
+          "step": "A",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          3,
+          7,
+          10
+        ],
+        "voicing": {
+          "pitches": [
+            52,
+            55,
+            57,
+            60
+          ],
+          "velocities": [
+            76,
+            76,
+            76,
+            76
+          ]
+        }
+      },
+      {
+        "id": "chord-18",
+        "start": 69120,
+        "duration": 3840,
+        "label": "Dm7",
+        "root": {
+          "step": "D",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          3,
+          7,
+          10
+        ],
+        "voicing": {
+          "pitches": [
+            53,
+            57,
+            60,
+            62
+          ],
+          "velocities": [
+            76,
+            76,
+            76,
+            76
+          ]
+        }
+      },
+      {
+        "id": "chord-19",
+        "start": 72960,
+        "duration": 3840,
+        "label": "G7",
+        "root": {
+          "step": "G",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          4,
+          7,
+          10
+        ],
+        "voicing": {
+          "pitches": [
+            53,
+            55,
+            59,
+            62
+          ],
+          "velocities": [
+            76,
+            76,
+            76,
+            76
+          ]
+        }
+      },
+      {
+        "id": "chord-20",
+        "start": 76800,
+        "duration": 3840,
+        "label": "Am7",
+        "root": {
+          "step": "A",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          3,
+          7,
+          10
+        ],
+        "voicing": {
+          "pitches": [
+            52,
+            55,
+            57,
+            60
+          ],
+          "velocities": [
+            76,
+            76,
+            76,
+            76
+          ]
+        }
+      },
+      {
+        "id": "chord-21",
+        "start": 80640,
+        "duration": 3840,
+        "label": "Dm7",
+        "root": {
+          "step": "D",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          3,
+          7,
+          10
+        ],
+        "voicing": {
+          "pitches": [
+            53,
+            57,
+            60,
+            62
+          ],
+          "velocities": [
+            76,
+            76,
+            76,
+            76
+          ]
+        }
+      },
+      {
+        "id": "chord-22",
+        "start": 84480,
+        "duration": 3840,
+        "label": "G7",
+        "root": {
+          "step": "G",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          4,
+          7,
+          10
+        ],
+        "voicing": {
+          "pitches": [
+            53,
+            55,
+            59,
+            62
+          ],
+          "velocities": [
+            76,
+            76,
+            76,
+            76
+          ]
+        }
+      },
+      {
+        "id": "chord-23",
+        "start": 88320,
+        "duration": 3840,
+        "label": "Cmaj7",
+        "root": {
+          "step": "C",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          4,
+          7,
+          11
+        ],
+        "voicing": {
+          "pitches": [
+            52,
+            55,
+            59,
+            60
+          ],
+          "velocities": [
+            76,
+            76,
+            76,
+            76
+          ]
+        }
+      }
+    ],
+    "scales": []
+  },
+  "tracks": [
+    {
+      "id": "chords",
+      "name": "Keys",
+      "role": "accompaniment",
+      "trackType": "melodic",
+      "midi": {
+        "busId": "bus",
+        "mode": "singleChannel",
+        "channel": 1
+      },
+      "clips": [
+        {
+          "id": "clip-chords-0",
+          "name": "Intro / Keys",
+          "start": 0,
+          "duration": 15360,
+          "notes": [
+            {
+              "id": "n-chords-1",
+              "start": 0,
+              "duration": 1680,
+              "velocity": 74,
+              "pitch": 53
+            },
+            {
+              "id": "n-chords-2",
+              "start": 0,
+              "duration": 1680,
+              "velocity": 74,
+              "pitch": 57
+            },
+            {
+              "id": "n-chords-3",
+              "start": 0,
+              "duration": 1680,
+              "velocity": 74,
+              "pitch": 60
+            },
+            {
+              "id": "n-chords-4",
+              "start": 0,
+              "duration": 1680,
+              "velocity": 74,
+              "pitch": 62
+            },
+            {
+              "id": "n-chords-5",
+              "start": 1920,
+              "duration": 1440,
+              "velocity": 74,
+              "pitch": 53
+            },
+            {
+              "id": "n-chords-6",
+              "start": 1920,
+              "duration": 1440,
+              "velocity": 74,
+              "pitch": 57
+            },
+            {
+              "id": "n-chords-7",
+              "start": 1920,
+              "duration": 1440,
+              "velocity": 74,
+              "pitch": 60
+            },
+            {
+              "id": "n-chords-8",
+              "start": 1920,
+              "duration": 1440,
+              "velocity": 74,
+              "pitch": 62
+            },
+            {
+              "id": "n-chords-23",
+              "start": 3840,
+              "duration": 1680,
+              "velocity": 77,
+              "pitch": 53
+            },
+            {
+              "id": "n-chords-24",
+              "start": 3840,
+              "duration": 1680,
+              "velocity": 77,
+              "pitch": 55
+            },
+            {
+              "id": "n-chords-25",
+              "start": 3840,
+              "duration": 1680,
+              "velocity": 77,
+              "pitch": 59
+            },
+            {
+              "id": "n-chords-26",
+              "start": 3840,
+              "duration": 1680,
+              "velocity": 77,
+              "pitch": 62
+            },
+            {
+              "id": "n-chords-27",
+              "start": 5760,
+              "duration": 1440,
+              "velocity": 77,
+              "pitch": 53
+            },
+            {
+              "id": "n-chords-28",
+              "start": 5760,
+              "duration": 1440,
+              "velocity": 77,
+              "pitch": 55
+            },
+            {
+              "id": "n-chords-29",
+              "start": 5760,
+              "duration": 1440,
+              "velocity": 77,
+              "pitch": 59
+            },
+            {
+              "id": "n-chords-30",
+              "start": 5760,
+              "duration": 1440,
+              "velocity": 77,
+              "pitch": 62
+            },
+            {
+              "id": "n-chords-45",
+              "start": 7680,
+              "duration": 1680,
+              "velocity": 80,
+              "pitch": 52
+            },
+            {
+              "id": "n-chords-46",
+              "start": 7680,
+              "duration": 1680,
+              "velocity": 80,
+              "pitch": 55
+            },
+            {
+              "id": "n-chords-47",
+              "start": 7680,
+              "duration": 1680,
+              "velocity": 80,
+              "pitch": 59
+            },
+            {
+              "id": "n-chords-48",
+              "start": 7680,
+              "duration": 1680,
+              "velocity": 80,
+              "pitch": 60
+            },
+            {
+              "id": "n-chords-49",
+              "start": 9600,
+              "duration": 1440,
+              "velocity": 80,
+              "pitch": 52
+            },
+            {
+              "id": "n-chords-50",
+              "start": 9600,
+              "duration": 1440,
+              "velocity": 80,
+              "pitch": 55
+            },
+            {
+              "id": "n-chords-51",
+              "start": 9600,
+              "duration": 1440,
+              "velocity": 80,
+              "pitch": 59
+            },
+            {
+              "id": "n-chords-52",
+              "start": 9600,
+              "duration": 1440,
+              "velocity": 80,
+              "pitch": 60
+            },
+            {
+              "id": "n-chords-67",
+              "start": 11520,
+              "duration": 1680,
+              "velocity": 74,
+              "pitch": 52
+            },
+            {
+              "id": "n-chords-68",
+              "start": 11520,
+              "duration": 1680,
+              "velocity": 74,
+              "pitch": 55
+            },
+            {
+              "id": "n-chords-69",
+              "start": 11520,
+              "duration": 1680,
+              "velocity": 74,
+              "pitch": 57
+            },
+            {
+              "id": "n-chords-70",
+              "start": 11520,
+              "duration": 1680,
+              "velocity": 74,
+              "pitch": 60
+            },
+            {
+              "id": "n-chords-71",
+              "start": 13440,
+              "duration": 1440,
+              "velocity": 74,
+              "pitch": 52
+            },
+            {
+              "id": "n-chords-72",
+              "start": 13440,
+              "duration": 1440,
+              "velocity": 74,
+              "pitch": 55
+            },
+            {
+              "id": "n-chords-73",
+              "start": 13440,
+              "duration": 1440,
+              "velocity": 74,
+              "pitch": 57
+            },
+            {
+              "id": "n-chords-74",
+              "start": 13440,
+              "duration": 1440,
+              "velocity": 74,
+              "pitch": 60
+            }
+          ],
+          "midiEvents": [
+            {
+              "id": "program-chords",
+              "start": 0,
+              "type": "programChange",
+              "program": 0
+            }
+          ]
+        },
+        {
+          "id": "clip-chords-1",
+          "name": "Theme / Keys",
+          "start": 15360,
+          "duration": 30720,
+          "notes": [
+            {
+              "id": "n-chords-89",
+              "start": 0,
+              "duration": 1680,
+              "velocity": 74,
+              "pitch": 53
+            },
+            {
+              "id": "n-chords-90",
+              "start": 0,
+              "duration": 1680,
+              "velocity": 74,
+              "pitch": 55
+            },
+            {
+              "id": "n-chords-91",
+              "start": 0,
+              "duration": 1680,
+              "velocity": 74,
+              "pitch": 59
+            },
+            {
+              "id": "n-chords-92",
+              "start": 0,
+              "duration": 1680,
+              "velocity": 74,
+              "pitch": 62
+            },
+            {
+              "id": "n-chords-93",
+              "start": 1920,
+              "duration": 1440,
+              "velocity": 74,
+              "pitch": 53
+            },
+            {
+              "id": "n-chords-94",
+              "start": 1920,
+              "duration": 1440,
+              "velocity": 74,
+              "pitch": 55
+            },
+            {
+              "id": "n-chords-95",
+              "start": 1920,
+              "duration": 1440,
+              "velocity": 74,
+              "pitch": 59
+            },
+            {
+              "id": "n-chords-96",
+              "start": 1920,
+              "duration": 1440,
+              "velocity": 74,
+              "pitch": 62
+            },
+            {
+              "id": "n-chords-117",
+              "start": 3840,
+              "duration": 1680,
+              "velocity": 77,
+              "pitch": 52
+            },
+            {
+              "id": "n-chords-118",
+              "start": 3840,
+              "duration": 1680,
+              "velocity": 77,
+              "pitch": 55
+            },
+            {
+              "id": "n-chords-119",
+              "start": 3840,
+              "duration": 1680,
+              "velocity": 77,
+              "pitch": 59
+            },
+            {
+              "id": "n-chords-120",
+              "start": 3840,
+              "duration": 1680,
+              "velocity": 77,
+              "pitch": 60
+            },
+            {
+              "id": "n-chords-121",
+              "start": 5760,
+              "duration": 1440,
+              "velocity": 77,
+              "pitch": 52
+            },
+            {
+              "id": "n-chords-122",
+              "start": 5760,
+              "duration": 1440,
+              "velocity": 77,
+              "pitch": 55
+            },
+            {
+              "id": "n-chords-123",
+              "start": 5760,
+              "duration": 1440,
+              "velocity": 77,
+              "pitch": 59
+            },
+            {
+              "id": "n-chords-124",
+              "start": 5760,
+              "duration": 1440,
+              "velocity": 77,
+              "pitch": 60
+            },
+            {
+              "id": "n-chords-145",
+              "start": 7680,
+              "duration": 1680,
+              "velocity": 80,
+              "pitch": 52
+            },
+            {
+              "id": "n-chords-146",
+              "start": 7680,
+              "duration": 1680,
+              "velocity": 80,
+              "pitch": 55
+            },
+            {
+              "id": "n-chords-147",
+              "start": 7680,
+              "duration": 1680,
+              "velocity": 80,
+              "pitch": 57
+            },
+            {
+              "id": "n-chords-148",
+              "start": 7680,
+              "duration": 1680,
+              "velocity": 80,
+              "pitch": 60
+            },
+            {
+              "id": "n-chords-149",
+              "start": 9600,
+              "duration": 1440,
+              "velocity": 80,
+              "pitch": 52
+            },
+            {
+              "id": "n-chords-150",
+              "start": 9600,
+              "duration": 1440,
+              "velocity": 80,
+              "pitch": 55
+            },
+            {
+              "id": "n-chords-151",
+              "start": 9600,
+              "duration": 1440,
+              "velocity": 80,
+              "pitch": 57
+            },
+            {
+              "id": "n-chords-152",
+              "start": 9600,
+              "duration": 1440,
+              "velocity": 80,
+              "pitch": 60
+            },
+            {
+              "id": "n-chords-173",
+              "start": 11520,
+              "duration": 1680,
+              "velocity": 74,
+              "pitch": 53
+            },
+            {
+              "id": "n-chords-174",
+              "start": 11520,
+              "duration": 1680,
+              "velocity": 74,
+              "pitch": 57
+            },
+            {
+              "id": "n-chords-175",
+              "start": 11520,
+              "duration": 1680,
+              "velocity": 74,
+              "pitch": 60
+            },
+            {
+              "id": "n-chords-176",
+              "start": 11520,
+              "duration": 1680,
+              "velocity": 74,
+              "pitch": 62
+            },
+            {
+              "id": "n-chords-177",
+              "start": 13440,
+              "duration": 1440,
+              "velocity": 74,
+              "pitch": 53
+            },
+            {
+              "id": "n-chords-178",
+              "start": 13440,
+              "duration": 1440,
+              "velocity": 74,
+              "pitch": 57
+            },
+            {
+              "id": "n-chords-179",
+              "start": 13440,
+              "duration": 1440,
+              "velocity": 74,
+              "pitch": 60
+            },
+            {
+              "id": "n-chords-180",
+              "start": 13440,
+              "duration": 1440,
+              "velocity": 74,
+              "pitch": 62
+            },
+            {
+              "id": "n-chords-201",
+              "start": 15360,
+              "duration": 1680,
+              "velocity": 77,
+              "pitch": 53
+            },
+            {
+              "id": "n-chords-202",
+              "start": 15360,
+              "duration": 1680,
+              "velocity": 77,
+              "pitch": 55
+            },
+            {
+              "id": "n-chords-203",
+              "start": 15360,
+              "duration": 1680,
+              "velocity": 77,
+              "pitch": 59
+            },
+            {
+              "id": "n-chords-204",
+              "start": 15360,
+              "duration": 1680,
+              "velocity": 77,
+              "pitch": 62
+            },
+            {
+              "id": "n-chords-205",
+              "start": 17280,
+              "duration": 1440,
+              "velocity": 77,
+              "pitch": 53
+            },
+            {
+              "id": "n-chords-206",
+              "start": 17280,
+              "duration": 1440,
+              "velocity": 77,
+              "pitch": 55
+            },
+            {
+              "id": "n-chords-207",
+              "start": 17280,
+              "duration": 1440,
+              "velocity": 77,
+              "pitch": 59
+            },
+            {
+              "id": "n-chords-208",
+              "start": 17280,
+              "duration": 1440,
+              "velocity": 77,
+              "pitch": 62
+            },
+            {
+              "id": "n-chords-229",
+              "start": 19200,
+              "duration": 1680,
+              "velocity": 80,
+              "pitch": 52
+            },
+            {
+              "id": "n-chords-230",
+              "start": 19200,
+              "duration": 1680,
+              "velocity": 80,
+              "pitch": 55
+            },
+            {
+              "id": "n-chords-231",
+              "start": 19200,
+              "duration": 1680,
+              "velocity": 80,
+              "pitch": 59
+            },
+            {
+              "id": "n-chords-232",
+              "start": 19200,
+              "duration": 1680,
+              "velocity": 80,
+              "pitch": 60
+            },
+            {
+              "id": "n-chords-233",
+              "start": 21120,
+              "duration": 1440,
+              "velocity": 80,
+              "pitch": 52
+            },
+            {
+              "id": "n-chords-234",
+              "start": 21120,
+              "duration": 1440,
+              "velocity": 80,
+              "pitch": 55
+            },
+            {
+              "id": "n-chords-235",
+              "start": 21120,
+              "duration": 1440,
+              "velocity": 80,
+              "pitch": 59
+            },
+            {
+              "id": "n-chords-236",
+              "start": 21120,
+              "duration": 1440,
+              "velocity": 80,
+              "pitch": 60
+            },
+            {
+              "id": "n-chords-257",
+              "start": 23040,
+              "duration": 1680,
+              "velocity": 74,
+              "pitch": 52
+            },
+            {
+              "id": "n-chords-258",
+              "start": 23040,
+              "duration": 1680,
+              "velocity": 74,
+              "pitch": 55
+            },
+            {
+              "id": "n-chords-259",
+              "start": 23040,
+              "duration": 1680,
+              "velocity": 74,
+              "pitch": 57
+            },
+            {
+              "id": "n-chords-260",
+              "start": 23040,
+              "duration": 1680,
+              "velocity": 74,
+              "pitch": 60
+            },
+            {
+              "id": "n-chords-261",
+              "start": 24960,
+              "duration": 1440,
+              "velocity": 74,
+              "pitch": 52
+            },
+            {
+              "id": "n-chords-262",
+              "start": 24960,
+              "duration": 1440,
+              "velocity": 74,
+              "pitch": 55
+            },
+            {
+              "id": "n-chords-263",
+              "start": 24960,
+              "duration": 1440,
+              "velocity": 74,
+              "pitch": 57
+            },
+            {
+              "id": "n-chords-264",
+              "start": 24960,
+              "duration": 1440,
+              "velocity": 74,
+              "pitch": 60
+            },
+            {
+              "id": "n-chords-285",
+              "start": 26880,
+              "duration": 1680,
+              "velocity": 77,
+              "pitch": 53
+            },
+            {
+              "id": "n-chords-286",
+              "start": 26880,
+              "duration": 1680,
+              "velocity": 77,
+              "pitch": 57
+            },
+            {
+              "id": "n-chords-287",
+              "start": 26880,
+              "duration": 1680,
+              "velocity": 77,
+              "pitch": 60
+            },
+            {
+              "id": "n-chords-288",
+              "start": 26880,
+              "duration": 1680,
+              "velocity": 77,
+              "pitch": 62
+            },
+            {
+              "id": "n-chords-289",
+              "start": 28800,
+              "duration": 1440,
+              "velocity": 77,
+              "pitch": 53
+            },
+            {
+              "id": "n-chords-290",
+              "start": 28800,
+              "duration": 1440,
+              "velocity": 77,
+              "pitch": 57
+            },
+            {
+              "id": "n-chords-291",
+              "start": 28800,
+              "duration": 1440,
+              "velocity": 77,
+              "pitch": 60
+            },
+            {
+              "id": "n-chords-292",
+              "start": 28800,
+              "duration": 1440,
+              "velocity": 77,
+              "pitch": 62
+            }
+          ]
+        },
+        {
+          "id": "clip-chords-2",
+          "name": "Solo / Keys",
+          "start": 46080,
+          "duration": 30720,
+          "notes": [
+            {
+              "id": "n-chords-313",
+              "start": 0,
+              "duration": 1680,
+              "velocity": 74,
+              "pitch": 52
+            },
+            {
+              "id": "n-chords-314",
+              "start": 0,
+              "duration": 1680,
+              "velocity": 74,
+              "pitch": 55
+            },
+            {
+              "id": "n-chords-315",
+              "start": 0,
+              "duration": 1680,
+              "velocity": 74,
+              "pitch": 59
+            },
+            {
+              "id": "n-chords-316",
+              "start": 0,
+              "duration": 1680,
+              "velocity": 74,
+              "pitch": 60
+            },
+            {
+              "id": "n-chords-317",
+              "start": 1920,
+              "duration": 1440,
+              "velocity": 74,
+              "pitch": 52
+            },
+            {
+              "id": "n-chords-318",
+              "start": 1920,
+              "duration": 1440,
+              "velocity": 74,
+              "pitch": 55
+            },
+            {
+              "id": "n-chords-319",
+              "start": 1920,
+              "duration": 1440,
+              "velocity": 74,
+              "pitch": 59
+            },
+            {
+              "id": "n-chords-320",
+              "start": 1920,
+              "duration": 1440,
+              "velocity": 74,
+              "pitch": 60
+            },
+            {
+              "id": "n-chords-341",
+              "start": 3840,
+              "duration": 1680,
+              "velocity": 77,
+              "pitch": 52
+            },
+            {
+              "id": "n-chords-342",
+              "start": 3840,
+              "duration": 1680,
+              "velocity": 77,
+              "pitch": 55
+            },
+            {
+              "id": "n-chords-343",
+              "start": 3840,
+              "duration": 1680,
+              "velocity": 77,
+              "pitch": 57
+            },
+            {
+              "id": "n-chords-344",
+              "start": 3840,
+              "duration": 1680,
+              "velocity": 77,
+              "pitch": 60
+            },
+            {
+              "id": "n-chords-345",
+              "start": 5760,
+              "duration": 1440,
+              "velocity": 77,
+              "pitch": 52
+            },
+            {
+              "id": "n-chords-346",
+              "start": 5760,
+              "duration": 1440,
+              "velocity": 77,
+              "pitch": 55
+            },
+            {
+              "id": "n-chords-347",
+              "start": 5760,
+              "duration": 1440,
+              "velocity": 77,
+              "pitch": 57
+            },
+            {
+              "id": "n-chords-348",
+              "start": 5760,
+              "duration": 1440,
+              "velocity": 77,
+              "pitch": 60
+            },
+            {
+              "id": "n-chords-369",
+              "start": 7680,
+              "duration": 1680,
+              "velocity": 80,
+              "pitch": 53
+            },
+            {
+              "id": "n-chords-370",
+              "start": 7680,
+              "duration": 1680,
+              "velocity": 80,
+              "pitch": 57
+            },
+            {
+              "id": "n-chords-371",
+              "start": 7680,
+              "duration": 1680,
+              "velocity": 80,
+              "pitch": 60
+            },
+            {
+              "id": "n-chords-372",
+              "start": 7680,
+              "duration": 1680,
+              "velocity": 80,
+              "pitch": 62
+            },
+            {
+              "id": "n-chords-373",
+              "start": 9600,
+              "duration": 1440,
+              "velocity": 80,
+              "pitch": 53
+            },
+            {
+              "id": "n-chords-374",
+              "start": 9600,
+              "duration": 1440,
+              "velocity": 80,
+              "pitch": 57
+            },
+            {
+              "id": "n-chords-375",
+              "start": 9600,
+              "duration": 1440,
+              "velocity": 80,
+              "pitch": 60
+            },
+            {
+              "id": "n-chords-376",
+              "start": 9600,
+              "duration": 1440,
+              "velocity": 80,
+              "pitch": 62
+            },
+            {
+              "id": "n-chords-397",
+              "start": 11520,
+              "duration": 1680,
+              "velocity": 74,
+              "pitch": 53
+            },
+            {
+              "id": "n-chords-398",
+              "start": 11520,
+              "duration": 1680,
+              "velocity": 74,
+              "pitch": 55
+            },
+            {
+              "id": "n-chords-399",
+              "start": 11520,
+              "duration": 1680,
+              "velocity": 74,
+              "pitch": 59
+            },
+            {
+              "id": "n-chords-400",
+              "start": 11520,
+              "duration": 1680,
+              "velocity": 74,
+              "pitch": 62
+            },
+            {
+              "id": "n-chords-401",
+              "start": 13440,
+              "duration": 1440,
+              "velocity": 74,
+              "pitch": 53
+            },
+            {
+              "id": "n-chords-402",
+              "start": 13440,
+              "duration": 1440,
+              "velocity": 74,
+              "pitch": 55
+            },
+            {
+              "id": "n-chords-403",
+              "start": 13440,
+              "duration": 1440,
+              "velocity": 74,
+              "pitch": 59
+            },
+            {
+              "id": "n-chords-404",
+              "start": 13440,
+              "duration": 1440,
+              "velocity": 74,
+              "pitch": 62
+            },
+            {
+              "id": "n-chords-425",
+              "start": 15360,
+              "duration": 1680,
+              "velocity": 77,
+              "pitch": 52
+            },
+            {
+              "id": "n-chords-426",
+              "start": 15360,
+              "duration": 1680,
+              "velocity": 77,
+              "pitch": 55
+            },
+            {
+              "id": "n-chords-427",
+              "start": 15360,
+              "duration": 1680,
+              "velocity": 77,
+              "pitch": 59
+            },
+            {
+              "id": "n-chords-428",
+              "start": 15360,
+              "duration": 1680,
+              "velocity": 77,
+              "pitch": 60
+            },
+            {
+              "id": "n-chords-429",
+              "start": 17280,
+              "duration": 1440,
+              "velocity": 77,
+              "pitch": 52
+            },
+            {
+              "id": "n-chords-430",
+              "start": 17280,
+              "duration": 1440,
+              "velocity": 77,
+              "pitch": 55
+            },
+            {
+              "id": "n-chords-431",
+              "start": 17280,
+              "duration": 1440,
+              "velocity": 77,
+              "pitch": 59
+            },
+            {
+              "id": "n-chords-432",
+              "start": 17280,
+              "duration": 1440,
+              "velocity": 77,
+              "pitch": 60
+            },
+            {
+              "id": "n-chords-453",
+              "start": 19200,
+              "duration": 1680,
+              "velocity": 80,
+              "pitch": 52
+            },
+            {
+              "id": "n-chords-454",
+              "start": 19200,
+              "duration": 1680,
+              "velocity": 80,
+              "pitch": 55
+            },
+            {
+              "id": "n-chords-455",
+              "start": 19200,
+              "duration": 1680,
+              "velocity": 80,
+              "pitch": 57
+            },
+            {
+              "id": "n-chords-456",
+              "start": 19200,
+              "duration": 1680,
+              "velocity": 80,
+              "pitch": 60
+            },
+            {
+              "id": "n-chords-457",
+              "start": 21120,
+              "duration": 1440,
+              "velocity": 80,
+              "pitch": 52
+            },
+            {
+              "id": "n-chords-458",
+              "start": 21120,
+              "duration": 1440,
+              "velocity": 80,
+              "pitch": 55
+            },
+            {
+              "id": "n-chords-459",
+              "start": 21120,
+              "duration": 1440,
+              "velocity": 80,
+              "pitch": 57
+            },
+            {
+              "id": "n-chords-460",
+              "start": 21120,
+              "duration": 1440,
+              "velocity": 80,
+              "pitch": 60
+            },
+            {
+              "id": "n-chords-481",
+              "start": 23040,
+              "duration": 1680,
+              "velocity": 74,
+              "pitch": 53
+            },
+            {
+              "id": "n-chords-482",
+              "start": 23040,
+              "duration": 1680,
+              "velocity": 74,
+              "pitch": 57
+            },
+            {
+              "id": "n-chords-483",
+              "start": 23040,
+              "duration": 1680,
+              "velocity": 74,
+              "pitch": 60
+            },
+            {
+              "id": "n-chords-484",
+              "start": 23040,
+              "duration": 1680,
+              "velocity": 74,
+              "pitch": 62
+            },
+            {
+              "id": "n-chords-485",
+              "start": 24960,
+              "duration": 1440,
+              "velocity": 74,
+              "pitch": 53
+            },
+            {
+              "id": "n-chords-486",
+              "start": 24960,
+              "duration": 1440,
+              "velocity": 74,
+              "pitch": 57
+            },
+            {
+              "id": "n-chords-487",
+              "start": 24960,
+              "duration": 1440,
+              "velocity": 74,
+              "pitch": 60
+            },
+            {
+              "id": "n-chords-488",
+              "start": 24960,
+              "duration": 1440,
+              "velocity": 74,
+              "pitch": 62
+            },
+            {
+              "id": "n-chords-509",
+              "start": 26880,
+              "duration": 1680,
+              "velocity": 77,
+              "pitch": 53
+            },
+            {
+              "id": "n-chords-510",
+              "start": 26880,
+              "duration": 1680,
+              "velocity": 77,
+              "pitch": 55
+            },
+            {
+              "id": "n-chords-511",
+              "start": 26880,
+              "duration": 1680,
+              "velocity": 77,
+              "pitch": 59
+            },
+            {
+              "id": "n-chords-512",
+              "start": 26880,
+              "duration": 1680,
+              "velocity": 77,
+              "pitch": 62
+            },
+            {
+              "id": "n-chords-513",
+              "start": 28800,
+              "duration": 1440,
+              "velocity": 77,
+              "pitch": 53
+            },
+            {
+              "id": "n-chords-514",
+              "start": 28800,
+              "duration": 1440,
+              "velocity": 77,
+              "pitch": 55
+            },
+            {
+              "id": "n-chords-515",
+              "start": 28800,
+              "duration": 1440,
+              "velocity": 77,
+              "pitch": 59
+            },
+            {
+              "id": "n-chords-516",
+              "start": 28800,
+              "duration": 1440,
+              "velocity": 77,
+              "pitch": 62
+            }
+          ]
+        },
+        {
+          "id": "clip-chords-3",
+          "name": "Coda / Keys",
+          "start": 76800,
+          "duration": 15360,
+          "notes": [
+            {
+              "id": "n-chords-537",
+              "start": 0,
+              "duration": 1680,
+              "velocity": 74,
+              "pitch": 52
+            },
+            {
+              "id": "n-chords-538",
+              "start": 0,
+              "duration": 1680,
+              "velocity": 74,
+              "pitch": 55
+            },
+            {
+              "id": "n-chords-539",
+              "start": 0,
+              "duration": 1680,
+              "velocity": 74,
+              "pitch": 57
+            },
+            {
+              "id": "n-chords-540",
+              "start": 0,
+              "duration": 1680,
+              "velocity": 74,
+              "pitch": 60
+            },
+            {
+              "id": "n-chords-541",
+              "start": 1920,
+              "duration": 1440,
+              "velocity": 74,
+              "pitch": 52
+            },
+            {
+              "id": "n-chords-542",
+              "start": 1920,
+              "duration": 1440,
+              "velocity": 74,
+              "pitch": 55
+            },
+            {
+              "id": "n-chords-543",
+              "start": 1920,
+              "duration": 1440,
+              "velocity": 74,
+              "pitch": 57
+            },
+            {
+              "id": "n-chords-544",
+              "start": 1920,
+              "duration": 1440,
+              "velocity": 74,
+              "pitch": 60
+            },
+            {
+              "id": "n-chords-559",
+              "start": 3840,
+              "duration": 1680,
+              "velocity": 77,
+              "pitch": 53
+            },
+            {
+              "id": "n-chords-560",
+              "start": 3840,
+              "duration": 1680,
+              "velocity": 77,
+              "pitch": 57
+            },
+            {
+              "id": "n-chords-561",
+              "start": 3840,
+              "duration": 1680,
+              "velocity": 77,
+              "pitch": 60
+            },
+            {
+              "id": "n-chords-562",
+              "start": 3840,
+              "duration": 1680,
+              "velocity": 77,
+              "pitch": 62
+            },
+            {
+              "id": "n-chords-563",
+              "start": 5760,
+              "duration": 1440,
+              "velocity": 77,
+              "pitch": 53
+            },
+            {
+              "id": "n-chords-564",
+              "start": 5760,
+              "duration": 1440,
+              "velocity": 77,
+              "pitch": 57
+            },
+            {
+              "id": "n-chords-565",
+              "start": 5760,
+              "duration": 1440,
+              "velocity": 77,
+              "pitch": 60
+            },
+            {
+              "id": "n-chords-566",
+              "start": 5760,
+              "duration": 1440,
+              "velocity": 77,
+              "pitch": 62
+            },
+            {
+              "id": "n-chords-581",
+              "start": 7680,
+              "duration": 1680,
+              "velocity": 80,
+              "pitch": 53
+            },
+            {
+              "id": "n-chords-582",
+              "start": 7680,
+              "duration": 1680,
+              "velocity": 80,
+              "pitch": 55
+            },
+            {
+              "id": "n-chords-583",
+              "start": 7680,
+              "duration": 1680,
+              "velocity": 80,
+              "pitch": 59
+            },
+            {
+              "id": "n-chords-584",
+              "start": 7680,
+              "duration": 1680,
+              "velocity": 80,
+              "pitch": 62
+            },
+            {
+              "id": "n-chords-585",
+              "start": 9600,
+              "duration": 1440,
+              "velocity": 80,
+              "pitch": 53
+            },
+            {
+              "id": "n-chords-586",
+              "start": 9600,
+              "duration": 1440,
+              "velocity": 80,
+              "pitch": 55
+            },
+            {
+              "id": "n-chords-587",
+              "start": 9600,
+              "duration": 1440,
+              "velocity": 80,
+              "pitch": 59
+            },
+            {
+              "id": "n-chords-588",
+              "start": 9600,
+              "duration": 1440,
+              "velocity": 80,
+              "pitch": 62
+            },
+            {
+              "id": "n-chords-603",
+              "start": 11520,
+              "duration": 1680,
+              "velocity": 74,
+              "pitch": 52
+            },
+            {
+              "id": "n-chords-604",
+              "start": 11520,
+              "duration": 1680,
+              "velocity": 74,
+              "pitch": 55
+            },
+            {
+              "id": "n-chords-605",
+              "start": 11520,
+              "duration": 1680,
+              "velocity": 74,
+              "pitch": 59
+            },
+            {
+              "id": "n-chords-606",
+              "start": 11520,
+              "duration": 1680,
+              "velocity": 74,
+              "pitch": 60
+            },
+            {
+              "id": "n-chords-607",
+              "start": 13440,
+              "duration": 1440,
+              "velocity": 74,
+              "pitch": 52
+            },
+            {
+              "id": "n-chords-608",
+              "start": 13440,
+              "duration": 1440,
+              "velocity": 74,
+              "pitch": 55
+            },
+            {
+              "id": "n-chords-609",
+              "start": 13440,
+              "duration": 1440,
+              "velocity": 74,
+              "pitch": 59
+            },
+            {
+              "id": "n-chords-610",
+              "start": 13440,
+              "duration": 1440,
+              "velocity": 74,
+              "pitch": 60
+            }
+          ]
+        }
+      ],
+      "instrument": {
+        "name": "Keys",
+        "family": "keys"
+      },
+      "preferredView": "pianoRoll"
+    },
+    {
+      "id": "bass",
+      "name": "Bass",
+      "role": "bassline",
+      "trackType": "melodic",
+      "midi": {
+        "busId": "bus",
+        "mode": "singleChannel",
+        "channel": 2
+      },
+      "clips": [
+        {
+          "id": "clip-bass-0",
+          "name": "Intro / Bass",
+          "start": 0,
+          "duration": 15360,
+          "notes": [
+            {
+              "id": "n-bass-9",
+              "start": 0,
+              "duration": 840,
+              "velocity": 88,
+              "pitch": 38
+            },
+            {
+              "id": "n-bass-10",
+              "start": 960,
+              "duration": 840,
+              "velocity": 88,
+              "pitch": 41
+            },
+            {
+              "id": "n-bass-11",
+              "start": 1920,
+              "duration": 840,
+              "velocity": 88,
+              "pitch": 45
+            },
+            {
+              "id": "n-bass-12",
+              "start": 2880,
+              "duration": 840,
+              "velocity": 88,
+              "pitch": 48
+            },
+            {
+              "id": "n-bass-31",
+              "start": 3840,
+              "duration": 840,
+              "velocity": 88,
+              "pitch": 43
+            },
+            {
+              "id": "n-bass-32",
+              "start": 4800,
+              "duration": 840,
+              "velocity": 88,
+              "pitch": 46
+            },
+            {
+              "id": "n-bass-33",
+              "start": 5760,
+              "duration": 840,
+              "velocity": 88,
+              "pitch": 50
+            },
+            {
+              "id": "n-bass-34",
+              "start": 6720,
+              "duration": 840,
+              "velocity": 88,
+              "pitch": 53
+            },
+            {
+              "id": "n-bass-53",
+              "start": 7680,
+              "duration": 840,
+              "velocity": 88,
+              "pitch": 36
+            },
+            {
+              "id": "n-bass-54",
+              "start": 8640,
+              "duration": 840,
+              "velocity": 88,
+              "pitch": 39
+            },
+            {
+              "id": "n-bass-55",
+              "start": 9600,
+              "duration": 840,
+              "velocity": 88,
+              "pitch": 43
+            },
+            {
+              "id": "n-bass-56",
+              "start": 10560,
+              "duration": 840,
+              "velocity": 88,
+              "pitch": 46
+            },
+            {
+              "id": "n-bass-75",
+              "start": 11520,
+              "duration": 840,
+              "velocity": 88,
+              "pitch": 45
+            },
+            {
+              "id": "n-bass-76",
+              "start": 12480,
+              "duration": 840,
+              "velocity": 88,
+              "pitch": 48
+            },
+            {
+              "id": "n-bass-77",
+              "start": 13440,
+              "duration": 840,
+              "velocity": 88,
+              "pitch": 52
+            },
+            {
+              "id": "n-bass-78",
+              "start": 14400,
+              "duration": 840,
+              "velocity": 88,
+              "pitch": 55
+            }
+          ],
+          "midiEvents": [
+            {
+              "id": "program-bass",
+              "start": 0,
+              "type": "programChange",
+              "program": 32
+            }
+          ]
+        },
+        {
+          "id": "clip-bass-1",
+          "name": "Theme / Bass",
+          "start": 15360,
+          "duration": 30720,
+          "notes": [
+            {
+              "id": "n-bass-97",
+              "start": 0,
+              "duration": 840,
+              "velocity": 88,
+              "pitch": 43
+            },
+            {
+              "id": "n-bass-98",
+              "start": 960,
+              "duration": 840,
+              "velocity": 88,
+              "pitch": 46
+            },
+            {
+              "id": "n-bass-99",
+              "start": 1920,
+              "duration": 840,
+              "velocity": 88,
+              "pitch": 50
+            },
+            {
+              "id": "n-bass-100",
+              "start": 2880,
+              "duration": 840,
+              "velocity": 88,
+              "pitch": 53
+            },
+            {
+              "id": "n-bass-125",
+              "start": 3840,
+              "duration": 840,
+              "velocity": 88,
+              "pitch": 36
+            },
+            {
+              "id": "n-bass-126",
+              "start": 4800,
+              "duration": 840,
+              "velocity": 88,
+              "pitch": 39
+            },
+            {
+              "id": "n-bass-127",
+              "start": 5760,
+              "duration": 840,
+              "velocity": 88,
+              "pitch": 43
+            },
+            {
+              "id": "n-bass-128",
+              "start": 6720,
+              "duration": 840,
+              "velocity": 88,
+              "pitch": 46
+            },
+            {
+              "id": "n-bass-153",
+              "start": 7680,
+              "duration": 840,
+              "velocity": 88,
+              "pitch": 45
+            },
+            {
+              "id": "n-bass-154",
+              "start": 8640,
+              "duration": 840,
+              "velocity": 88,
+              "pitch": 48
+            },
+            {
+              "id": "n-bass-155",
+              "start": 9600,
+              "duration": 840,
+              "velocity": 88,
+              "pitch": 52
+            },
+            {
+              "id": "n-bass-156",
+              "start": 10560,
+              "duration": 840,
+              "velocity": 88,
+              "pitch": 55
+            },
+            {
+              "id": "n-bass-181",
+              "start": 11520,
+              "duration": 840,
+              "velocity": 88,
+              "pitch": 38
+            },
+            {
+              "id": "n-bass-182",
+              "start": 12480,
+              "duration": 840,
+              "velocity": 88,
+              "pitch": 41
+            },
+            {
+              "id": "n-bass-183",
+              "start": 13440,
+              "duration": 840,
+              "velocity": 88,
+              "pitch": 45
+            },
+            {
+              "id": "n-bass-184",
+              "start": 14400,
+              "duration": 840,
+              "velocity": 88,
+              "pitch": 48
+            },
+            {
+              "id": "n-bass-209",
+              "start": 15360,
+              "duration": 840,
+              "velocity": 88,
+              "pitch": 43
+            },
+            {
+              "id": "n-bass-210",
+              "start": 16320,
+              "duration": 840,
+              "velocity": 88,
+              "pitch": 46
+            },
+            {
+              "id": "n-bass-211",
+              "start": 17280,
+              "duration": 840,
+              "velocity": 88,
+              "pitch": 50
+            },
+            {
+              "id": "n-bass-212",
+              "start": 18240,
+              "duration": 840,
+              "velocity": 88,
+              "pitch": 53
+            },
+            {
+              "id": "n-bass-237",
+              "start": 19200,
+              "duration": 840,
+              "velocity": 88,
+              "pitch": 36
+            },
+            {
+              "id": "n-bass-238",
+              "start": 20160,
+              "duration": 840,
+              "velocity": 88,
+              "pitch": 39
+            },
+            {
+              "id": "n-bass-239",
+              "start": 21120,
+              "duration": 840,
+              "velocity": 88,
+              "pitch": 43
+            },
+            {
+              "id": "n-bass-240",
+              "start": 22080,
+              "duration": 840,
+              "velocity": 88,
+              "pitch": 46
+            },
+            {
+              "id": "n-bass-265",
+              "start": 23040,
+              "duration": 840,
+              "velocity": 88,
+              "pitch": 45
+            },
+            {
+              "id": "n-bass-266",
+              "start": 24000,
+              "duration": 840,
+              "velocity": 88,
+              "pitch": 48
+            },
+            {
+              "id": "n-bass-267",
+              "start": 24960,
+              "duration": 840,
+              "velocity": 88,
+              "pitch": 52
+            },
+            {
+              "id": "n-bass-268",
+              "start": 25920,
+              "duration": 840,
+              "velocity": 88,
+              "pitch": 55
+            },
+            {
+              "id": "n-bass-293",
+              "start": 26880,
+              "duration": 840,
+              "velocity": 88,
+              "pitch": 38
+            },
+            {
+              "id": "n-bass-294",
+              "start": 27840,
+              "duration": 840,
+              "velocity": 88,
+              "pitch": 41
+            },
+            {
+              "id": "n-bass-295",
+              "start": 28800,
+              "duration": 840,
+              "velocity": 88,
+              "pitch": 45
+            },
+            {
+              "id": "n-bass-296",
+              "start": 29760,
+              "duration": 840,
+              "velocity": 88,
+              "pitch": 48
+            }
+          ]
+        },
+        {
+          "id": "clip-bass-2",
+          "name": "Solo / Bass",
+          "start": 46080,
+          "duration": 30720,
+          "notes": [
+            {
+              "id": "n-bass-321",
+              "start": 0,
+              "duration": 840,
+              "velocity": 88,
+              "pitch": 36
+            },
+            {
+              "id": "n-bass-322",
+              "start": 960,
+              "duration": 840,
+              "velocity": 88,
+              "pitch": 39
+            },
+            {
+              "id": "n-bass-323",
+              "start": 1920,
+              "duration": 840,
+              "velocity": 88,
+              "pitch": 43
+            },
+            {
+              "id": "n-bass-324",
+              "start": 2880,
+              "duration": 840,
+              "velocity": 88,
+              "pitch": 46
+            },
+            {
+              "id": "n-bass-349",
+              "start": 3840,
+              "duration": 840,
+              "velocity": 88,
+              "pitch": 45
+            },
+            {
+              "id": "n-bass-350",
+              "start": 4800,
+              "duration": 840,
+              "velocity": 88,
+              "pitch": 48
+            },
+            {
+              "id": "n-bass-351",
+              "start": 5760,
+              "duration": 840,
+              "velocity": 88,
+              "pitch": 52
+            },
+            {
+              "id": "n-bass-352",
+              "start": 6720,
+              "duration": 840,
+              "velocity": 88,
+              "pitch": 55
+            },
+            {
+              "id": "n-bass-377",
+              "start": 7680,
+              "duration": 840,
+              "velocity": 88,
+              "pitch": 38
+            },
+            {
+              "id": "n-bass-378",
+              "start": 8640,
+              "duration": 840,
+              "velocity": 88,
+              "pitch": 41
+            },
+            {
+              "id": "n-bass-379",
+              "start": 9600,
+              "duration": 840,
+              "velocity": 88,
+              "pitch": 45
+            },
+            {
+              "id": "n-bass-380",
+              "start": 10560,
+              "duration": 840,
+              "velocity": 88,
+              "pitch": 48
+            },
+            {
+              "id": "n-bass-405",
+              "start": 11520,
+              "duration": 840,
+              "velocity": 88,
+              "pitch": 43
+            },
+            {
+              "id": "n-bass-406",
+              "start": 12480,
+              "duration": 840,
+              "velocity": 88,
+              "pitch": 46
+            },
+            {
+              "id": "n-bass-407",
+              "start": 13440,
+              "duration": 840,
+              "velocity": 88,
+              "pitch": 50
+            },
+            {
+              "id": "n-bass-408",
+              "start": 14400,
+              "duration": 840,
+              "velocity": 88,
+              "pitch": 53
+            },
+            {
+              "id": "n-bass-433",
+              "start": 15360,
+              "duration": 840,
+              "velocity": 88,
+              "pitch": 36
+            },
+            {
+              "id": "n-bass-434",
+              "start": 16320,
+              "duration": 840,
+              "velocity": 88,
+              "pitch": 39
+            },
+            {
+              "id": "n-bass-435",
+              "start": 17280,
+              "duration": 840,
+              "velocity": 88,
+              "pitch": 43
+            },
+            {
+              "id": "n-bass-436",
+              "start": 18240,
+              "duration": 840,
+              "velocity": 88,
+              "pitch": 46
+            },
+            {
+              "id": "n-bass-461",
+              "start": 19200,
+              "duration": 840,
+              "velocity": 88,
+              "pitch": 45
+            },
+            {
+              "id": "n-bass-462",
+              "start": 20160,
+              "duration": 840,
+              "velocity": 88,
+              "pitch": 48
+            },
+            {
+              "id": "n-bass-463",
+              "start": 21120,
+              "duration": 840,
+              "velocity": 88,
+              "pitch": 52
+            },
+            {
+              "id": "n-bass-464",
+              "start": 22080,
+              "duration": 840,
+              "velocity": 88,
+              "pitch": 55
+            },
+            {
+              "id": "n-bass-489",
+              "start": 23040,
+              "duration": 840,
+              "velocity": 88,
+              "pitch": 38
+            },
+            {
+              "id": "n-bass-490",
+              "start": 24000,
+              "duration": 840,
+              "velocity": 88,
+              "pitch": 41
+            },
+            {
+              "id": "n-bass-491",
+              "start": 24960,
+              "duration": 840,
+              "velocity": 88,
+              "pitch": 45
+            },
+            {
+              "id": "n-bass-492",
+              "start": 25920,
+              "duration": 840,
+              "velocity": 88,
+              "pitch": 48
+            },
+            {
+              "id": "n-bass-517",
+              "start": 26880,
+              "duration": 840,
+              "velocity": 88,
+              "pitch": 43
+            },
+            {
+              "id": "n-bass-518",
+              "start": 27840,
+              "duration": 840,
+              "velocity": 88,
+              "pitch": 46
+            },
+            {
+              "id": "n-bass-519",
+              "start": 28800,
+              "duration": 840,
+              "velocity": 88,
+              "pitch": 50
+            },
+            {
+              "id": "n-bass-520",
+              "start": 29760,
+              "duration": 840,
+              "velocity": 88,
+              "pitch": 53
+            }
+          ]
+        },
+        {
+          "id": "clip-bass-3",
+          "name": "Coda / Bass",
+          "start": 76800,
+          "duration": 15360,
+          "notes": [
+            {
+              "id": "n-bass-545",
+              "start": 0,
+              "duration": 840,
+              "velocity": 88,
+              "pitch": 45
+            },
+            {
+              "id": "n-bass-546",
+              "start": 960,
+              "duration": 840,
+              "velocity": 88,
+              "pitch": 48
+            },
+            {
+              "id": "n-bass-547",
+              "start": 1920,
+              "duration": 840,
+              "velocity": 88,
+              "pitch": 52
+            },
+            {
+              "id": "n-bass-548",
+              "start": 2880,
+              "duration": 840,
+              "velocity": 88,
+              "pitch": 55
+            },
+            {
+              "id": "n-bass-567",
+              "start": 3840,
+              "duration": 840,
+              "velocity": 88,
+              "pitch": 38
+            },
+            {
+              "id": "n-bass-568",
+              "start": 4800,
+              "duration": 840,
+              "velocity": 88,
+              "pitch": 41
+            },
+            {
+              "id": "n-bass-569",
+              "start": 5760,
+              "duration": 840,
+              "velocity": 88,
+              "pitch": 45
+            },
+            {
+              "id": "n-bass-570",
+              "start": 6720,
+              "duration": 840,
+              "velocity": 88,
+              "pitch": 48
+            },
+            {
+              "id": "n-bass-589",
+              "start": 7680,
+              "duration": 840,
+              "velocity": 88,
+              "pitch": 43
+            },
+            {
+              "id": "n-bass-590",
+              "start": 8640,
+              "duration": 840,
+              "velocity": 88,
+              "pitch": 46
+            },
+            {
+              "id": "n-bass-591",
+              "start": 9600,
+              "duration": 840,
+              "velocity": 88,
+              "pitch": 50
+            },
+            {
+              "id": "n-bass-592",
+              "start": 10560,
+              "duration": 840,
+              "velocity": 88,
+              "pitch": 53
+            },
+            {
+              "id": "n-bass-611",
+              "start": 11520,
+              "duration": 840,
+              "velocity": 88,
+              "pitch": 36
+            },
+            {
+              "id": "n-bass-612",
+              "start": 12480,
+              "duration": 840,
+              "velocity": 88,
+              "pitch": 39
+            },
+            {
+              "id": "n-bass-613",
+              "start": 13440,
+              "duration": 840,
+              "velocity": 88,
+              "pitch": 43
+            },
+            {
+              "id": "n-bass-614",
+              "start": 14400,
+              "duration": 840,
+              "velocity": 88,
+              "pitch": 46
+            }
+          ]
+        }
+      ],
+      "instrument": {
+        "name": "Bass",
+        "family": "bass"
+      },
+      "preferredView": "pianoRoll"
+    },
+    {
+      "id": "drums",
+      "name": "Drums",
+      "role": "drums",
+      "trackType": "drum",
+      "midi": {
+        "busId": "bus",
+        "mode": "singleChannel",
+        "channel": 10
+      },
+      "clips": [
+        {
+          "id": "clip-drums-0",
+          "name": "Intro / Drums",
+          "start": 0,
+          "duration": 15360,
+          "notes": [
+            {
+              "id": "n-drums-13",
+              "start": 0,
+              "duration": 120,
+              "velocity": 104,
+              "soundSlotId": "slot-kick"
+            },
+            {
+              "id": "n-drums-14",
+              "start": 960,
+              "duration": 120,
+              "velocity": 95,
+              "soundSlotId": "slot-snare"
+            },
+            {
+              "id": "n-drums-15",
+              "start": 1920,
+              "duration": 120,
+              "velocity": 104,
+              "soundSlotId": "slot-kick"
+            },
+            {
+              "id": "n-drums-16",
+              "start": 2880,
+              "duration": 120,
+              "velocity": 95,
+              "soundSlotId": "slot-snare"
+            },
+            {
+              "id": "n-drums-17",
+              "start": 0,
+              "duration": 100,
+              "velocity": 64,
+              "soundSlotId": "slot-ride"
+            },
+            {
+              "id": "n-drums-18",
+              "start": 960,
+              "duration": 100,
+              "velocity": 64,
+              "soundSlotId": "slot-ride"
+            },
+            {
+              "id": "n-drums-19",
+              "start": 1600,
+              "duration": 100,
+              "velocity": 64,
+              "soundSlotId": "slot-ride"
+            },
+            {
+              "id": "n-drums-20",
+              "start": 1920,
+              "duration": 100,
+              "velocity": 64,
+              "soundSlotId": "slot-ride"
+            },
+            {
+              "id": "n-drums-21",
+              "start": 2880,
+              "duration": 100,
+              "velocity": 64,
+              "soundSlotId": "slot-ride"
+            },
+            {
+              "id": "n-drums-22",
+              "start": 3520,
+              "duration": 100,
+              "velocity": 64,
+              "soundSlotId": "slot-ride"
+            },
+            {
+              "id": "n-drums-35",
+              "start": 3840,
+              "duration": 120,
+              "velocity": 104,
+              "soundSlotId": "slot-kick"
+            },
+            {
+              "id": "n-drums-36",
+              "start": 4800,
+              "duration": 120,
+              "velocity": 95,
+              "soundSlotId": "slot-snare"
+            },
+            {
+              "id": "n-drums-37",
+              "start": 5760,
+              "duration": 120,
+              "velocity": 104,
+              "soundSlotId": "slot-kick"
+            },
+            {
+              "id": "n-drums-38",
+              "start": 6720,
+              "duration": 120,
+              "velocity": 95,
+              "soundSlotId": "slot-snare"
+            },
+            {
+              "id": "n-drums-39",
+              "start": 3840,
+              "duration": 100,
+              "velocity": 64,
+              "soundSlotId": "slot-ride"
+            },
+            {
+              "id": "n-drums-40",
+              "start": 4800,
+              "duration": 100,
+              "velocity": 64,
+              "soundSlotId": "slot-ride"
+            },
+            {
+              "id": "n-drums-41",
+              "start": 5440,
+              "duration": 100,
+              "velocity": 64,
+              "soundSlotId": "slot-ride"
+            },
+            {
+              "id": "n-drums-42",
+              "start": 5760,
+              "duration": 100,
+              "velocity": 64,
+              "soundSlotId": "slot-ride"
+            },
+            {
+              "id": "n-drums-43",
+              "start": 6720,
+              "duration": 100,
+              "velocity": 64,
+              "soundSlotId": "slot-ride"
+            },
+            {
+              "id": "n-drums-44",
+              "start": 7360,
+              "duration": 100,
+              "velocity": 64,
+              "soundSlotId": "slot-ride"
+            },
+            {
+              "id": "n-drums-57",
+              "start": 7680,
+              "duration": 120,
+              "velocity": 104,
+              "soundSlotId": "slot-kick"
+            },
+            {
+              "id": "n-drums-58",
+              "start": 8640,
+              "duration": 120,
+              "velocity": 95,
+              "soundSlotId": "slot-snare"
+            },
+            {
+              "id": "n-drums-59",
+              "start": 9600,
+              "duration": 120,
+              "velocity": 104,
+              "soundSlotId": "slot-kick"
+            },
+            {
+              "id": "n-drums-60",
+              "start": 10560,
+              "duration": 120,
+              "velocity": 95,
+              "soundSlotId": "slot-snare"
+            },
+            {
+              "id": "n-drums-61",
+              "start": 7680,
+              "duration": 100,
+              "velocity": 64,
+              "soundSlotId": "slot-ride"
+            },
+            {
+              "id": "n-drums-62",
+              "start": 8640,
+              "duration": 100,
+              "velocity": 64,
+              "soundSlotId": "slot-ride"
+            },
+            {
+              "id": "n-drums-63",
+              "start": 9280,
+              "duration": 100,
+              "velocity": 64,
+              "soundSlotId": "slot-ride"
+            },
+            {
+              "id": "n-drums-64",
+              "start": 9600,
+              "duration": 100,
+              "velocity": 64,
+              "soundSlotId": "slot-ride"
+            },
+            {
+              "id": "n-drums-65",
+              "start": 10560,
+              "duration": 100,
+              "velocity": 64,
+              "soundSlotId": "slot-ride"
+            },
+            {
+              "id": "n-drums-66",
+              "start": 11200,
+              "duration": 100,
+              "velocity": 64,
+              "soundSlotId": "slot-ride"
+            },
+            {
+              "id": "n-drums-79",
+              "start": 11520,
+              "duration": 120,
+              "velocity": 104,
+              "soundSlotId": "slot-kick"
+            },
+            {
+              "id": "n-drums-80",
+              "start": 12480,
+              "duration": 120,
+              "velocity": 95,
+              "soundSlotId": "slot-snare"
+            },
+            {
+              "id": "n-drums-81",
+              "start": 13440,
+              "duration": 120,
+              "velocity": 104,
+              "soundSlotId": "slot-kick"
+            },
+            {
+              "id": "n-drums-82",
+              "start": 14400,
+              "duration": 120,
+              "velocity": 95,
+              "soundSlotId": "slot-snare"
+            },
+            {
+              "id": "n-drums-83",
+              "start": 11520,
+              "duration": 100,
+              "velocity": 64,
+              "soundSlotId": "slot-ride"
+            },
+            {
+              "id": "n-drums-84",
+              "start": 12480,
+              "duration": 100,
+              "velocity": 64,
+              "soundSlotId": "slot-ride"
+            },
+            {
+              "id": "n-drums-85",
+              "start": 13120,
+              "duration": 100,
+              "velocity": 64,
+              "soundSlotId": "slot-ride"
+            },
+            {
+              "id": "n-drums-86",
+              "start": 13440,
+              "duration": 100,
+              "velocity": 64,
+              "soundSlotId": "slot-ride"
+            },
+            {
+              "id": "n-drums-87",
+              "start": 14400,
+              "duration": 100,
+              "velocity": 64,
+              "soundSlotId": "slot-ride"
+            },
+            {
+              "id": "n-drums-88",
+              "start": 15040,
+              "duration": 100,
+              "velocity": 64,
+              "soundSlotId": "slot-ride"
+            }
+          ]
+        },
+        {
+          "id": "clip-drums-1",
+          "name": "Theme / Drums",
+          "start": 15360,
+          "duration": 30720,
+          "notes": [
+            {
+              "id": "n-drums-101",
+              "start": 0,
+              "duration": 120,
+              "velocity": 104,
+              "soundSlotId": "slot-kick"
+            },
+            {
+              "id": "n-drums-102",
+              "start": 960,
+              "duration": 120,
+              "velocity": 95,
+              "soundSlotId": "slot-snare"
+            },
+            {
+              "id": "n-drums-103",
+              "start": 1920,
+              "duration": 120,
+              "velocity": 104,
+              "soundSlotId": "slot-kick"
+            },
+            {
+              "id": "n-drums-104",
+              "start": 2880,
+              "duration": 120,
+              "velocity": 95,
+              "soundSlotId": "slot-snare"
+            },
+            {
+              "id": "n-drums-105",
+              "start": 0,
+              "duration": 100,
+              "velocity": 64,
+              "soundSlotId": "slot-ride"
+            },
+            {
+              "id": "n-drums-106",
+              "start": 960,
+              "duration": 100,
+              "velocity": 64,
+              "soundSlotId": "slot-ride"
+            },
+            {
+              "id": "n-drums-107",
+              "start": 1600,
+              "duration": 100,
+              "velocity": 64,
+              "soundSlotId": "slot-ride"
+            },
+            {
+              "id": "n-drums-108",
+              "start": 1920,
+              "duration": 100,
+              "velocity": 64,
+              "soundSlotId": "slot-ride"
+            },
+            {
+              "id": "n-drums-109",
+              "start": 2880,
+              "duration": 100,
+              "velocity": 64,
+              "soundSlotId": "slot-ride"
+            },
+            {
+              "id": "n-drums-110",
+              "start": 3520,
+              "duration": 100,
+              "velocity": 64,
+              "soundSlotId": "slot-ride"
+            },
+            {
+              "id": "n-drums-129",
+              "start": 3840,
+              "duration": 120,
+              "velocity": 104,
+              "soundSlotId": "slot-kick"
+            },
+            {
+              "id": "n-drums-130",
+              "start": 4800,
+              "duration": 120,
+              "velocity": 95,
+              "soundSlotId": "slot-snare"
+            },
+            {
+              "id": "n-drums-131",
+              "start": 5760,
+              "duration": 120,
+              "velocity": 104,
+              "soundSlotId": "slot-kick"
+            },
+            {
+              "id": "n-drums-132",
+              "start": 6720,
+              "duration": 120,
+              "velocity": 95,
+              "soundSlotId": "slot-snare"
+            },
+            {
+              "id": "n-drums-133",
+              "start": 3840,
+              "duration": 100,
+              "velocity": 64,
+              "soundSlotId": "slot-ride"
+            },
+            {
+              "id": "n-drums-134",
+              "start": 4800,
+              "duration": 100,
+              "velocity": 64,
+              "soundSlotId": "slot-ride"
+            },
+            {
+              "id": "n-drums-135",
+              "start": 5440,
+              "duration": 100,
+              "velocity": 64,
+              "soundSlotId": "slot-ride"
+            },
+            {
+              "id": "n-drums-136",
+              "start": 5760,
+              "duration": 100,
+              "velocity": 64,
+              "soundSlotId": "slot-ride"
+            },
+            {
+              "id": "n-drums-137",
+              "start": 6720,
+              "duration": 100,
+              "velocity": 64,
+              "soundSlotId": "slot-ride"
+            },
+            {
+              "id": "n-drums-138",
+              "start": 7360,
+              "duration": 100,
+              "velocity": 64,
+              "soundSlotId": "slot-ride"
+            },
+            {
+              "id": "n-drums-157",
+              "start": 7680,
+              "duration": 120,
+              "velocity": 104,
+              "soundSlotId": "slot-kick"
+            },
+            {
+              "id": "n-drums-158",
+              "start": 8640,
+              "duration": 120,
+              "velocity": 95,
+              "soundSlotId": "slot-snare"
+            },
+            {
+              "id": "n-drums-159",
+              "start": 9600,
+              "duration": 120,
+              "velocity": 104,
+              "soundSlotId": "slot-kick"
+            },
+            {
+              "id": "n-drums-160",
+              "start": 10560,
+              "duration": 120,
+              "velocity": 95,
+              "soundSlotId": "slot-snare"
+            },
+            {
+              "id": "n-drums-161",
+              "start": 7680,
+              "duration": 100,
+              "velocity": 64,
+              "soundSlotId": "slot-ride"
+            },
+            {
+              "id": "n-drums-162",
+              "start": 8640,
+              "duration": 100,
+              "velocity": 64,
+              "soundSlotId": "slot-ride"
+            },
+            {
+              "id": "n-drums-163",
+              "start": 9280,
+              "duration": 100,
+              "velocity": 64,
+              "soundSlotId": "slot-ride"
+            },
+            {
+              "id": "n-drums-164",
+              "start": 9600,
+              "duration": 100,
+              "velocity": 64,
+              "soundSlotId": "slot-ride"
+            },
+            {
+              "id": "n-drums-165",
+              "start": 10560,
+              "duration": 100,
+              "velocity": 64,
+              "soundSlotId": "slot-ride"
+            },
+            {
+              "id": "n-drums-166",
+              "start": 11200,
+              "duration": 100,
+              "velocity": 64,
+              "soundSlotId": "slot-ride"
+            },
+            {
+              "id": "n-drums-185",
+              "start": 11520,
+              "duration": 120,
+              "velocity": 104,
+              "soundSlotId": "slot-kick"
+            },
+            {
+              "id": "n-drums-186",
+              "start": 12480,
+              "duration": 120,
+              "velocity": 95,
+              "soundSlotId": "slot-snare"
+            },
+            {
+              "id": "n-drums-187",
+              "start": 13440,
+              "duration": 120,
+              "velocity": 104,
+              "soundSlotId": "slot-kick"
+            },
+            {
+              "id": "n-drums-188",
+              "start": 14400,
+              "duration": 120,
+              "velocity": 95,
+              "soundSlotId": "slot-snare"
+            },
+            {
+              "id": "n-drums-189",
+              "start": 11520,
+              "duration": 100,
+              "velocity": 64,
+              "soundSlotId": "slot-ride"
+            },
+            {
+              "id": "n-drums-190",
+              "start": 12480,
+              "duration": 100,
+              "velocity": 64,
+              "soundSlotId": "slot-ride"
+            },
+            {
+              "id": "n-drums-191",
+              "start": 13120,
+              "duration": 100,
+              "velocity": 64,
+              "soundSlotId": "slot-ride"
+            },
+            {
+              "id": "n-drums-192",
+              "start": 13440,
+              "duration": 100,
+              "velocity": 64,
+              "soundSlotId": "slot-ride"
+            },
+            {
+              "id": "n-drums-193",
+              "start": 14400,
+              "duration": 100,
+              "velocity": 64,
+              "soundSlotId": "slot-ride"
+            },
+            {
+              "id": "n-drums-194",
+              "start": 15040,
+              "duration": 100,
+              "velocity": 64,
+              "soundSlotId": "slot-ride"
+            },
+            {
+              "id": "n-drums-213",
+              "start": 15360,
+              "duration": 120,
+              "velocity": 104,
+              "soundSlotId": "slot-kick"
+            },
+            {
+              "id": "n-drums-214",
+              "start": 16320,
+              "duration": 120,
+              "velocity": 95,
+              "soundSlotId": "slot-snare"
+            },
+            {
+              "id": "n-drums-215",
+              "start": 17280,
+              "duration": 120,
+              "velocity": 104,
+              "soundSlotId": "slot-kick"
+            },
+            {
+              "id": "n-drums-216",
+              "start": 18240,
+              "duration": 120,
+              "velocity": 95,
+              "soundSlotId": "slot-snare"
+            },
+            {
+              "id": "n-drums-217",
+              "start": 15360,
+              "duration": 100,
+              "velocity": 64,
+              "soundSlotId": "slot-ride"
+            },
+            {
+              "id": "n-drums-218",
+              "start": 16320,
+              "duration": 100,
+              "velocity": 64,
+              "soundSlotId": "slot-ride"
+            },
+            {
+              "id": "n-drums-219",
+              "start": 16960,
+              "duration": 100,
+              "velocity": 64,
+              "soundSlotId": "slot-ride"
+            },
+            {
+              "id": "n-drums-220",
+              "start": 17280,
+              "duration": 100,
+              "velocity": 64,
+              "soundSlotId": "slot-ride"
+            },
+            {
+              "id": "n-drums-221",
+              "start": 18240,
+              "duration": 100,
+              "velocity": 64,
+              "soundSlotId": "slot-ride"
+            },
+            {
+              "id": "n-drums-222",
+              "start": 18880,
+              "duration": 100,
+              "velocity": 64,
+              "soundSlotId": "slot-ride"
+            },
+            {
+              "id": "n-drums-241",
+              "start": 19200,
+              "duration": 120,
+              "velocity": 104,
+              "soundSlotId": "slot-kick"
+            },
+            {
+              "id": "n-drums-242",
+              "start": 20160,
+              "duration": 120,
+              "velocity": 95,
+              "soundSlotId": "slot-snare"
+            },
+            {
+              "id": "n-drums-243",
+              "start": 21120,
+              "duration": 120,
+              "velocity": 104,
+              "soundSlotId": "slot-kick"
+            },
+            {
+              "id": "n-drums-244",
+              "start": 22080,
+              "duration": 120,
+              "velocity": 95,
+              "soundSlotId": "slot-snare"
+            },
+            {
+              "id": "n-drums-245",
+              "start": 19200,
+              "duration": 100,
+              "velocity": 64,
+              "soundSlotId": "slot-ride"
+            },
+            {
+              "id": "n-drums-246",
+              "start": 20160,
+              "duration": 100,
+              "velocity": 64,
+              "soundSlotId": "slot-ride"
+            },
+            {
+              "id": "n-drums-247",
+              "start": 20800,
+              "duration": 100,
+              "velocity": 64,
+              "soundSlotId": "slot-ride"
+            },
+            {
+              "id": "n-drums-248",
+              "start": 21120,
+              "duration": 100,
+              "velocity": 64,
+              "soundSlotId": "slot-ride"
+            },
+            {
+              "id": "n-drums-249",
+              "start": 22080,
+              "duration": 100,
+              "velocity": 64,
+              "soundSlotId": "slot-ride"
+            },
+            {
+              "id": "n-drums-250",
+              "start": 22720,
+              "duration": 100,
+              "velocity": 64,
+              "soundSlotId": "slot-ride"
+            },
+            {
+              "id": "n-drums-269",
+              "start": 23040,
+              "duration": 120,
+              "velocity": 104,
+              "soundSlotId": "slot-kick"
+            },
+            {
+              "id": "n-drums-270",
+              "start": 24000,
+              "duration": 120,
+              "velocity": 95,
+              "soundSlotId": "slot-snare"
+            },
+            {
+              "id": "n-drums-271",
+              "start": 24960,
+              "duration": 120,
+              "velocity": 104,
+              "soundSlotId": "slot-kick"
+            },
+            {
+              "id": "n-drums-272",
+              "start": 25920,
+              "duration": 120,
+              "velocity": 95,
+              "soundSlotId": "slot-snare"
+            },
+            {
+              "id": "n-drums-273",
+              "start": 23040,
+              "duration": 100,
+              "velocity": 64,
+              "soundSlotId": "slot-ride"
+            },
+            {
+              "id": "n-drums-274",
+              "start": 24000,
+              "duration": 100,
+              "velocity": 64,
+              "soundSlotId": "slot-ride"
+            },
+            {
+              "id": "n-drums-275",
+              "start": 24640,
+              "duration": 100,
+              "velocity": 64,
+              "soundSlotId": "slot-ride"
+            },
+            {
+              "id": "n-drums-276",
+              "start": 24960,
+              "duration": 100,
+              "velocity": 64,
+              "soundSlotId": "slot-ride"
+            },
+            {
+              "id": "n-drums-277",
+              "start": 25920,
+              "duration": 100,
+              "velocity": 64,
+              "soundSlotId": "slot-ride"
+            },
+            {
+              "id": "n-drums-278",
+              "start": 26560,
+              "duration": 100,
+              "velocity": 64,
+              "soundSlotId": "slot-ride"
+            },
+            {
+              "id": "n-drums-297",
+              "start": 26880,
+              "duration": 120,
+              "velocity": 104,
+              "soundSlotId": "slot-kick"
+            },
+            {
+              "id": "n-drums-298",
+              "start": 27840,
+              "duration": 120,
+              "velocity": 95,
+              "soundSlotId": "slot-snare"
+            },
+            {
+              "id": "n-drums-299",
+              "start": 28800,
+              "duration": 120,
+              "velocity": 104,
+              "soundSlotId": "slot-kick"
+            },
+            {
+              "id": "n-drums-300",
+              "start": 29760,
+              "duration": 120,
+              "velocity": 95,
+              "soundSlotId": "slot-snare"
+            },
+            {
+              "id": "n-drums-301",
+              "start": 26880,
+              "duration": 100,
+              "velocity": 64,
+              "soundSlotId": "slot-ride"
+            },
+            {
+              "id": "n-drums-302",
+              "start": 27840,
+              "duration": 100,
+              "velocity": 64,
+              "soundSlotId": "slot-ride"
+            },
+            {
+              "id": "n-drums-303",
+              "start": 28480,
+              "duration": 100,
+              "velocity": 64,
+              "soundSlotId": "slot-ride"
+            },
+            {
+              "id": "n-drums-304",
+              "start": 28800,
+              "duration": 100,
+              "velocity": 64,
+              "soundSlotId": "slot-ride"
+            },
+            {
+              "id": "n-drums-305",
+              "start": 29760,
+              "duration": 100,
+              "velocity": 64,
+              "soundSlotId": "slot-ride"
+            },
+            {
+              "id": "n-drums-306",
+              "start": 30400,
+              "duration": 100,
+              "velocity": 64,
+              "soundSlotId": "slot-ride"
+            }
+          ]
+        },
+        {
+          "id": "clip-drums-2",
+          "name": "Solo / Drums",
+          "start": 46080,
+          "duration": 30720,
+          "notes": [
+            {
+              "id": "n-drums-325",
+              "start": 0,
+              "duration": 120,
+              "velocity": 104,
+              "soundSlotId": "slot-kick"
+            },
+            {
+              "id": "n-drums-326",
+              "start": 960,
+              "duration": 120,
+              "velocity": 95,
+              "soundSlotId": "slot-snare"
+            },
+            {
+              "id": "n-drums-327",
+              "start": 1920,
+              "duration": 120,
+              "velocity": 104,
+              "soundSlotId": "slot-kick"
+            },
+            {
+              "id": "n-drums-328",
+              "start": 2880,
+              "duration": 120,
+              "velocity": 95,
+              "soundSlotId": "slot-snare"
+            },
+            {
+              "id": "n-drums-329",
+              "start": 0,
+              "duration": 100,
+              "velocity": 64,
+              "soundSlotId": "slot-ride"
+            },
+            {
+              "id": "n-drums-330",
+              "start": 960,
+              "duration": 100,
+              "velocity": 64,
+              "soundSlotId": "slot-ride"
+            },
+            {
+              "id": "n-drums-331",
+              "start": 1600,
+              "duration": 100,
+              "velocity": 64,
+              "soundSlotId": "slot-ride"
+            },
+            {
+              "id": "n-drums-332",
+              "start": 1920,
+              "duration": 100,
+              "velocity": 64,
+              "soundSlotId": "slot-ride"
+            },
+            {
+              "id": "n-drums-333",
+              "start": 2880,
+              "duration": 100,
+              "velocity": 64,
+              "soundSlotId": "slot-ride"
+            },
+            {
+              "id": "n-drums-334",
+              "start": 3520,
+              "duration": 100,
+              "velocity": 64,
+              "soundSlotId": "slot-ride"
+            },
+            {
+              "id": "n-drums-353",
+              "start": 3840,
+              "duration": 120,
+              "velocity": 104,
+              "soundSlotId": "slot-kick"
+            },
+            {
+              "id": "n-drums-354",
+              "start": 4800,
+              "duration": 120,
+              "velocity": 95,
+              "soundSlotId": "slot-snare"
+            },
+            {
+              "id": "n-drums-355",
+              "start": 5760,
+              "duration": 120,
+              "velocity": 104,
+              "soundSlotId": "slot-kick"
+            },
+            {
+              "id": "n-drums-356",
+              "start": 6720,
+              "duration": 120,
+              "velocity": 95,
+              "soundSlotId": "slot-snare"
+            },
+            {
+              "id": "n-drums-357",
+              "start": 3840,
+              "duration": 100,
+              "velocity": 64,
+              "soundSlotId": "slot-ride"
+            },
+            {
+              "id": "n-drums-358",
+              "start": 4800,
+              "duration": 100,
+              "velocity": 64,
+              "soundSlotId": "slot-ride"
+            },
+            {
+              "id": "n-drums-359",
+              "start": 5440,
+              "duration": 100,
+              "velocity": 64,
+              "soundSlotId": "slot-ride"
+            },
+            {
+              "id": "n-drums-360",
+              "start": 5760,
+              "duration": 100,
+              "velocity": 64,
+              "soundSlotId": "slot-ride"
+            },
+            {
+              "id": "n-drums-361",
+              "start": 6720,
+              "duration": 100,
+              "velocity": 64,
+              "soundSlotId": "slot-ride"
+            },
+            {
+              "id": "n-drums-362",
+              "start": 7360,
+              "duration": 100,
+              "velocity": 64,
+              "soundSlotId": "slot-ride"
+            },
+            {
+              "id": "n-drums-381",
+              "start": 7680,
+              "duration": 120,
+              "velocity": 104,
+              "soundSlotId": "slot-kick"
+            },
+            {
+              "id": "n-drums-382",
+              "start": 8640,
+              "duration": 120,
+              "velocity": 95,
+              "soundSlotId": "slot-snare"
+            },
+            {
+              "id": "n-drums-383",
+              "start": 9600,
+              "duration": 120,
+              "velocity": 104,
+              "soundSlotId": "slot-kick"
+            },
+            {
+              "id": "n-drums-384",
+              "start": 10560,
+              "duration": 120,
+              "velocity": 95,
+              "soundSlotId": "slot-snare"
+            },
+            {
+              "id": "n-drums-385",
+              "start": 7680,
+              "duration": 100,
+              "velocity": 64,
+              "soundSlotId": "slot-ride"
+            },
+            {
+              "id": "n-drums-386",
+              "start": 8640,
+              "duration": 100,
+              "velocity": 64,
+              "soundSlotId": "slot-ride"
+            },
+            {
+              "id": "n-drums-387",
+              "start": 9280,
+              "duration": 100,
+              "velocity": 64,
+              "soundSlotId": "slot-ride"
+            },
+            {
+              "id": "n-drums-388",
+              "start": 9600,
+              "duration": 100,
+              "velocity": 64,
+              "soundSlotId": "slot-ride"
+            },
+            {
+              "id": "n-drums-389",
+              "start": 10560,
+              "duration": 100,
+              "velocity": 64,
+              "soundSlotId": "slot-ride"
+            },
+            {
+              "id": "n-drums-390",
+              "start": 11200,
+              "duration": 100,
+              "velocity": 64,
+              "soundSlotId": "slot-ride"
+            },
+            {
+              "id": "n-drums-409",
+              "start": 11520,
+              "duration": 120,
+              "velocity": 104,
+              "soundSlotId": "slot-kick"
+            },
+            {
+              "id": "n-drums-410",
+              "start": 12480,
+              "duration": 120,
+              "velocity": 95,
+              "soundSlotId": "slot-snare"
+            },
+            {
+              "id": "n-drums-411",
+              "start": 13440,
+              "duration": 120,
+              "velocity": 104,
+              "soundSlotId": "slot-kick"
+            },
+            {
+              "id": "n-drums-412",
+              "start": 14400,
+              "duration": 120,
+              "velocity": 95,
+              "soundSlotId": "slot-snare"
+            },
+            {
+              "id": "n-drums-413",
+              "start": 11520,
+              "duration": 100,
+              "velocity": 64,
+              "soundSlotId": "slot-ride"
+            },
+            {
+              "id": "n-drums-414",
+              "start": 12480,
+              "duration": 100,
+              "velocity": 64,
+              "soundSlotId": "slot-ride"
+            },
+            {
+              "id": "n-drums-415",
+              "start": 13120,
+              "duration": 100,
+              "velocity": 64,
+              "soundSlotId": "slot-ride"
+            },
+            {
+              "id": "n-drums-416",
+              "start": 13440,
+              "duration": 100,
+              "velocity": 64,
+              "soundSlotId": "slot-ride"
+            },
+            {
+              "id": "n-drums-417",
+              "start": 14400,
+              "duration": 100,
+              "velocity": 64,
+              "soundSlotId": "slot-ride"
+            },
+            {
+              "id": "n-drums-418",
+              "start": 15040,
+              "duration": 100,
+              "velocity": 64,
+              "soundSlotId": "slot-ride"
+            },
+            {
+              "id": "n-drums-437",
+              "start": 15360,
+              "duration": 120,
+              "velocity": 104,
+              "soundSlotId": "slot-kick"
+            },
+            {
+              "id": "n-drums-438",
+              "start": 16320,
+              "duration": 120,
+              "velocity": 95,
+              "soundSlotId": "slot-snare"
+            },
+            {
+              "id": "n-drums-439",
+              "start": 17280,
+              "duration": 120,
+              "velocity": 104,
+              "soundSlotId": "slot-kick"
+            },
+            {
+              "id": "n-drums-440",
+              "start": 18240,
+              "duration": 120,
+              "velocity": 95,
+              "soundSlotId": "slot-snare"
+            },
+            {
+              "id": "n-drums-441",
+              "start": 15360,
+              "duration": 100,
+              "velocity": 64,
+              "soundSlotId": "slot-ride"
+            },
+            {
+              "id": "n-drums-442",
+              "start": 16320,
+              "duration": 100,
+              "velocity": 64,
+              "soundSlotId": "slot-ride"
+            },
+            {
+              "id": "n-drums-443",
+              "start": 16960,
+              "duration": 100,
+              "velocity": 64,
+              "soundSlotId": "slot-ride"
+            },
+            {
+              "id": "n-drums-444",
+              "start": 17280,
+              "duration": 100,
+              "velocity": 64,
+              "soundSlotId": "slot-ride"
+            },
+            {
+              "id": "n-drums-445",
+              "start": 18240,
+              "duration": 100,
+              "velocity": 64,
+              "soundSlotId": "slot-ride"
+            },
+            {
+              "id": "n-drums-446",
+              "start": 18880,
+              "duration": 100,
+              "velocity": 64,
+              "soundSlotId": "slot-ride"
+            },
+            {
+              "id": "n-drums-465",
+              "start": 19200,
+              "duration": 120,
+              "velocity": 104,
+              "soundSlotId": "slot-kick"
+            },
+            {
+              "id": "n-drums-466",
+              "start": 20160,
+              "duration": 120,
+              "velocity": 95,
+              "soundSlotId": "slot-snare"
+            },
+            {
+              "id": "n-drums-467",
+              "start": 21120,
+              "duration": 120,
+              "velocity": 104,
+              "soundSlotId": "slot-kick"
+            },
+            {
+              "id": "n-drums-468",
+              "start": 22080,
+              "duration": 120,
+              "velocity": 95,
+              "soundSlotId": "slot-snare"
+            },
+            {
+              "id": "n-drums-469",
+              "start": 19200,
+              "duration": 100,
+              "velocity": 64,
+              "soundSlotId": "slot-ride"
+            },
+            {
+              "id": "n-drums-470",
+              "start": 20160,
+              "duration": 100,
+              "velocity": 64,
+              "soundSlotId": "slot-ride"
+            },
+            {
+              "id": "n-drums-471",
+              "start": 20800,
+              "duration": 100,
+              "velocity": 64,
+              "soundSlotId": "slot-ride"
+            },
+            {
+              "id": "n-drums-472",
+              "start": 21120,
+              "duration": 100,
+              "velocity": 64,
+              "soundSlotId": "slot-ride"
+            },
+            {
+              "id": "n-drums-473",
+              "start": 22080,
+              "duration": 100,
+              "velocity": 64,
+              "soundSlotId": "slot-ride"
+            },
+            {
+              "id": "n-drums-474",
+              "start": 22720,
+              "duration": 100,
+              "velocity": 64,
+              "soundSlotId": "slot-ride"
+            },
+            {
+              "id": "n-drums-493",
+              "start": 23040,
+              "duration": 120,
+              "velocity": 104,
+              "soundSlotId": "slot-kick"
+            },
+            {
+              "id": "n-drums-494",
+              "start": 24000,
+              "duration": 120,
+              "velocity": 95,
+              "soundSlotId": "slot-snare"
+            },
+            {
+              "id": "n-drums-495",
+              "start": 24960,
+              "duration": 120,
+              "velocity": 104,
+              "soundSlotId": "slot-kick"
+            },
+            {
+              "id": "n-drums-496",
+              "start": 25920,
+              "duration": 120,
+              "velocity": 95,
+              "soundSlotId": "slot-snare"
+            },
+            {
+              "id": "n-drums-497",
+              "start": 23040,
+              "duration": 100,
+              "velocity": 64,
+              "soundSlotId": "slot-ride"
+            },
+            {
+              "id": "n-drums-498",
+              "start": 24000,
+              "duration": 100,
+              "velocity": 64,
+              "soundSlotId": "slot-ride"
+            },
+            {
+              "id": "n-drums-499",
+              "start": 24640,
+              "duration": 100,
+              "velocity": 64,
+              "soundSlotId": "slot-ride"
+            },
+            {
+              "id": "n-drums-500",
+              "start": 24960,
+              "duration": 100,
+              "velocity": 64,
+              "soundSlotId": "slot-ride"
+            },
+            {
+              "id": "n-drums-501",
+              "start": 25920,
+              "duration": 100,
+              "velocity": 64,
+              "soundSlotId": "slot-ride"
+            },
+            {
+              "id": "n-drums-502",
+              "start": 26560,
+              "duration": 100,
+              "velocity": 64,
+              "soundSlotId": "slot-ride"
+            },
+            {
+              "id": "n-drums-521",
+              "start": 26880,
+              "duration": 120,
+              "velocity": 104,
+              "soundSlotId": "slot-kick"
+            },
+            {
+              "id": "n-drums-522",
+              "start": 27840,
+              "duration": 120,
+              "velocity": 95,
+              "soundSlotId": "slot-snare"
+            },
+            {
+              "id": "n-drums-523",
+              "start": 28800,
+              "duration": 120,
+              "velocity": 104,
+              "soundSlotId": "slot-kick"
+            },
+            {
+              "id": "n-drums-524",
+              "start": 29760,
+              "duration": 120,
+              "velocity": 95,
+              "soundSlotId": "slot-snare"
+            },
+            {
+              "id": "n-drums-525",
+              "start": 26880,
+              "duration": 100,
+              "velocity": 64,
+              "soundSlotId": "slot-ride"
+            },
+            {
+              "id": "n-drums-526",
+              "start": 27840,
+              "duration": 100,
+              "velocity": 64,
+              "soundSlotId": "slot-ride"
+            },
+            {
+              "id": "n-drums-527",
+              "start": 28480,
+              "duration": 100,
+              "velocity": 64,
+              "soundSlotId": "slot-ride"
+            },
+            {
+              "id": "n-drums-528",
+              "start": 28800,
+              "duration": 100,
+              "velocity": 64,
+              "soundSlotId": "slot-ride"
+            },
+            {
+              "id": "n-drums-529",
+              "start": 29760,
+              "duration": 100,
+              "velocity": 64,
+              "soundSlotId": "slot-ride"
+            },
+            {
+              "id": "n-drums-530",
+              "start": 30400,
+              "duration": 100,
+              "velocity": 64,
+              "soundSlotId": "slot-ride"
+            }
+          ]
+        },
+        {
+          "id": "clip-drums-3",
+          "name": "Coda / Drums",
+          "start": 76800,
+          "duration": 15360,
+          "notes": [
+            {
+              "id": "n-drums-549",
+              "start": 0,
+              "duration": 120,
+              "velocity": 104,
+              "soundSlotId": "slot-kick"
+            },
+            {
+              "id": "n-drums-550",
+              "start": 960,
+              "duration": 120,
+              "velocity": 95,
+              "soundSlotId": "slot-snare"
+            },
+            {
+              "id": "n-drums-551",
+              "start": 1920,
+              "duration": 120,
+              "velocity": 104,
+              "soundSlotId": "slot-kick"
+            },
+            {
+              "id": "n-drums-552",
+              "start": 2880,
+              "duration": 120,
+              "velocity": 95,
+              "soundSlotId": "slot-snare"
+            },
+            {
+              "id": "n-drums-553",
+              "start": 0,
+              "duration": 100,
+              "velocity": 64,
+              "soundSlotId": "slot-ride"
+            },
+            {
+              "id": "n-drums-554",
+              "start": 960,
+              "duration": 100,
+              "velocity": 64,
+              "soundSlotId": "slot-ride"
+            },
+            {
+              "id": "n-drums-555",
+              "start": 1600,
+              "duration": 100,
+              "velocity": 64,
+              "soundSlotId": "slot-ride"
+            },
+            {
+              "id": "n-drums-556",
+              "start": 1920,
+              "duration": 100,
+              "velocity": 64,
+              "soundSlotId": "slot-ride"
+            },
+            {
+              "id": "n-drums-557",
+              "start": 2880,
+              "duration": 100,
+              "velocity": 64,
+              "soundSlotId": "slot-ride"
+            },
+            {
+              "id": "n-drums-558",
+              "start": 3520,
+              "duration": 100,
+              "velocity": 64,
+              "soundSlotId": "slot-ride"
+            },
+            {
+              "id": "n-drums-571",
+              "start": 3840,
+              "duration": 120,
+              "velocity": 104,
+              "soundSlotId": "slot-kick"
+            },
+            {
+              "id": "n-drums-572",
+              "start": 4800,
+              "duration": 120,
+              "velocity": 95,
+              "soundSlotId": "slot-snare"
+            },
+            {
+              "id": "n-drums-573",
+              "start": 5760,
+              "duration": 120,
+              "velocity": 104,
+              "soundSlotId": "slot-kick"
+            },
+            {
+              "id": "n-drums-574",
+              "start": 6720,
+              "duration": 120,
+              "velocity": 95,
+              "soundSlotId": "slot-snare"
+            },
+            {
+              "id": "n-drums-575",
+              "start": 3840,
+              "duration": 100,
+              "velocity": 64,
+              "soundSlotId": "slot-ride"
+            },
+            {
+              "id": "n-drums-576",
+              "start": 4800,
+              "duration": 100,
+              "velocity": 64,
+              "soundSlotId": "slot-ride"
+            },
+            {
+              "id": "n-drums-577",
+              "start": 5440,
+              "duration": 100,
+              "velocity": 64,
+              "soundSlotId": "slot-ride"
+            },
+            {
+              "id": "n-drums-578",
+              "start": 5760,
+              "duration": 100,
+              "velocity": 64,
+              "soundSlotId": "slot-ride"
+            },
+            {
+              "id": "n-drums-579",
+              "start": 6720,
+              "duration": 100,
+              "velocity": 64,
+              "soundSlotId": "slot-ride"
+            },
+            {
+              "id": "n-drums-580",
+              "start": 7360,
+              "duration": 100,
+              "velocity": 64,
+              "soundSlotId": "slot-ride"
+            },
+            {
+              "id": "n-drums-593",
+              "start": 7680,
+              "duration": 120,
+              "velocity": 104,
+              "soundSlotId": "slot-kick"
+            },
+            {
+              "id": "n-drums-594",
+              "start": 8640,
+              "duration": 120,
+              "velocity": 95,
+              "soundSlotId": "slot-snare"
+            },
+            {
+              "id": "n-drums-595",
+              "start": 9600,
+              "duration": 120,
+              "velocity": 104,
+              "soundSlotId": "slot-kick"
+            },
+            {
+              "id": "n-drums-596",
+              "start": 10560,
+              "duration": 120,
+              "velocity": 95,
+              "soundSlotId": "slot-snare"
+            },
+            {
+              "id": "n-drums-597",
+              "start": 7680,
+              "duration": 100,
+              "velocity": 64,
+              "soundSlotId": "slot-ride"
+            },
+            {
+              "id": "n-drums-598",
+              "start": 8640,
+              "duration": 100,
+              "velocity": 64,
+              "soundSlotId": "slot-ride"
+            },
+            {
+              "id": "n-drums-599",
+              "start": 9280,
+              "duration": 100,
+              "velocity": 64,
+              "soundSlotId": "slot-ride"
+            },
+            {
+              "id": "n-drums-600",
+              "start": 9600,
+              "duration": 100,
+              "velocity": 64,
+              "soundSlotId": "slot-ride"
+            },
+            {
+              "id": "n-drums-601",
+              "start": 10560,
+              "duration": 100,
+              "velocity": 64,
+              "soundSlotId": "slot-ride"
+            },
+            {
+              "id": "n-drums-602",
+              "start": 11200,
+              "duration": 100,
+              "velocity": 64,
+              "soundSlotId": "slot-ride"
+            },
+            {
+              "id": "n-drums-615",
+              "start": 11520,
+              "duration": 120,
+              "velocity": 104,
+              "soundSlotId": "slot-kick"
+            },
+            {
+              "id": "n-drums-616",
+              "start": 12480,
+              "duration": 120,
+              "velocity": 95,
+              "soundSlotId": "slot-snare"
+            },
+            {
+              "id": "n-drums-617",
+              "start": 13440,
+              "duration": 120,
+              "velocity": 104,
+              "soundSlotId": "slot-kick"
+            },
+            {
+              "id": "n-drums-618",
+              "start": 14400,
+              "duration": 120,
+              "velocity": 95,
+              "soundSlotId": "slot-snare"
+            },
+            {
+              "id": "n-drums-619",
+              "start": 11520,
+              "duration": 100,
+              "velocity": 64,
+              "soundSlotId": "slot-ride"
+            },
+            {
+              "id": "n-drums-620",
+              "start": 12480,
+              "duration": 100,
+              "velocity": 64,
+              "soundSlotId": "slot-ride"
+            },
+            {
+              "id": "n-drums-621",
+              "start": 13120,
+              "duration": 100,
+              "velocity": 64,
+              "soundSlotId": "slot-ride"
+            },
+            {
+              "id": "n-drums-622",
+              "start": 13440,
+              "duration": 100,
+              "velocity": 64,
+              "soundSlotId": "slot-ride"
+            },
+            {
+              "id": "n-drums-623",
+              "start": 14400,
+              "duration": 100,
+              "velocity": 64,
+              "soundSlotId": "slot-ride"
+            },
+            {
+              "id": "n-drums-624",
+              "start": 15040,
+              "duration": 100,
+              "velocity": 64,
+              "soundSlotId": "slot-ride"
+            }
+          ]
+        }
+      ],
+      "drumKitId": "kit",
+      "preferredView": "drumGrid"
+    },
+    {
+      "id": "melody",
+      "name": "Lead",
+      "role": "lead",
+      "trackType": "melodic",
+      "midi": {
+        "busId": "bus",
+        "mode": "singleChannel",
+        "channel": 3
+      },
+      "clips": [
+        {
+          "id": "clip-melody-0",
+          "name": "Intro / Lead",
+          "start": 0,
+          "duration": 15360,
+          "notes": [],
+          "midiEvents": [
+            {
+              "id": "program-melody",
+              "start": 0,
+              "type": "programChange",
+              "program": 80
+            }
+          ]
+        },
+        {
+          "id": "clip-melody-1",
+          "name": "Theme / Lead",
+          "start": 15360,
+          "duration": 30720,
+          "notes": [
+            {
+              "id": "n-melody-111",
+              "start": 0,
+              "duration": 420,
+              "velocity": 76,
+              "pitch": 65
+            },
+            {
+              "id": "n-melody-112",
+              "start": 600,
+              "duration": 420,
+              "velocity": 82,
+              "pitch": 67
+            },
+            {
+              "id": "n-melody-113",
+              "start": 1200,
+              "duration": 420,
+              "velocity": 88,
+              "pitch": 71
+            },
+            {
+              "id": "n-melody-114",
+              "start": 1800,
+              "duration": 420,
+              "velocity": 76,
+              "pitch": 74
+            },
+            {
+              "id": "n-melody-115",
+              "start": 2400,
+              "duration": 420,
+              "velocity": 82,
+              "pitch": 65
+            },
+            {
+              "id": "n-melody-116",
+              "start": 3000,
+              "duration": 420,
+              "velocity": 88,
+              "pitch": 67
+            },
+            {
+              "id": "n-melody-139",
+              "start": 3840,
+              "duration": 420,
+              "velocity": 76,
+              "pitch": 67
+            },
+            {
+              "id": "n-melody-140",
+              "start": 4440,
+              "duration": 420,
+              "velocity": 82,
+              "pitch": 71
+            },
+            {
+              "id": "n-melody-141",
+              "start": 5040,
+              "duration": 420,
+              "velocity": 88,
+              "pitch": 72
+            },
+            {
+              "id": "n-melody-142",
+              "start": 5640,
+              "duration": 420,
+              "velocity": 76,
+              "pitch": 64
+            },
+            {
+              "id": "n-melody-143",
+              "start": 6240,
+              "duration": 420,
+              "velocity": 82,
+              "pitch": 67
+            },
+            {
+              "id": "n-melody-144",
+              "start": 6840,
+              "duration": 420,
+              "velocity": 88,
+              "pitch": 71
+            },
+            {
+              "id": "n-melody-167",
+              "start": 7680,
+              "duration": 420,
+              "velocity": 76,
+              "pitch": 69
+            },
+            {
+              "id": "n-melody-168",
+              "start": 8280,
+              "duration": 420,
+              "velocity": 82,
+              "pitch": 72
+            },
+            {
+              "id": "n-melody-169",
+              "start": 8880,
+              "duration": 420,
+              "velocity": 88,
+              "pitch": 64
+            },
+            {
+              "id": "n-melody-170",
+              "start": 9480,
+              "duration": 420,
+              "velocity": 76,
+              "pitch": 67
+            },
+            {
+              "id": "n-melody-171",
+              "start": 10080,
+              "duration": 420,
+              "velocity": 82,
+              "pitch": 69
+            },
+            {
+              "id": "n-melody-172",
+              "start": 10680,
+              "duration": 420,
+              "velocity": 88,
+              "pitch": 72
+            },
+            {
+              "id": "n-melody-195",
+              "start": 11520,
+              "duration": 420,
+              "velocity": 76,
+              "pitch": 74
+            },
+            {
+              "id": "n-melody-196",
+              "start": 12120,
+              "duration": 420,
+              "velocity": 82,
+              "pitch": 65
+            },
+            {
+              "id": "n-melody-197",
+              "start": 12720,
+              "duration": 420,
+              "velocity": 88,
+              "pitch": 69
+            },
+            {
+              "id": "n-melody-198",
+              "start": 13320,
+              "duration": 420,
+              "velocity": 76,
+              "pitch": 72
+            },
+            {
+              "id": "n-melody-199",
+              "start": 13920,
+              "duration": 420,
+              "velocity": 82,
+              "pitch": 74
+            },
+            {
+              "id": "n-melody-200",
+              "start": 14520,
+              "duration": 420,
+              "velocity": 88,
+              "pitch": 65
+            },
+            {
+              "id": "n-melody-223",
+              "start": 15360,
+              "duration": 420,
+              "velocity": 76,
+              "pitch": 65
+            },
+            {
+              "id": "n-melody-224",
+              "start": 15960,
+              "duration": 420,
+              "velocity": 82,
+              "pitch": 67
+            },
+            {
+              "id": "n-melody-225",
+              "start": 16560,
+              "duration": 420,
+              "velocity": 88,
+              "pitch": 71
+            },
+            {
+              "id": "n-melody-226",
+              "start": 17160,
+              "duration": 420,
+              "velocity": 76,
+              "pitch": 74
+            },
+            {
+              "id": "n-melody-227",
+              "start": 17760,
+              "duration": 420,
+              "velocity": 82,
+              "pitch": 65
+            },
+            {
+              "id": "n-melody-228",
+              "start": 18360,
+              "duration": 420,
+              "velocity": 88,
+              "pitch": 67
+            },
+            {
+              "id": "n-melody-251",
+              "start": 19200,
+              "duration": 420,
+              "velocity": 76,
+              "pitch": 67
+            },
+            {
+              "id": "n-melody-252",
+              "start": 19800,
+              "duration": 420,
+              "velocity": 82,
+              "pitch": 71
+            },
+            {
+              "id": "n-melody-253",
+              "start": 20400,
+              "duration": 420,
+              "velocity": 88,
+              "pitch": 72
+            },
+            {
+              "id": "n-melody-254",
+              "start": 21000,
+              "duration": 420,
+              "velocity": 76,
+              "pitch": 64
+            },
+            {
+              "id": "n-melody-255",
+              "start": 21600,
+              "duration": 420,
+              "velocity": 82,
+              "pitch": 67
+            },
+            {
+              "id": "n-melody-256",
+              "start": 22200,
+              "duration": 420,
+              "velocity": 88,
+              "pitch": 71
+            },
+            {
+              "id": "n-melody-279",
+              "start": 23040,
+              "duration": 420,
+              "velocity": 76,
+              "pitch": 69
+            },
+            {
+              "id": "n-melody-280",
+              "start": 23640,
+              "duration": 420,
+              "velocity": 82,
+              "pitch": 72
+            },
+            {
+              "id": "n-melody-281",
+              "start": 24240,
+              "duration": 420,
+              "velocity": 88,
+              "pitch": 64
+            },
+            {
+              "id": "n-melody-282",
+              "start": 24840,
+              "duration": 420,
+              "velocity": 76,
+              "pitch": 67
+            },
+            {
+              "id": "n-melody-283",
+              "start": 25440,
+              "duration": 420,
+              "velocity": 82,
+              "pitch": 69
+            },
+            {
+              "id": "n-melody-284",
+              "start": 26040,
+              "duration": 420,
+              "velocity": 88,
+              "pitch": 72
+            },
+            {
+              "id": "n-melody-307",
+              "start": 26880,
+              "duration": 420,
+              "velocity": 76,
+              "pitch": 74
+            },
+            {
+              "id": "n-melody-308",
+              "start": 27480,
+              "duration": 420,
+              "velocity": 82,
+              "pitch": 65
+            },
+            {
+              "id": "n-melody-309",
+              "start": 28080,
+              "duration": 420,
+              "velocity": 88,
+              "pitch": 69
+            },
+            {
+              "id": "n-melody-310",
+              "start": 28680,
+              "duration": 420,
+              "velocity": 76,
+              "pitch": 72
+            },
+            {
+              "id": "n-melody-311",
+              "start": 29280,
+              "duration": 420,
+              "velocity": 82,
+              "pitch": 74
+            },
+            {
+              "id": "n-melody-312",
+              "start": 29880,
+              "duration": 420,
+              "velocity": 88,
+              "pitch": 65
+            }
+          ]
+        },
+        {
+          "id": "clip-melody-2",
+          "name": "Solo / Lead",
+          "start": 46080,
+          "duration": 30720,
+          "notes": [
+            {
+              "id": "n-melody-335",
+              "start": 0,
+              "duration": 420,
+              "velocity": 76,
+              "pitch": 64
+            },
+            {
+              "id": "n-melody-336",
+              "start": 600,
+              "duration": 420,
+              "velocity": 82,
+              "pitch": 67
+            },
+            {
+              "id": "n-melody-337",
+              "start": 1200,
+              "duration": 420,
+              "velocity": 88,
+              "pitch": 71
+            },
+            {
+              "id": "n-melody-338",
+              "start": 1800,
+              "duration": 420,
+              "velocity": 76,
+              "pitch": 72
+            },
+            {
+              "id": "n-melody-339",
+              "start": 2400,
+              "duration": 420,
+              "velocity": 82,
+              "pitch": 64
+            },
+            {
+              "id": "n-melody-340",
+              "start": 3000,
+              "duration": 420,
+              "velocity": 88,
+              "pitch": 67
+            },
+            {
+              "id": "n-melody-363",
+              "start": 3840,
+              "duration": 420,
+              "velocity": 76,
+              "pitch": 67
+            },
+            {
+              "id": "n-melody-364",
+              "start": 4440,
+              "duration": 420,
+              "velocity": 82,
+              "pitch": 69
+            },
+            {
+              "id": "n-melody-365",
+              "start": 5040,
+              "duration": 420,
+              "velocity": 88,
+              "pitch": 72
+            },
+            {
+              "id": "n-melody-366",
+              "start": 5640,
+              "duration": 420,
+              "velocity": 76,
+              "pitch": 64
+            },
+            {
+              "id": "n-melody-367",
+              "start": 6240,
+              "duration": 420,
+              "velocity": 82,
+              "pitch": 67
+            },
+            {
+              "id": "n-melody-368",
+              "start": 6840,
+              "duration": 420,
+              "velocity": 88,
+              "pitch": 69
+            },
+            {
+              "id": "n-melody-391",
+              "start": 7680,
+              "duration": 420,
+              "velocity": 76,
+              "pitch": 72
+            },
+            {
+              "id": "n-melody-392",
+              "start": 8280,
+              "duration": 420,
+              "velocity": 82,
+              "pitch": 74
+            },
+            {
+              "id": "n-melody-393",
+              "start": 8880,
+              "duration": 420,
+              "velocity": 88,
+              "pitch": 65
+            },
+            {
+              "id": "n-melody-394",
+              "start": 9480,
+              "duration": 420,
+              "velocity": 76,
+              "pitch": 69
+            },
+            {
+              "id": "n-melody-395",
+              "start": 10080,
+              "duration": 420,
+              "velocity": 82,
+              "pitch": 72
+            },
+            {
+              "id": "n-melody-396",
+              "start": 10680,
+              "duration": 420,
+              "velocity": 88,
+              "pitch": 74
+            },
+            {
+              "id": "n-melody-419",
+              "start": 11520,
+              "duration": 420,
+              "velocity": 76,
+              "pitch": 74
+            },
+            {
+              "id": "n-melody-420",
+              "start": 12120,
+              "duration": 420,
+              "velocity": 82,
+              "pitch": 65
+            },
+            {
+              "id": "n-melody-421",
+              "start": 12720,
+              "duration": 420,
+              "velocity": 88,
+              "pitch": 67
+            },
+            {
+              "id": "n-melody-422",
+              "start": 13320,
+              "duration": 420,
+              "velocity": 76,
+              "pitch": 71
+            },
+            {
+              "id": "n-melody-423",
+              "start": 13920,
+              "duration": 420,
+              "velocity": 82,
+              "pitch": 74
+            },
+            {
+              "id": "n-melody-424",
+              "start": 14520,
+              "duration": 420,
+              "velocity": 88,
+              "pitch": 65
+            },
+            {
+              "id": "n-melody-447",
+              "start": 15360,
+              "duration": 420,
+              "velocity": 76,
+              "pitch": 64
+            },
+            {
+              "id": "n-melody-448",
+              "start": 15960,
+              "duration": 420,
+              "velocity": 82,
+              "pitch": 67
+            },
+            {
+              "id": "n-melody-449",
+              "start": 16560,
+              "duration": 420,
+              "velocity": 88,
+              "pitch": 71
+            },
+            {
+              "id": "n-melody-450",
+              "start": 17160,
+              "duration": 420,
+              "velocity": 76,
+              "pitch": 72
+            },
+            {
+              "id": "n-melody-451",
+              "start": 17760,
+              "duration": 420,
+              "velocity": 82,
+              "pitch": 64
+            },
+            {
+              "id": "n-melody-452",
+              "start": 18360,
+              "duration": 420,
+              "velocity": 88,
+              "pitch": 67
+            },
+            {
+              "id": "n-melody-475",
+              "start": 19200,
+              "duration": 420,
+              "velocity": 76,
+              "pitch": 67
+            },
+            {
+              "id": "n-melody-476",
+              "start": 19800,
+              "duration": 420,
+              "velocity": 82,
+              "pitch": 69
+            },
+            {
+              "id": "n-melody-477",
+              "start": 20400,
+              "duration": 420,
+              "velocity": 88,
+              "pitch": 72
+            },
+            {
+              "id": "n-melody-478",
+              "start": 21000,
+              "duration": 420,
+              "velocity": 76,
+              "pitch": 64
+            },
+            {
+              "id": "n-melody-479",
+              "start": 21600,
+              "duration": 420,
+              "velocity": 82,
+              "pitch": 67
+            },
+            {
+              "id": "n-melody-480",
+              "start": 22200,
+              "duration": 420,
+              "velocity": 88,
+              "pitch": 69
+            },
+            {
+              "id": "n-melody-503",
+              "start": 23040,
+              "duration": 420,
+              "velocity": 76,
+              "pitch": 72
+            },
+            {
+              "id": "n-melody-504",
+              "start": 23640,
+              "duration": 420,
+              "velocity": 82,
+              "pitch": 74
+            },
+            {
+              "id": "n-melody-505",
+              "start": 24240,
+              "duration": 420,
+              "velocity": 88,
+              "pitch": 65
+            },
+            {
+              "id": "n-melody-506",
+              "start": 24840,
+              "duration": 420,
+              "velocity": 76,
+              "pitch": 69
+            },
+            {
+              "id": "n-melody-507",
+              "start": 25440,
+              "duration": 420,
+              "velocity": 82,
+              "pitch": 72
+            },
+            {
+              "id": "n-melody-508",
+              "start": 26040,
+              "duration": 420,
+              "velocity": 88,
+              "pitch": 74
+            },
+            {
+              "id": "n-melody-531",
+              "start": 26880,
+              "duration": 420,
+              "velocity": 76,
+              "pitch": 74
+            },
+            {
+              "id": "n-melody-532",
+              "start": 27480,
+              "duration": 420,
+              "velocity": 82,
+              "pitch": 65
+            },
+            {
+              "id": "n-melody-533",
+              "start": 28080,
+              "duration": 420,
+              "velocity": 88,
+              "pitch": 67
+            },
+            {
+              "id": "n-melody-534",
+              "start": 28680,
+              "duration": 420,
+              "velocity": 76,
+              "pitch": 71
+            },
+            {
+              "id": "n-melody-535",
+              "start": 29280,
+              "duration": 420,
+              "velocity": 82,
+              "pitch": 74
+            },
+            {
+              "id": "n-melody-536",
+              "start": 29880,
+              "duration": 420,
+              "velocity": 88,
+              "pitch": 65
+            }
+          ]
+        },
+        {
+          "id": "clip-melody-3",
+          "name": "Coda / Lead",
+          "start": 76800,
+          "duration": 15360,
+          "notes": []
+        }
+      ],
+      "instrument": {
+        "name": "Lead",
+        "family": "lead"
+      },
+      "preferredView": "pianoRoll",
+      "directions": [
+        {
+          "id": "dir-jazz-1",
+          "start": 15360,
+          "duration": 30720,
+          "type": "improvisation",
+          "parameters": {
+            "pitchSource": {
+              "type": "effectiveKeyScale"
+            },
+            "adherence": "preferred"
+          },
+          "instruction": "Chord tones anchor the phrase. Passing notes are permitted; concrete notes remain authoritative."
+        },
+        {
+          "id": "dir-jazz-2",
+          "start": 46080,
+          "duration": 30720,
+          "type": "improvisation",
+          "parameters": {
+            "pitchSource": {
+              "type": "effectiveKeyScale"
+            },
+            "adherence": "preferred"
+          },
+          "instruction": "Chord tones anchor the phrase. Passing notes are permitted; concrete notes remain authoritative."
+        }
+      ]
+    }
+  ],
+  "soundSlots": [
+    {
+      "id": "slot-kick",
+      "name": "Kick",
+      "midiMapping": {
+        "standard": "gm1",
+        "note": 36
+      }
+    },
+    {
+      "id": "slot-snare",
+      "name": "Snare",
+      "midiMapping": {
+        "standard": "gm1",
+        "note": 38
+      }
+    },
+    {
+      "id": "slot-hat",
+      "name": "Closed hi-hat",
+      "midiMapping": {
+        "standard": "gm1",
+        "note": 42
+      }
+    },
+    {
+      "id": "slot-ride",
+      "name": "Ride",
+      "midiMapping": {
+        "standard": "gm1",
+        "note": 51
+      }
+    }
+  ],
+  "drumKits": [
+    {
+      "id": "kit",
+      "name": "Reference kit",
+      "soundSlotIds": [
+        "slot-kick",
+        "slot-snare",
+        "slot-hat",
+        "slot-ride"
+      ]
+    }
+  ],
+  "lyrics": {
+    "documents": [],
+    "phrases": [],
+    "units": [],
+    "alignments": [],
+    "voices": []
+  },
+  "resources": [],
+  "midi": {
+    "buses": [
+      {
+        "id": "bus",
+        "name": "Logical demo bus"
+      }
+    ]
+  }
+}

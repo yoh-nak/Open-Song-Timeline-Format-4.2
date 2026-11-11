@@ -1,0 +1,58 @@
+{
+  "format": "OSTF",
+  "version": "4.2.0",
+  "ppq": 960,
+  "song": {
+    "title": "Lyrics Pronunciation"
+  },
+  "timeline": {
+    "sections": [],
+    "tempoChanges": [
+      {
+        "at": 0,
+        "bpm": 120
+      }
+    ],
+    "meterChanges": [
+      {
+        "at": 0,
+        "numerator": 4,
+        "denominator": 4
+      }
+    ],
+    "duration": 30720
+  },
+  "harmony": {
+    "chords": [],
+    "scales": []
+  },
+  "tracks": [],
+  "soundSlots": [],
+  "lyrics": {
+    "documents": [
+      {
+        "id": "doc",
+        "title": "Japanese",
+        "language": "ja"
+      }
+    ],
+    "phrases": [
+      {
+        "id": "ph",
+        "documentId": "doc",
+        "text": "未来へ",
+        "pronunciation": "みらいへ"
+      }
+    ],
+    "units": [
+      {
+        "id": "u",
+        "phraseId": "ph",
+        "text": "未来へ",
+        "pronunciation": "みらいへ"
+      }
+    ],
+    "alignments": []
+  },
+  "resources": []
+}

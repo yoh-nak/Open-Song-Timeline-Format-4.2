@@ -1,0 +1,63 @@
+{
+  "format": "OSTF",
+  "version": "4.2.0",
+  "ppq": 960,
+  "song": {
+    "title": "Contributors Credits",
+    "credits": [
+      {
+        "id": "cr-composer",
+        "contributorId": "person-a",
+        "role": "composer",
+        "label": "Music"
+      },
+      {
+        "id": "cr-producer",
+        "contributorId": "org-b",
+        "role": "producer"
+      }
+    ]
+  },
+  "timeline": {
+    "sections": [],
+    "tempoChanges": [
+      {
+        "at": 0,
+        "bpm": 120
+      }
+    ],
+    "meterChanges": [
+      {
+        "at": 0,
+        "numerator": 4,
+        "denominator": 4
+      }
+    ],
+    "duration": 30720
+  },
+  "harmony": {
+    "chords": [],
+    "scales": []
+  },
+  "tracks": [],
+  "soundSlots": [],
+  "lyrics": {
+    "documents": [],
+    "phrases": [],
+    "units": [],
+    "alignments": []
+  },
+  "resources": [],
+  "contributors": [
+    {
+      "id": "person-a",
+      "name": "Alex Example",
+      "kind": "person"
+    },
+    {
+      "id": "org-b",
+      "name": "Example Studio",
+      "kind": "organization"
+    }
+  ]
+}

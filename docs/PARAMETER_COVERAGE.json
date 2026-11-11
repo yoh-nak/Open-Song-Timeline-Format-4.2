@@ -1,0 +1,4563 @@
+{
+  "version": "4.2.0",
+  "counting_basis": "reachable named property declaration positions; conditional tests not double-counted",
+  "total": 569,
+  "core": 481,
+  "legacy_preservation": 88,
+  "covered": 569,
+  "missing": [],
+  "fields": [
+    {
+      "schema_pointer": "#/$defs/alternateTitle/properties/id",
+      "owner": "#/$defs/alternateTitle",
+      "field": "id",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/song/alternateTitles/0/id"
+    },
+    {
+      "schema_pointer": "#/$defs/alternateTitle/properties/title",
+      "owner": "#/$defs/alternateTitle",
+      "field": "title",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/song/alternateTitles/0/title"
+    },
+    {
+      "schema_pointer": "#/$defs/channelModeEvent/properties/channel",
+      "owner": "#/$defs/channelModeEvent",
+      "field": "channel",
+      "direct_required": false,
+      "file": "examples/28-channel-mode.ostf",
+      "instance_pointer": "/tracks/0/clips/0/midiEvents/0/channel"
+    },
+    {
+      "schema_pointer": "#/$defs/channelModeEvent/properties/controller",
+      "owner": "#/$defs/channelModeEvent",
+      "field": "controller",
+      "direct_required": true,
+      "file": "examples/28-channel-mode.ostf",
+      "instance_pointer": "/tracks/0/clips/0/midiEvents/0/controller"
+    },
+    {
+      "schema_pointer": "#/$defs/channelModeEvent/properties/id",
+      "owner": "#/$defs/channelModeEvent",
+      "field": "id",
+      "direct_required": true,
+      "file": "examples/28-channel-mode.ostf",
+      "instance_pointer": "/tracks/0/clips/0/midiEvents/0/id"
+    },
+    {
+      "schema_pointer": "#/$defs/channelModeEvent/properties/order",
+      "owner": "#/$defs/channelModeEvent",
+      "field": "order",
+      "direct_required": false,
+      "file": "examples/28-channel-mode.ostf",
+      "instance_pointer": "/tracks/0/clips/0/midiEvents/0/order"
+    },
+    {
+      "schema_pointer": "#/$defs/channelModeEvent/properties/start",
+      "owner": "#/$defs/channelModeEvent",
+      "field": "start",
+      "direct_required": true,
+      "file": "examples/28-channel-mode.ostf",
+      "instance_pointer": "/tracks/0/clips/0/midiEvents/0/start"
+    },
+    {
+      "schema_pointer": "#/$defs/channelModeEvent/properties/type",
+      "owner": "#/$defs/channelModeEvent",
+      "field": "type",
+      "direct_required": true,
+      "file": "examples/28-channel-mode.ostf",
+      "instance_pointer": "/tracks/0/clips/0/midiEvents/0/type"
+    },
+    {
+      "schema_pointer": "#/$defs/channelModeEvent/properties/value",
+      "owner": "#/$defs/channelModeEvent",
+      "field": "value",
+      "direct_required": true,
+      "file": "examples/28-channel-mode.ostf",
+      "instance_pointer": "/tracks/0/clips/0/midiEvents/0/value"
+    },
+    {
+      "schema_pointer": "#/$defs/channelPressureEvent/properties/channel",
+      "owner": "#/$defs/channelPressureEvent",
+      "field": "channel",
+      "direct_required": false,
+      "file": "examples/23-mpe-per-note-expression.ostf",
+      "instance_pointer": "/tracks/0/clips/0/midiEvents/1/channel"
+    },
+    {
+      "schema_pointer": "#/$defs/channelPressureEvent/properties/id",
+      "owner": "#/$defs/channelPressureEvent",
+      "field": "id",
+      "direct_required": true,
+      "file": "examples/23-mpe-per-note-expression.ostf",
+      "instance_pointer": "/tracks/0/clips/0/midiEvents/1/id"
+    },
+    {
+      "schema_pointer": "#/$defs/channelPressureEvent/properties/order",
+      "owner": "#/$defs/channelPressureEvent",
+      "field": "order",
+      "direct_required": false,
+      "file": "examples/23-mpe-per-note-expression.ostf",
+      "instance_pointer": "/tracks/0/clips/0/midiEvents/1/order"
+    },
+    {
+      "schema_pointer": "#/$defs/channelPressureEvent/properties/start",
+      "owner": "#/$defs/channelPressureEvent",
+      "field": "start",
+      "direct_required": true,
+      "file": "examples/23-mpe-per-note-expression.ostf",
+      "instance_pointer": "/tracks/0/clips/0/midiEvents/1/start"
+    },
+    {
+      "schema_pointer": "#/$defs/channelPressureEvent/properties/targetNoteId",
+      "owner": "#/$defs/channelPressureEvent",
+      "field": "targetNoteId",
+      "direct_required": false,
+      "file": "examples/23-mpe-per-note-expression.ostf",
+      "instance_pointer": "/tracks/0/clips/0/midiEvents/1/targetNoteId"
+    },
+    {
+      "schema_pointer": "#/$defs/channelPressureEvent/properties/type",
+      "owner": "#/$defs/channelPressureEvent",
+      "field": "type",
+      "direct_required": true,
+      "file": "examples/23-mpe-per-note-expression.ostf",
+      "instance_pointer": "/tracks/0/clips/0/midiEvents/1/type"
+    },
+    {
+      "schema_pointer": "#/$defs/channelPressureEvent/properties/value",
+      "owner": "#/$defs/channelPressureEvent",
+      "field": "value",
+      "direct_required": true,
+      "file": "examples/23-mpe-per-note-expression.ostf",
+      "instance_pointer": "/tracks/0/clips/0/midiEvents/1/value"
+    },
+    {
+      "schema_pointer": "#/$defs/chord/properties/bass",
+      "owner": "#/$defs/chord",
+      "field": "bass",
+      "direct_required": false,
+      "file": "examples/42-slash-chord.ostf",
+      "instance_pointer": "/harmony/chords/0/bass"
+    },
+    {
+      "schema_pointer": "#/$defs/chord/properties/duration",
+      "owner": "#/$defs/chord",
+      "field": "duration",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/harmony/chords/0/duration"
+    },
+    {
+      "schema_pointer": "#/$defs/chord/properties/id",
+      "owner": "#/$defs/chord",
+      "field": "id",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/harmony/chords/0/id"
+    },
+    {
+      "schema_pointer": "#/$defs/chord/properties/intervals",
+      "owner": "#/$defs/chord",
+      "field": "intervals",
+      "direct_required": false,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/harmony/chords/0/intervals"
+    },
+    {
+      "schema_pointer": "#/$defs/chord/properties/label",
+      "owner": "#/$defs/chord",
+      "field": "label",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/harmony/chords/0/label"
+    },
+    {
+      "schema_pointer": "#/$defs/chord/properties/root",
+      "owner": "#/$defs/chord",
+      "field": "root",
+      "direct_required": false,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/harmony/chords/0/root"
+    },
+    {
+      "schema_pointer": "#/$defs/chord/properties/start",
+      "owner": "#/$defs/chord",
+      "field": "start",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/harmony/chords/0/start"
+    },
+    {
+      "schema_pointer": "#/$defs/chord/properties/voicing",
+      "owner": "#/$defs/chord",
+      "field": "voicing",
+      "direct_required": false,
+      "file": "examples/33-chord-voicing.ostf",
+      "instance_pointer": "/harmony/chords/0/voicing"
+    },
+    {
+      "schema_pointer": "#/$defs/clip/properties/duration",
+      "owner": "#/$defs/clip",
+      "field": "duration",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/tracks/0/clips/0/duration"
+    },
+    {
+      "schema_pointer": "#/$defs/clip/properties/enabled",
+      "owner": "#/$defs/clip",
+      "field": "enabled",
+      "direct_required": false,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/tracks/0/clips/0/enabled"
+    },
+    {
+      "schema_pointer": "#/$defs/clip/properties/id",
+      "owner": "#/$defs/clip",
+      "field": "id",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/tracks/0/clips/0/id"
+    },
+    {
+      "schema_pointer": "#/$defs/clip/properties/localizedNames",
+      "owner": "#/$defs/clip",
+      "field": "localizedNames",
+      "direct_required": false,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/tracks/0/clips/0/localizedNames"
+    },
+    {
+      "schema_pointer": "#/$defs/clip/properties/midiEvents",
+      "owner": "#/$defs/clip",
+      "field": "midiEvents",
+      "direct_required": false,
+      "file": "examples/06-instrument-midi-unchanged.ostf",
+      "instance_pointer": "/tracks/0/clips/0/midiEvents"
+    },
+    {
+      "schema_pointer": "#/$defs/clip/properties/name",
+      "owner": "#/$defs/clip",
+      "field": "name",
+      "direct_required": false,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/tracks/0/clips/0/name"
+    },
+    {
+      "schema_pointer": "#/$defs/clip/properties/notes",
+      "owner": "#/$defs/clip",
+      "field": "notes",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/tracks/0/clips/0/notes"
+    },
+    {
+      "schema_pointer": "#/$defs/clip/properties/start",
+      "owner": "#/$defs/clip",
+      "field": "start",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/tracks/0/clips/0/start"
+    },
+    {
+      "schema_pointer": "#/$defs/clip/properties/vocalPerformances",
+      "owner": "#/$defs/clip",
+      "field": "vocalPerformances",
+      "direct_required": false,
+      "file": "examples/02-all-vocal-parameters.ostf",
+      "instance_pointer": "/tracks/0/clips/0/vocalPerformances"
+    },
+    {
+      "schema_pointer": "#/$defs/clipCandidate/properties/clipIds",
+      "owner": "#/$defs/clipCandidate",
+      "field": "clipIds",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/clipChoices/groups/0/candidates/0/clipIds"
+    },
+    {
+      "schema_pointer": "#/$defs/clipCandidate/properties/id",
+      "owner": "#/$defs/clipCandidate",
+      "field": "id",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/clipChoices/groups/0/candidates/0/id"
+    },
+    {
+      "schema_pointer": "#/$defs/clipCandidate/properties/name",
+      "owner": "#/$defs/clipCandidate",
+      "field": "name",
+      "direct_required": false,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/clipChoices/groups/0/candidates/0/name"
+    },
+    {
+      "schema_pointer": "#/$defs/clipChoiceGroup/properties/candidates",
+      "owner": "#/$defs/clipChoiceGroup",
+      "field": "candidates",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/clipChoices/groups/0/candidates"
+    },
+    {
+      "schema_pointer": "#/$defs/clipChoiceGroup/properties/id",
+      "owner": "#/$defs/clipChoiceGroup",
+      "field": "id",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/clipChoices/groups/0/id"
+    },
+    {
+      "schema_pointer": "#/$defs/clipChoiceGroup/properties/name",
+      "owner": "#/$defs/clipChoiceGroup",
+      "field": "name",
+      "direct_required": false,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/clipChoices/groups/0/name"
+    },
+    {
+      "schema_pointer": "#/$defs/clipChoiceGroup/properties/selectedCandidateId",
+      "owner": "#/$defs/clipChoiceGroup",
+      "field": "selectedCandidateId",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/clipChoices/groups/0/selectedCandidateId"
+    },
+    {
+      "schema_pointer": "#/$defs/clipChoices/properties/dependencies",
+      "owner": "#/$defs/clipChoices",
+      "field": "dependencies",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/clipChoices/dependencies"
+    },
+    {
+      "schema_pointer": "#/$defs/clipChoices/properties/groups",
+      "owner": "#/$defs/clipChoices",
+      "field": "groups",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/clipChoices/groups"
+    },
+    {
+      "schema_pointer": "#/$defs/clipChoices/properties/status",
+      "owner": "#/$defs/clipChoices",
+      "field": "status",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/clipChoices/status"
+    },
+    {
+      "schema_pointer": "#/$defs/contributor/properties/id",
+      "owner": "#/$defs/contributor",
+      "field": "id",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/contributors/0/id"
+    },
+    {
+      "schema_pointer": "#/$defs/contributor/properties/kind",
+      "owner": "#/$defs/contributor",
+      "field": "kind",
+      "direct_required": false,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/contributors/0/kind"
+    },
+    {
+      "schema_pointer": "#/$defs/contributor/properties/localizedNames",
+      "owner": "#/$defs/contributor",
+      "field": "localizedNames",
+      "direct_required": false,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/contributors/0/localizedNames"
+    },
+    {
+      "schema_pointer": "#/$defs/contributor/properties/name",
+      "owner": "#/$defs/contributor",
+      "field": "name",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/contributors/0/name"
+    },
+    {
+      "schema_pointer": "#/$defs/controlChangeEvent/properties/channel",
+      "owner": "#/$defs/controlChangeEvent",
+      "field": "channel",
+      "direct_required": false,
+      "file": "examples/06-instrument-midi-unchanged.ostf",
+      "instance_pointer": "/tracks/0/clips/0/midiEvents/0/channel"
+    },
+    {
+      "schema_pointer": "#/$defs/controlChangeEvent/properties/controller",
+      "owner": "#/$defs/controlChangeEvent",
+      "field": "controller",
+      "direct_required": true,
+      "file": "examples/06-instrument-midi-unchanged.ostf",
+      "instance_pointer": "/tracks/0/clips/0/midiEvents/0/controller"
+    },
+    {
+      "schema_pointer": "#/$defs/controlChangeEvent/properties/id",
+      "owner": "#/$defs/controlChangeEvent",
+      "field": "id",
+      "direct_required": true,
+      "file": "examples/06-instrument-midi-unchanged.ostf",
+      "instance_pointer": "/tracks/0/clips/0/midiEvents/0/id"
+    },
+    {
+      "schema_pointer": "#/$defs/controlChangeEvent/properties/order",
+      "owner": "#/$defs/controlChangeEvent",
+      "field": "order",
+      "direct_required": false,
+      "file": "examples/23-mpe-per-note-expression.ostf",
+      "instance_pointer": "/tracks/0/clips/0/midiEvents/2/order"
+    },
+    {
+      "schema_pointer": "#/$defs/controlChangeEvent/properties/start",
+      "owner": "#/$defs/controlChangeEvent",
+      "field": "start",
+      "direct_required": true,
+      "file": "examples/06-instrument-midi-unchanged.ostf",
+      "instance_pointer": "/tracks/0/clips/0/midiEvents/0/start"
+    },
+    {
+      "schema_pointer": "#/$defs/controlChangeEvent/properties/targetNoteId",
+      "owner": "#/$defs/controlChangeEvent",
+      "field": "targetNoteId",
+      "direct_required": false,
+      "file": "examples/23-mpe-per-note-expression.ostf",
+      "instance_pointer": "/tracks/0/clips/0/midiEvents/2/targetNoteId"
+    },
+    {
+      "schema_pointer": "#/$defs/controlChangeEvent/properties/type",
+      "owner": "#/$defs/controlChangeEvent",
+      "field": "type",
+      "direct_required": true,
+      "file": "examples/06-instrument-midi-unchanged.ostf",
+      "instance_pointer": "/tracks/0/clips/0/midiEvents/0/type"
+    },
+    {
+      "schema_pointer": "#/$defs/controlChangeEvent/properties/value",
+      "owner": "#/$defs/controlChangeEvent",
+      "field": "value",
+      "direct_required": true,
+      "file": "examples/06-instrument-midi-unchanged.ostf",
+      "instance_pointer": "/tracks/0/clips/0/midiEvents/0/value"
+    },
+    {
+      "schema_pointer": "#/$defs/corePhraseSourceNote/properties/duration",
+      "owner": "#/$defs/corePhraseSourceNote",
+      "field": "duration",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/phraseLibrary/templates/0/notes/0/duration"
+    },
+    {
+      "schema_pointer": "#/$defs/corePhraseSourceNote/properties/enabled",
+      "owner": "#/$defs/corePhraseSourceNote",
+      "field": "enabled",
+      "direct_required": false,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/phraseLibrary/templates/0/notes/0/enabled"
+    },
+    {
+      "schema_pointer": "#/$defs/corePhraseSourceNote/properties/id",
+      "owner": "#/$defs/corePhraseSourceNote",
+      "field": "id",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/phraseLibrary/templates/0/notes/0/id"
+    },
+    {
+      "schema_pointer": "#/$defs/corePhraseSourceNote/properties/pitch",
+      "owner": "#/$defs/corePhraseSourceNote",
+      "field": "pitch",
+      "direct_required": false,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/phraseLibrary/templates/0/notes/0/pitch"
+    },
+    {
+      "schema_pointer": "#/$defs/corePhraseSourceNote/properties/pitchRole",
+      "owner": "#/$defs/corePhraseSourceNote",
+      "field": "pitchRole",
+      "direct_required": false,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/phraseLibrary/templates/0/notes/0/pitchRole"
+    },
+    {
+      "schema_pointer": "#/$defs/corePhraseSourceNote/properties/probability",
+      "owner": "#/$defs/corePhraseSourceNote",
+      "field": "probability",
+      "direct_required": false,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/phraseLibrary/templates/0/notes/0/probability"
+    },
+    {
+      "schema_pointer": "#/$defs/corePhraseSourceNote/properties/releaseVelocity",
+      "owner": "#/$defs/corePhraseSourceNote",
+      "field": "releaseVelocity",
+      "direct_required": false,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/phraseLibrary/templates/0/notes/0/releaseVelocity"
+    },
+    {
+      "schema_pointer": "#/$defs/corePhraseSourceNote/properties/soundSlotId",
+      "owner": "#/$defs/corePhraseSourceNote",
+      "field": "soundSlotId",
+      "direct_required": false,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/phraseLibrary/templates/1/notes/0/soundSlotId"
+    },
+    {
+      "schema_pointer": "#/$defs/corePhraseSourceNote/properties/start",
+      "owner": "#/$defs/corePhraseSourceNote",
+      "field": "start",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/phraseLibrary/templates/0/notes/0/start"
+    },
+    {
+      "schema_pointer": "#/$defs/corePhraseSourceNote/properties/velocity",
+      "owner": "#/$defs/corePhraseSourceNote",
+      "field": "velocity",
+      "direct_required": false,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/phraseLibrary/templates/0/notes/0/velocity"
+    },
+    {
+      "schema_pointer": "#/$defs/corePhraseSourceNote/properties/velocityDeviation",
+      "owner": "#/$defs/corePhraseSourceNote",
+      "field": "velocityDeviation",
+      "direct_required": false,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/phraseLibrary/templates/0/notes/0/velocityDeviation"
+    },
+    {
+      "schema_pointer": "#/$defs/credit/properties/contributorId",
+      "owner": "#/$defs/credit",
+      "field": "contributorId",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/song/credits/0/contributorId"
+    },
+    {
+      "schema_pointer": "#/$defs/credit/properties/id",
+      "owner": "#/$defs/credit",
+      "field": "id",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/song/credits/0/id"
+    },
+    {
+      "schema_pointer": "#/$defs/credit/properties/label",
+      "owner": "#/$defs/credit",
+      "field": "label",
+      "direct_required": false,
+      "file": "examples/46-contributors-credits.ostf",
+      "instance_pointer": "/song/credits/0/label"
+    },
+    {
+      "schema_pointer": "#/$defs/credit/properties/role",
+      "owner": "#/$defs/credit",
+      "field": "role",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/song/credits/0/role"
+    },
+    {
+      "schema_pointer": "#/$defs/dependencies/oneOf/0/properties/scope",
+      "owner": "#/$defs/dependencies/oneOf/0",
+      "field": "scope",
+      "direct_required": true,
+      "file": "examples/27-generation-intent.ostf",
+      "instance_pointer": "/generation/dependencies/scope"
+    },
+    {
+      "schema_pointer": "#/$defs/dependencies/oneOf/1/properties/refs",
+      "owner": "#/$defs/dependencies/oneOf/1",
+      "field": "refs",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/relativePhrases/dependencies/refs"
+    },
+    {
+      "schema_pointer": "#/$defs/dependencies/oneOf/1/properties/scope",
+      "owner": "#/$defs/dependencies/oneOf/1",
+      "field": "scope",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/relativePhrases/dependencies/scope"
+    },
+    {
+      "schema_pointer": "#/$defs/directionPitchCollection/properties/intervals",
+      "owner": "#/$defs/directionPitchCollection",
+      "field": "intervals",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/tracks/0/directions/1/parameters/pitchSource/scale/intervals"
+    },
+    {
+      "schema_pointer": "#/$defs/directionPitchCollection/properties/label",
+      "owner": "#/$defs/directionPitchCollection",
+      "field": "label",
+      "direct_required": false,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/tracks/0/directions/1/parameters/pitchSource/scale/label"
+    },
+    {
+      "schema_pointer": "#/$defs/directionPitchCollection/properties/tonic",
+      "owner": "#/$defs/directionPitchCollection",
+      "field": "tonic",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/tracks/0/directions/1/parameters/pitchSource/scale/tonic"
+    },
+    {
+      "schema_pointer": "#/$defs/directionPitchSource/oneOf/0/properties/type",
+      "owner": "#/$defs/directionPitchSource/oneOf/0",
+      "field": "type",
+      "direct_required": true,
+      "file": "examples/31-effective-key-scale.ostf",
+      "instance_pointer": "/tracks/0/directions/0/parameters/pitchSource/type"
+    },
+    {
+      "schema_pointer": "#/$defs/directionPitchSource/oneOf/1/properties/type",
+      "owner": "#/$defs/directionPitchSource/oneOf/1",
+      "field": "type",
+      "direct_required": true,
+      "file": "examples/50-song-scale-improvisation.ostf",
+      "instance_pointer": "/tracks/0/directions/0/parameters/pitchSource/type"
+    },
+    {
+      "schema_pointer": "#/$defs/directionPitchSource/oneOf/2/properties/scaleIds",
+      "owner": "#/$defs/directionPitchSource/oneOf/2",
+      "field": "scaleIds",
+      "direct_required": true,
+      "file": "examples/25-integrated-jazz-session.ostf",
+      "instance_pointer": "/tracks/0/directions/0/parameters/pitchSource/scaleIds"
+    },
+    {
+      "schema_pointer": "#/$defs/directionPitchSource/oneOf/2/properties/type",
+      "owner": "#/$defs/directionPitchSource/oneOf/2",
+      "field": "type",
+      "direct_required": true,
+      "file": "examples/25-integrated-jazz-session.ostf",
+      "instance_pointer": "/tracks/0/directions/0/parameters/pitchSource/type"
+    },
+    {
+      "schema_pointer": "#/$defs/directionPitchSource/oneOf/3/properties/scale",
+      "owner": "#/$defs/directionPitchSource/oneOf/3",
+      "field": "scale",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/tracks/0/directions/1/parameters/pitchSource/scale"
+    },
+    {
+      "schema_pointer": "#/$defs/directionPitchSource/oneOf/3/properties/type",
+      "owner": "#/$defs/directionPitchSource/oneOf/3",
+      "field": "type",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/tracks/0/directions/1/parameters/pitchSource/type"
+    },
+    {
+      "schema_pointer": "#/$defs/documentInfo/properties/createdBy",
+      "owner": "#/$defs/documentInfo",
+      "field": "createdBy",
+      "direct_required": false,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/document/createdBy"
+    },
+    {
+      "schema_pointer": "#/$defs/documentInfo/properties/id",
+      "owner": "#/$defs/documentInfo",
+      "field": "id",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/document/id"
+    },
+    {
+      "schema_pointer": "#/$defs/documentInfo/properties/modifiedBy",
+      "owner": "#/$defs/documentInfo",
+      "field": "modifiedBy",
+      "direct_required": false,
+      "file": "examples/32-document-identity-revision.ostf",
+      "instance_pointer": "/document/modifiedBy"
+    },
+    {
+      "schema_pointer": "#/$defs/documentInfo/properties/parents",
+      "owner": "#/$defs/documentInfo",
+      "field": "parents",
+      "direct_required": false,
+      "file": "examples/32-document-identity-revision.ostf",
+      "instance_pointer": "/document/parents"
+    },
+    {
+      "schema_pointer": "#/$defs/documentInfo/properties/revisionId",
+      "owner": "#/$defs/documentInfo",
+      "field": "revisionId",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/document/revisionId"
+    },
+    {
+      "schema_pointer": "#/$defs/drumKit/properties/id",
+      "owner": "#/$defs/drumKit",
+      "field": "id",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/drumKits/0/id"
+    },
+    {
+      "schema_pointer": "#/$defs/drumKit/properties/localizedNames",
+      "owner": "#/$defs/drumKit",
+      "field": "localizedNames",
+      "direct_required": false,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/drumKits/0/localizedNames"
+    },
+    {
+      "schema_pointer": "#/$defs/drumKit/properties/name",
+      "owner": "#/$defs/drumKit",
+      "field": "name",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/drumKits/0/name"
+    },
+    {
+      "schema_pointer": "#/$defs/drumKit/properties/soundSlotIds",
+      "owner": "#/$defs/drumKit",
+      "field": "soundSlotIds",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/drumKits/0/soundSlotIds"
+    },
+    {
+      "schema_pointer": "#/$defs/generation/properties/dependencies",
+      "owner": "#/$defs/generation",
+      "field": "dependencies",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/generation/dependencies"
+    },
+    {
+      "schema_pointer": "#/$defs/generation/properties/processes",
+      "owner": "#/$defs/generation",
+      "field": "processes",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/generation/processes"
+    },
+    {
+      "schema_pointer": "#/$defs/generation/properties/status",
+      "owner": "#/$defs/generation",
+      "field": "status",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/generation/status"
+    },
+    {
+      "schema_pointer": "#/$defs/generationInput/properties/readRange",
+      "owner": "#/$defs/generationInput",
+      "field": "readRange",
+      "direct_required": false,
+      "file": "examples/49-generation-process.ostf",
+      "instance_pointer": "/generation/processes/0/inputs/0/readRange"
+    },
+    {
+      "schema_pointer": "#/$defs/generationInput/properties/ref",
+      "owner": "#/$defs/generationInput",
+      "field": "ref",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/generation/processes/0/inputs/0/ref"
+    },
+    {
+      "schema_pointer": "#/$defs/generationInput/properties/role",
+      "owner": "#/$defs/generationInput",
+      "field": "role",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/generation/processes/0/inputs/0/role"
+    },
+    {
+      "schema_pointer": "#/$defs/generationIntent/properties/genreNames",
+      "owner": "#/$defs/generationIntent",
+      "field": "genreNames",
+      "direct_required": false,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/generation/processes/0/intent/genreNames"
+    },
+    {
+      "schema_pointer": "#/$defs/generationIntent/properties/groove",
+      "owner": "#/$defs/generationIntent",
+      "field": "groove",
+      "direct_required": false,
+      "file": "examples/27-generation-intent.ostf",
+      "instance_pointer": "/generation/processes/0/intent/groove"
+    },
+    {
+      "schema_pointer": "#/$defs/generationIntent/properties/moodNames",
+      "owner": "#/$defs/generationIntent",
+      "field": "moodNames",
+      "direct_required": false,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/generation/processes/0/intent/moodNames"
+    },
+    {
+      "schema_pointer": "#/$defs/generationIntent/properties/prompt",
+      "owner": "#/$defs/generationIntent",
+      "field": "prompt",
+      "direct_required": false,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/generation/processes/0/intent/prompt"
+    },
+    {
+      "schema_pointer": "#/$defs/generationIntent/properties/seed",
+      "owner": "#/$defs/generationIntent",
+      "field": "seed",
+      "direct_required": false,
+      "file": "examples/27-generation-intent.ostf",
+      "instance_pointer": "/generation/processes/0/intent/seed"
+    },
+    {
+      "schema_pointer": "#/$defs/generationProcess/properties/generator",
+      "owner": "#/$defs/generationProcess",
+      "field": "generator",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/generation/processes/0/generator"
+    },
+    {
+      "schema_pointer": "#/$defs/generationProcess/properties/id",
+      "owner": "#/$defs/generationProcess",
+      "field": "id",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/generation/processes/0/id"
+    },
+    {
+      "schema_pointer": "#/$defs/generationProcess/properties/inputs",
+      "owner": "#/$defs/generationProcess",
+      "field": "inputs",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/generation/processes/0/inputs"
+    },
+    {
+      "schema_pointer": "#/$defs/generationProcess/properties/intent",
+      "owner": "#/$defs/generationProcess",
+      "field": "intent",
+      "direct_required": false,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/generation/processes/0/intent"
+    },
+    {
+      "schema_pointer": "#/$defs/generationProcess/properties/outputs",
+      "owner": "#/$defs/generationProcess",
+      "field": "outputs",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/generation/processes/0/outputs"
+    },
+    {
+      "schema_pointer": "#/$defs/generationProcess/properties/protectedNoteIds",
+      "owner": "#/$defs/generationProcess",
+      "field": "protectedNoteIds",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/generation/processes/0/protectedNoteIds"
+    },
+    {
+      "schema_pointer": "#/$defs/generationProcess/properties/targetRange",
+      "owner": "#/$defs/generationProcess",
+      "field": "targetRange",
+      "direct_required": false,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/generation/processes/0/targetRange"
+    },
+    {
+      "schema_pointer": "#/$defs/generator/properties/id",
+      "owner": "#/$defs/generator",
+      "field": "id",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/generation/processes/0/generator/id"
+    },
+    {
+      "schema_pointer": "#/$defs/generator/properties/version",
+      "owner": "#/$defs/generator",
+      "field": "version",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/generation/processes/0/generator/version"
+    },
+    {
+      "schema_pointer": "#/$defs/genre/properties/externalUri",
+      "owner": "#/$defs/genre",
+      "field": "externalUri",
+      "direct_required": false,
+      "file": "examples/48-genres-moods.ostf",
+      "instance_pointer": "/song/genres/0/externalUri"
+    },
+    {
+      "schema_pointer": "#/$defs/genre/properties/id",
+      "owner": "#/$defs/genre",
+      "field": "id",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/song/genres/0/id"
+    },
+    {
+      "schema_pointer": "#/$defs/genre/properties/name",
+      "owner": "#/$defs/genre",
+      "field": "name",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/song/genres/0/name"
+    },
+    {
+      "schema_pointer": "#/$defs/grooveIntent/properties/longWeight",
+      "owner": "#/$defs/grooveIntent",
+      "field": "longWeight",
+      "direct_required": false,
+      "file": "examples/27-generation-intent.ostf",
+      "instance_pointer": "/generation/processes/0/intent/groove/longWeight"
+    },
+    {
+      "schema_pointer": "#/$defs/grooveIntent/properties/name",
+      "owner": "#/$defs/grooveIntent",
+      "field": "name",
+      "direct_required": false,
+      "file": "examples/27-generation-intent.ostf",
+      "instance_pointer": "/generation/processes/0/intent/groove/name"
+    },
+    {
+      "schema_pointer": "#/$defs/grooveIntent/properties/shortWeight",
+      "owner": "#/$defs/grooveIntent",
+      "field": "shortWeight",
+      "direct_required": false,
+      "file": "examples/27-generation-intent.ostf",
+      "instance_pointer": "/generation/processes/0/intent/groove/shortWeight"
+    },
+    {
+      "schema_pointer": "#/$defs/grooveIntent/properties/unitTicks",
+      "owner": "#/$defs/grooveIntent",
+      "field": "unitTicks",
+      "direct_required": false,
+      "file": "examples/27-generation-intent.ostf",
+      "instance_pointer": "/generation/processes/0/intent/groove/unitTicks"
+    },
+    {
+      "schema_pointer": "#/$defs/harmony/properties/chords",
+      "owner": "#/$defs/harmony",
+      "field": "chords",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/harmony/chords"
+    },
+    {
+      "schema_pointer": "#/$defs/harmony/properties/scales",
+      "owner": "#/$defs/harmony",
+      "field": "scales",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/harmony/scales"
+    },
+    {
+      "schema_pointer": "#/$defs/improvisationDirection/properties/duration",
+      "owner": "#/$defs/improvisationDirection",
+      "field": "duration",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/tracks/0/directions/1/duration"
+    },
+    {
+      "schema_pointer": "#/$defs/improvisationDirection/properties/id",
+      "owner": "#/$defs/improvisationDirection",
+      "field": "id",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/tracks/0/directions/1/id"
+    },
+    {
+      "schema_pointer": "#/$defs/improvisationDirection/properties/instruction",
+      "owner": "#/$defs/improvisationDirection",
+      "field": "instruction",
+      "direct_required": false,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/tracks/0/directions/1/instruction"
+    },
+    {
+      "schema_pointer": "#/$defs/improvisationDirection/properties/label",
+      "owner": "#/$defs/improvisationDirection",
+      "field": "label",
+      "direct_required": false,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/tracks/0/directions/1/label"
+    },
+    {
+      "schema_pointer": "#/$defs/improvisationDirection/properties/parameters",
+      "owner": "#/$defs/improvisationDirection",
+      "field": "parameters",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/tracks/0/directions/1/parameters"
+    },
+    {
+      "schema_pointer": "#/$defs/improvisationDirection/properties/start",
+      "owner": "#/$defs/improvisationDirection",
+      "field": "start",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/tracks/0/directions/1/start"
+    },
+    {
+      "schema_pointer": "#/$defs/improvisationDirection/properties/type",
+      "owner": "#/$defs/improvisationDirection",
+      "field": "type",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/tracks/0/directions/1/type"
+    },
+    {
+      "schema_pointer": "#/$defs/improvisationDirectionParameters/properties/adherence",
+      "owner": "#/$defs/improvisationDirectionParameters",
+      "field": "adherence",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/tracks/0/directions/1/parameters/adherence"
+    },
+    {
+      "schema_pointer": "#/$defs/improvisationDirectionParameters/properties/pitchSource",
+      "owner": "#/$defs/improvisationDirectionParameters",
+      "field": "pitchSource",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/tracks/0/directions/1/parameters/pitchSource"
+    },
+    {
+      "schema_pointer": "#/$defs/instrument/properties/family",
+      "owner": "#/$defs/instrument",
+      "field": "family",
+      "direct_required": false,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/tracks/0/instrument/family"
+    },
+    {
+      "schema_pointer": "#/$defs/instrument/properties/localizedNames",
+      "owner": "#/$defs/instrument",
+      "field": "localizedNames",
+      "direct_required": false,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/tracks/0/instrument/localizedNames"
+    },
+    {
+      "schema_pointer": "#/$defs/instrument/properties/name",
+      "owner": "#/$defs/instrument",
+      "field": "name",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/tracks/0/instrument/name"
+    },
+    {
+      "schema_pointer": "#/$defs/instrument/properties/playablePitchRange",
+      "owner": "#/$defs/instrument",
+      "field": "playablePitchRange",
+      "direct_required": false,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/tracks/0/instrument/playablePitchRange"
+    },
+    {
+      "schema_pointer": "#/$defs/key/properties/label",
+      "owner": "#/$defs/key",
+      "field": "label",
+      "direct_required": false,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/song/key/label"
+    },
+    {
+      "schema_pointer": "#/$defs/key/properties/mode",
+      "owner": "#/$defs/key",
+      "field": "mode",
+      "direct_required": false,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/song/key/mode"
+    },
+    {
+      "schema_pointer": "#/$defs/key/properties/state",
+      "owner": "#/$defs/key",
+      "field": "state",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/song/key/state"
+    },
+    {
+      "schema_pointer": "#/$defs/key/properties/tonic",
+      "owner": "#/$defs/key",
+      "field": "tonic",
+      "direct_required": false,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/song/key/tonic"
+    },
+    {
+      "schema_pointer": "#/$defs/keyChange/properties/at",
+      "owner": "#/$defs/keyChange",
+      "field": "at",
+      "direct_required": true,
+      "file": "examples/31-effective-key-scale.ostf",
+      "instance_pointer": "/timeline/keyChanges/0/at"
+    },
+    {
+      "schema_pointer": "#/$defs/keyChange/properties/id",
+      "owner": "#/$defs/keyChange",
+      "field": "id",
+      "direct_required": true,
+      "file": "examples/31-effective-key-scale.ostf",
+      "instance_pointer": "/timeline/keyChanges/0/id"
+    },
+    {
+      "schema_pointer": "#/$defs/keyChange/properties/key",
+      "owner": "#/$defs/keyChange",
+      "field": "key",
+      "direct_required": true,
+      "file": "examples/31-effective-key-scale.ostf",
+      "instance_pointer": "/timeline/keyChanges/0/key"
+    },
+    {
+      "schema_pointer": "#/$defs/keyChange/properties/label",
+      "owner": "#/$defs/keyChange",
+      "field": "label",
+      "direct_required": false,
+      "file": "examples/31-effective-key-scale.ostf",
+      "instance_pointer": "/timeline/keyChanges/0/label"
+    },
+    {
+      "schema_pointer": "#/$defs/legacy33/$defs/appearanceData/properties/appearance",
+      "owner": "#/$defs/legacy33/$defs/appearanceData",
+      "field": "appearance",
+      "direct_required": true,
+      "file": "examples/03-all-legacy-profiles.ostf",
+      "instance_pointer": "/extensions/org.ostf.appearance.v1/data/appearance"
+    },
+    {
+      "schema_pointer": "#/$defs/legacy33/$defs/appearanceData/properties/appearance/properties/customRoleColors",
+      "owner": "#/$defs/legacy33/$defs/appearanceData/properties/appearance",
+      "field": "customRoleColors",
+      "direct_required": true,
+      "file": "examples/03-all-legacy-profiles.ostf",
+      "instance_pointer": "/extensions/org.ostf.appearance.v1/data/appearance/customRoleColors"
+    },
+    {
+      "schema_pointer": "#/$defs/legacy33/$defs/appearanceData/properties/appearance/properties/objectColors",
+      "owner": "#/$defs/legacy33/$defs/appearanceData/properties/appearance",
+      "field": "objectColors",
+      "direct_required": true,
+      "file": "examples/03-all-legacy-profiles.ostf",
+      "instance_pointer": "/extensions/org.ostf.appearance.v1/data/appearance/objectColors"
+    },
+    {
+      "schema_pointer": "#/$defs/legacy33/$defs/appearanceData/properties/appearance/properties/roleColors",
+      "owner": "#/$defs/legacy33/$defs/appearanceData/properties/appearance",
+      "field": "roleColors",
+      "direct_required": true,
+      "file": "examples/03-all-legacy-profiles.ostf",
+      "instance_pointer": "/extensions/org.ostf.appearance.v1/data/appearance/roleColors"
+    },
+    {
+      "schema_pointer": "#/$defs/legacy33/$defs/appearanceData/properties/roleDefinitions",
+      "owner": "#/$defs/legacy33/$defs/appearanceData",
+      "field": "roleDefinitions",
+      "direct_required": true,
+      "file": "examples/03-all-legacy-profiles.ostf",
+      "instance_pointer": "/extensions/org.ostf.appearance.v1/data/roleDefinitions"
+    },
+    {
+      "schema_pointer": "#/$defs/legacy33/$defs/appearanceData/properties/sectionRoleAssignments",
+      "owner": "#/$defs/legacy33/$defs/appearanceData",
+      "field": "sectionRoleAssignments",
+      "direct_required": true,
+      "file": "examples/03-all-legacy-profiles.ostf",
+      "instance_pointer": "/extensions/org.ostf.appearance.v1/data/sectionRoleAssignments"
+    },
+    {
+      "schema_pointer": "#/$defs/legacy33/$defs/clipCandidate/properties/clipIds",
+      "owner": "#/$defs/legacy33/$defs/clipCandidate",
+      "field": "clipIds",
+      "direct_required": true,
+      "file": "examples/03-all-legacy-profiles.ostf",
+      "instance_pointer": "/extensions/org.ostf.clip-choices.v1/data/groups/0/candidates/0/clipIds"
+    },
+    {
+      "schema_pointer": "#/$defs/legacy33/$defs/clipCandidate/properties/id",
+      "owner": "#/$defs/legacy33/$defs/clipCandidate",
+      "field": "id",
+      "direct_required": true,
+      "file": "examples/03-all-legacy-profiles.ostf",
+      "instance_pointer": "/extensions/org.ostf.clip-choices.v1/data/groups/0/candidates/0/id"
+    },
+    {
+      "schema_pointer": "#/$defs/legacy33/$defs/clipCandidate/properties/name",
+      "owner": "#/$defs/legacy33/$defs/clipCandidate",
+      "field": "name",
+      "direct_required": false,
+      "file": "examples/03-all-legacy-profiles.ostf",
+      "instance_pointer": "/extensions/org.ostf.clip-choices.v1/data/groups/0/candidates/0/name"
+    },
+    {
+      "schema_pointer": "#/$defs/legacy33/$defs/clipChoiceGroup/properties/candidates",
+      "owner": "#/$defs/legacy33/$defs/clipChoiceGroup",
+      "field": "candidates",
+      "direct_required": true,
+      "file": "examples/03-all-legacy-profiles.ostf",
+      "instance_pointer": "/extensions/org.ostf.clip-choices.v1/data/groups/0/candidates"
+    },
+    {
+      "schema_pointer": "#/$defs/legacy33/$defs/clipChoiceGroup/properties/id",
+      "owner": "#/$defs/legacy33/$defs/clipChoiceGroup",
+      "field": "id",
+      "direct_required": true,
+      "file": "examples/03-all-legacy-profiles.ostf",
+      "instance_pointer": "/extensions/org.ostf.clip-choices.v1/data/groups/0/id"
+    },
+    {
+      "schema_pointer": "#/$defs/legacy33/$defs/clipChoiceGroup/properties/name",
+      "owner": "#/$defs/legacy33/$defs/clipChoiceGroup",
+      "field": "name",
+      "direct_required": false,
+      "file": "examples/03-all-legacy-profiles.ostf",
+      "instance_pointer": "/extensions/org.ostf.clip-choices.v1/data/groups/0/name"
+    },
+    {
+      "schema_pointer": "#/$defs/legacy33/$defs/clipChoiceGroup/properties/selectedCandidateId",
+      "owner": "#/$defs/legacy33/$defs/clipChoiceGroup",
+      "field": "selectedCandidateId",
+      "direct_required": true,
+      "file": "examples/03-all-legacy-profiles.ostf",
+      "instance_pointer": "/extensions/org.ostf.clip-choices.v1/data/groups/0/selectedCandidateId"
+    },
+    {
+      "schema_pointer": "#/$defs/legacy33/$defs/clipChoicesData/properties/groups",
+      "owner": "#/$defs/legacy33/$defs/clipChoicesData",
+      "field": "groups",
+      "direct_required": true,
+      "file": "examples/03-all-legacy-profiles.ostf",
+      "instance_pointer": "/extensions/org.ostf.clip-choices.v1/data/groups"
+    },
+    {
+      "schema_pointer": "#/$defs/legacy33/$defs/dependencies/oneOf/0/properties/scope",
+      "owner": "#/$defs/legacy33/$defs/dependencies/oneOf/0",
+      "field": "scope",
+      "direct_required": true,
+      "file": "examples/03-all-legacy-profiles.ostf",
+      "instance_pointer": "/extensions/org.ostf.legacy-import.v1/dependencies/scope"
+    },
+    {
+      "schema_pointer": "#/$defs/legacy33/$defs/dependencies/oneOf/1/properties/refs",
+      "owner": "#/$defs/legacy33/$defs/dependencies/oneOf/1",
+      "field": "refs",
+      "direct_required": true,
+      "file": "examples/03-all-legacy-profiles.ostf",
+      "instance_pointer": "/extensions/org.ostf.relative-phrase.v1/dependencies/refs"
+    },
+    {
+      "schema_pointer": "#/$defs/legacy33/$defs/dependencies/oneOf/1/properties/scope",
+      "owner": "#/$defs/legacy33/$defs/dependencies/oneOf/1",
+      "field": "scope",
+      "direct_required": true,
+      "file": "examples/03-all-legacy-profiles.ostf",
+      "instance_pointer": "/extensions/org.ostf.relative-phrase.v1/dependencies/scope"
+    },
+    {
+      "schema_pointer": "#/$defs/legacy33/$defs/extension/properties/data",
+      "owner": "#/$defs/legacy33/$defs/extension",
+      "field": "data",
+      "direct_required": true,
+      "file": "examples/03-all-legacy-profiles.ostf",
+      "instance_pointer": "/extensions/org.ostf.relative-phrase.v1/data"
+    },
+    {
+      "schema_pointer": "#/$defs/legacy33/$defs/extension/properties/dependencies",
+      "owner": "#/$defs/legacy33/$defs/extension",
+      "field": "dependencies",
+      "direct_required": true,
+      "file": "examples/03-all-legacy-profiles.ostf",
+      "instance_pointer": "/extensions/org.ostf.relative-phrase.v1/dependencies"
+    },
+    {
+      "schema_pointer": "#/$defs/legacy33/$defs/extension/properties/status",
+      "owner": "#/$defs/legacy33/$defs/extension",
+      "field": "status",
+      "direct_required": true,
+      "file": "examples/03-all-legacy-profiles.ostf",
+      "instance_pointer": "/extensions/org.ostf.relative-phrase.v1/status"
+    },
+    {
+      "schema_pointer": "#/$defs/legacy33/$defs/extension/properties/version",
+      "owner": "#/$defs/legacy33/$defs/extension",
+      "field": "version",
+      "direct_required": true,
+      "file": "examples/03-all-legacy-profiles.ostf",
+      "instance_pointer": "/extensions/org.ostf.relative-phrase.v1/version"
+    },
+    {
+      "schema_pointer": "#/$defs/legacy33/$defs/extensions/properties/org.ostf.appearance.v1",
+      "owner": "#/$defs/legacy33/$defs/extensions",
+      "field": "org.ostf.appearance.v1",
+      "direct_required": false,
+      "file": "examples/03-all-legacy-profiles.ostf",
+      "instance_pointer": "/extensions/org.ostf.appearance.v1"
+    },
+    {
+      "schema_pointer": "#/$defs/legacy33/$defs/extensions/properties/org.ostf.clip-choices.v1",
+      "owner": "#/$defs/legacy33/$defs/extensions",
+      "field": "org.ostf.clip-choices.v1",
+      "direct_required": false,
+      "file": "examples/03-all-legacy-profiles.ostf",
+      "instance_pointer": "/extensions/org.ostf.clip-choices.v1"
+    },
+    {
+      "schema_pointer": "#/$defs/legacy33/$defs/extensions/properties/org.ostf.generation-context.v1",
+      "owner": "#/$defs/legacy33/$defs/extensions",
+      "field": "org.ostf.generation-context.v1",
+      "direct_required": false,
+      "file": "examples/03-all-legacy-profiles.ostf",
+      "instance_pointer": "/extensions/org.ostf.generation-context.v1"
+    },
+    {
+      "schema_pointer": "#/$defs/legacy33/$defs/extensions/properties/org.ostf.legacy-import.v1",
+      "owner": "#/$defs/legacy33/$defs/extensions",
+      "field": "org.ostf.legacy-import.v1",
+      "direct_required": false,
+      "file": "examples/03-all-legacy-profiles.ostf",
+      "instance_pointer": "/extensions/org.ostf.legacy-import.v1"
+    },
+    {
+      "schema_pointer": "#/$defs/legacy33/$defs/extensions/properties/org.ostf.localization.v1",
+      "owner": "#/$defs/legacy33/$defs/extensions",
+      "field": "org.ostf.localization.v1",
+      "direct_required": false,
+      "file": "examples/03-all-legacy-profiles.ostf",
+      "instance_pointer": "/extensions/org.ostf.localization.v1"
+    },
+    {
+      "schema_pointer": "#/$defs/legacy33/$defs/extensions/properties/org.ostf.phrase-library.v1",
+      "owner": "#/$defs/legacy33/$defs/extensions",
+      "field": "org.ostf.phrase-library.v1",
+      "direct_required": false,
+      "file": "examples/03-all-legacy-profiles.ostf",
+      "instance_pointer": "/extensions/org.ostf.phrase-library.v1"
+    },
+    {
+      "schema_pointer": "#/$defs/legacy33/$defs/extensions/properties/org.ostf.relative-phrase.v1",
+      "owner": "#/$defs/legacy33/$defs/extensions",
+      "field": "org.ostf.relative-phrase.v1",
+      "direct_required": false,
+      "file": "examples/03-all-legacy-profiles.ostf",
+      "instance_pointer": "/extensions/org.ostf.relative-phrase.v1"
+    },
+    {
+      "schema_pointer": "#/$defs/legacy33/$defs/generationData/properties/processes",
+      "owner": "#/$defs/legacy33/$defs/generationData",
+      "field": "processes",
+      "direct_required": true,
+      "file": "examples/03-all-legacy-profiles.ostf",
+      "instance_pointer": "/extensions/org.ostf.generation-context.v1/data/processes"
+    },
+    {
+      "schema_pointer": "#/$defs/legacy33/$defs/generationInput/properties/readRange",
+      "owner": "#/$defs/legacy33/$defs/generationInput",
+      "field": "readRange",
+      "direct_required": false,
+      "file": "examples/03-all-legacy-profiles.ostf",
+      "instance_pointer": "/extensions/org.ostf.generation-context.v1/data/processes/0/inputs/0/readRange"
+    },
+    {
+      "schema_pointer": "#/$defs/legacy33/$defs/generationInput/properties/ref",
+      "owner": "#/$defs/legacy33/$defs/generationInput",
+      "field": "ref",
+      "direct_required": true,
+      "file": "examples/03-all-legacy-profiles.ostf",
+      "instance_pointer": "/extensions/org.ostf.generation-context.v1/data/processes/0/inputs/0/ref"
+    },
+    {
+      "schema_pointer": "#/$defs/legacy33/$defs/generationInput/properties/role",
+      "owner": "#/$defs/legacy33/$defs/generationInput",
+      "field": "role",
+      "direct_required": true,
+      "file": "examples/03-all-legacy-profiles.ostf",
+      "instance_pointer": "/extensions/org.ostf.generation-context.v1/data/processes/0/inputs/0/role"
+    },
+    {
+      "schema_pointer": "#/$defs/legacy33/$defs/generationProcess/properties/generator",
+      "owner": "#/$defs/legacy33/$defs/generationProcess",
+      "field": "generator",
+      "direct_required": true,
+      "file": "examples/03-all-legacy-profiles.ostf",
+      "instance_pointer": "/extensions/org.ostf.generation-context.v1/data/processes/0/generator"
+    },
+    {
+      "schema_pointer": "#/$defs/legacy33/$defs/generationProcess/properties/id",
+      "owner": "#/$defs/legacy33/$defs/generationProcess",
+      "field": "id",
+      "direct_required": true,
+      "file": "examples/03-all-legacy-profiles.ostf",
+      "instance_pointer": "/extensions/org.ostf.generation-context.v1/data/processes/0/id"
+    },
+    {
+      "schema_pointer": "#/$defs/legacy33/$defs/generationProcess/properties/inputs",
+      "owner": "#/$defs/legacy33/$defs/generationProcess",
+      "field": "inputs",
+      "direct_required": true,
+      "file": "examples/03-all-legacy-profiles.ostf",
+      "instance_pointer": "/extensions/org.ostf.generation-context.v1/data/processes/0/inputs"
+    },
+    {
+      "schema_pointer": "#/$defs/legacy33/$defs/generationProcess/properties/outputs",
+      "owner": "#/$defs/legacy33/$defs/generationProcess",
+      "field": "outputs",
+      "direct_required": true,
+      "file": "examples/03-all-legacy-profiles.ostf",
+      "instance_pointer": "/extensions/org.ostf.generation-context.v1/data/processes/0/outputs"
+    },
+    {
+      "schema_pointer": "#/$defs/legacy33/$defs/generationProcess/properties/protectedNoteIds",
+      "owner": "#/$defs/legacy33/$defs/generationProcess",
+      "field": "protectedNoteIds",
+      "direct_required": true,
+      "file": "examples/03-all-legacy-profiles.ostf",
+      "instance_pointer": "/extensions/org.ostf.generation-context.v1/data/processes/0/protectedNoteIds"
+    },
+    {
+      "schema_pointer": "#/$defs/legacy33/$defs/generationProcess/properties/targetRange",
+      "owner": "#/$defs/legacy33/$defs/generationProcess",
+      "field": "targetRange",
+      "direct_required": false,
+      "file": "examples/03-all-legacy-profiles.ostf",
+      "instance_pointer": "/extensions/org.ostf.generation-context.v1/data/processes/0/targetRange"
+    },
+    {
+      "schema_pointer": "#/$defs/legacy33/$defs/generationProcess/properties/vendorExtension",
+      "owner": "#/$defs/legacy33/$defs/generationProcess",
+      "field": "vendorExtension",
+      "direct_required": false,
+      "file": "examples/03-all-legacy-profiles.ostf",
+      "instance_pointer": "/extensions/org.ostf.generation-context.v1/data/processes/0/vendorExtension"
+    },
+    {
+      "schema_pointer": "#/$defs/legacy33/$defs/generator/properties/id",
+      "owner": "#/$defs/legacy33/$defs/generator",
+      "field": "id",
+      "direct_required": true,
+      "file": "examples/03-all-legacy-profiles.ostf",
+      "instance_pointer": "/extensions/org.ostf.generation-context.v1/data/processes/0/generator/id"
+    },
+    {
+      "schema_pointer": "#/$defs/legacy33/$defs/generator/properties/version",
+      "owner": "#/$defs/legacy33/$defs/generator",
+      "field": "version",
+      "direct_required": true,
+      "file": "examples/03-all-legacy-profiles.ostf",
+      "instance_pointer": "/extensions/org.ostf.generation-context.v1/data/processes/0/generator/version"
+    },
+    {
+      "schema_pointer": "#/$defs/legacy33/$defs/legacyData/properties/conversionReport",
+      "owner": "#/$defs/legacy33/$defs/legacyData",
+      "field": "conversionReport",
+      "direct_required": true,
+      "file": "examples/03-all-legacy-profiles.ostf",
+      "instance_pointer": "/extensions/org.ostf.legacy-import.v1/data/conversionReport"
+    },
+    {
+      "schema_pointer": "#/$defs/legacy33/$defs/legacyData/properties/sourceSha256",
+      "owner": "#/$defs/legacy33/$defs/legacyData",
+      "field": "sourceSha256",
+      "direct_required": true,
+      "file": "examples/03-all-legacy-profiles.ostf",
+      "instance_pointer": "/extensions/org.ostf.legacy-import.v1/data/sourceSha256"
+    },
+    {
+      "schema_pointer": "#/$defs/legacy33/$defs/legacyData/properties/sourceText",
+      "owner": "#/$defs/legacy33/$defs/legacyData",
+      "field": "sourceText",
+      "direct_required": true,
+      "file": "examples/03-all-legacy-profiles.ostf",
+      "instance_pointer": "/extensions/org.ostf.legacy-import.v1/data/sourceText"
+    },
+    {
+      "schema_pointer": "#/$defs/legacy33/$defs/legacyData/properties/sourceVersion",
+      "owner": "#/$defs/legacy33/$defs/legacyData",
+      "field": "sourceVersion",
+      "direct_required": true,
+      "file": "examples/03-all-legacy-profiles.ostf",
+      "instance_pointer": "/extensions/org.ostf.legacy-import.v1/data/sourceVersion"
+    },
+    {
+      "schema_pointer": "#/$defs/legacy33/$defs/localizationData/properties/entries",
+      "owner": "#/$defs/legacy33/$defs/localizationData",
+      "field": "entries",
+      "direct_required": true,
+      "file": "examples/03-all-legacy-profiles.ostf",
+      "instance_pointer": "/extensions/org.ostf.localization.v1/data/entries"
+    },
+    {
+      "schema_pointer": "#/$defs/legacy33/$defs/localizationEntry/properties/field",
+      "owner": "#/$defs/legacy33/$defs/localizationEntry",
+      "field": "field",
+      "direct_required": true,
+      "file": "examples/03-all-legacy-profiles.ostf",
+      "instance_pointer": "/extensions/org.ostf.localization.v1/data/entries/0/field"
+    },
+    {
+      "schema_pointer": "#/$defs/legacy33/$defs/localizationEntry/properties/target",
+      "owner": "#/$defs/legacy33/$defs/localizationEntry",
+      "field": "target",
+      "direct_required": true,
+      "file": "examples/03-all-legacy-profiles.ostf",
+      "instance_pointer": "/extensions/org.ostf.localization.v1/data/entries/0/target"
+    },
+    {
+      "schema_pointer": "#/$defs/legacy33/$defs/localizationEntry/properties/values",
+      "owner": "#/$defs/legacy33/$defs/localizationEntry",
+      "field": "values",
+      "direct_required": true,
+      "file": "examples/03-all-legacy-profiles.ostf",
+      "instance_pointer": "/extensions/org.ostf.localization.v1/data/entries/0/values"
+    },
+    {
+      "schema_pointer": "#/$defs/legacy33/$defs/localizationTarget/properties/id",
+      "owner": "#/$defs/legacy33/$defs/localizationTarget",
+      "field": "id",
+      "direct_required": false,
+      "file": "examples/03-all-legacy-profiles.ostf",
+      "instance_pointer": "/extensions/org.ostf.localization.v1/data/entries/0/target/id"
+    },
+    {
+      "schema_pointer": "#/$defs/legacy33/$defs/localizationTarget/properties/kind",
+      "owner": "#/$defs/legacy33/$defs/localizationTarget",
+      "field": "kind",
+      "direct_required": true,
+      "file": "examples/03-all-legacy-profiles.ostf",
+      "instance_pointer": "/extensions/org.ostf.localization.v1/data/entries/0/target/kind"
+    },
+    {
+      "schema_pointer": "#/$defs/legacy33/$defs/localizationTarget/properties/profile",
+      "owner": "#/$defs/legacy33/$defs/localizationTarget",
+      "field": "profile",
+      "direct_required": false,
+      "file": "examples/03-all-legacy-profiles.ostf",
+      "instance_pointer": "/extensions/org.ostf.localization.v1/data/entries/0/target/profile"
+    },
+    {
+      "schema_pointer": "#/$defs/legacy33/$defs/objectColor/properties/color",
+      "owner": "#/$defs/legacy33/$defs/objectColor",
+      "field": "color",
+      "direct_required": true,
+      "file": "examples/03-all-legacy-profiles.ostf",
+      "instance_pointer": "/extensions/org.ostf.appearance.v1/data/appearance/objectColors/0/color"
+    },
+    {
+      "schema_pointer": "#/$defs/legacy33/$defs/objectColor/properties/target",
+      "owner": "#/$defs/legacy33/$defs/objectColor",
+      "field": "target",
+      "direct_required": true,
+      "file": "examples/03-all-legacy-profiles.ostf",
+      "instance_pointer": "/extensions/org.ostf.appearance.v1/data/appearance/objectColors/0/target"
+    },
+    {
+      "schema_pointer": "#/$defs/legacy33/$defs/phraseInstance/properties/clipId",
+      "owner": "#/$defs/legacy33/$defs/phraseInstance",
+      "field": "clipId",
+      "direct_required": true,
+      "file": "examples/03-all-legacy-profiles.ostf",
+      "instance_pointer": "/extensions/org.ostf.phrase-library.v1/data/instances/0/clipId"
+    },
+    {
+      "schema_pointer": "#/$defs/legacy33/$defs/phraseInstance/properties/id",
+      "owner": "#/$defs/legacy33/$defs/phraseInstance",
+      "field": "id",
+      "direct_required": true,
+      "file": "examples/03-all-legacy-profiles.ostf",
+      "instance_pointer": "/extensions/org.ostf.phrase-library.v1/data/instances/0/id"
+    },
+    {
+      "schema_pointer": "#/$defs/legacy33/$defs/phraseInstance/properties/noteMap",
+      "owner": "#/$defs/legacy33/$defs/phraseInstance",
+      "field": "noteMap",
+      "direct_required": true,
+      "file": "examples/03-all-legacy-profiles.ostf",
+      "instance_pointer": "/extensions/org.ostf.phrase-library.v1/data/instances/0/noteMap"
+    },
+    {
+      "schema_pointer": "#/$defs/legacy33/$defs/phraseInstance/properties/repeatCount",
+      "owner": "#/$defs/legacy33/$defs/phraseInstance",
+      "field": "repeatCount",
+      "direct_required": true,
+      "file": "examples/03-all-legacy-profiles.ostf",
+      "instance_pointer": "/extensions/org.ostf.phrase-library.v1/data/instances/0/repeatCount"
+    },
+    {
+      "schema_pointer": "#/$defs/legacy33/$defs/phraseInstance/properties/templateId",
+      "owner": "#/$defs/legacy33/$defs/phraseInstance",
+      "field": "templateId",
+      "direct_required": true,
+      "file": "examples/03-all-legacy-profiles.ostf",
+      "instance_pointer": "/extensions/org.ostf.phrase-library.v1/data/instances/0/templateId"
+    },
+    {
+      "schema_pointer": "#/$defs/legacy33/$defs/phraseInstance/properties/transpose",
+      "owner": "#/$defs/legacy33/$defs/phraseInstance",
+      "field": "transpose",
+      "direct_required": true,
+      "file": "examples/03-all-legacy-profiles.ostf",
+      "instance_pointer": "/extensions/org.ostf.phrase-library.v1/data/instances/0/transpose"
+    },
+    {
+      "schema_pointer": "#/$defs/legacy33/$defs/phraseLibraryData/properties/instances",
+      "owner": "#/$defs/legacy33/$defs/phraseLibraryData",
+      "field": "instances",
+      "direct_required": true,
+      "file": "examples/03-all-legacy-profiles.ostf",
+      "instance_pointer": "/extensions/org.ostf.phrase-library.v1/data/instances"
+    },
+    {
+      "schema_pointer": "#/$defs/legacy33/$defs/phraseLibraryData/properties/templates",
+      "owner": "#/$defs/legacy33/$defs/phraseLibraryData",
+      "field": "templates",
+      "direct_required": true,
+      "file": "examples/03-all-legacy-profiles.ostf",
+      "instance_pointer": "/extensions/org.ostf.phrase-library.v1/data/templates"
+    },
+    {
+      "schema_pointer": "#/$defs/legacy33/$defs/phraseNoteMapping/properties/noteId",
+      "owner": "#/$defs/legacy33/$defs/phraseNoteMapping",
+      "field": "noteId",
+      "direct_required": true,
+      "file": "examples/03-all-legacy-profiles.ostf",
+      "instance_pointer": "/extensions/org.ostf.phrase-library.v1/data/instances/0/noteMap/0/noteId"
+    },
+    {
+      "schema_pointer": "#/$defs/legacy33/$defs/phraseNoteMapping/properties/repeatIndex",
+      "owner": "#/$defs/legacy33/$defs/phraseNoteMapping",
+      "field": "repeatIndex",
+      "direct_required": true,
+      "file": "examples/03-all-legacy-profiles.ostf",
+      "instance_pointer": "/extensions/org.ostf.phrase-library.v1/data/instances/0/noteMap/0/repeatIndex"
+    },
+    {
+      "schema_pointer": "#/$defs/legacy33/$defs/phraseNoteMapping/properties/templateNoteId",
+      "owner": "#/$defs/legacy33/$defs/phraseNoteMapping",
+      "field": "templateNoteId",
+      "direct_required": true,
+      "file": "examples/03-all-legacy-profiles.ostf",
+      "instance_pointer": "/extensions/org.ostf.phrase-library.v1/data/instances/0/noteMap/0/templateNoteId"
+    },
+    {
+      "schema_pointer": "#/$defs/legacy33/$defs/phraseSourceNote/properties/duration",
+      "owner": "#/$defs/legacy33/$defs/phraseSourceNote",
+      "field": "duration",
+      "direct_required": true,
+      "file": "examples/03-all-legacy-profiles.ostf",
+      "instance_pointer": "/extensions/org.ostf.phrase-library.v1/data/templates/0/notes/0/duration"
+    },
+    {
+      "schema_pointer": "#/$defs/legacy33/$defs/phraseSourceNote/properties/id",
+      "owner": "#/$defs/legacy33/$defs/phraseSourceNote",
+      "field": "id",
+      "direct_required": true,
+      "file": "examples/03-all-legacy-profiles.ostf",
+      "instance_pointer": "/extensions/org.ostf.phrase-library.v1/data/templates/0/notes/0/id"
+    },
+    {
+      "schema_pointer": "#/$defs/legacy33/$defs/phraseSourceNote/properties/pitch",
+      "owner": "#/$defs/legacy33/$defs/phraseSourceNote",
+      "field": "pitch",
+      "direct_required": false,
+      "file": "examples/03-all-legacy-profiles.ostf",
+      "instance_pointer": "/extensions/org.ostf.phrase-library.v1/data/templates/0/notes/0/pitch"
+    },
+    {
+      "schema_pointer": "#/$defs/legacy33/$defs/phraseSourceNote/properties/soundSlotId",
+      "owner": "#/$defs/legacy33/$defs/phraseSourceNote",
+      "field": "soundSlotId",
+      "direct_required": false,
+      "file": "examples/03-all-legacy-profiles.ostf",
+      "instance_pointer": "/extensions/org.ostf.phrase-library.v1/data/templates/1/notes/0/soundSlotId"
+    },
+    {
+      "schema_pointer": "#/$defs/legacy33/$defs/phraseSourceNote/properties/start",
+      "owner": "#/$defs/legacy33/$defs/phraseSourceNote",
+      "field": "start",
+      "direct_required": true,
+      "file": "examples/03-all-legacy-profiles.ostf",
+      "instance_pointer": "/extensions/org.ostf.phrase-library.v1/data/templates/0/notes/0/start"
+    },
+    {
+      "schema_pointer": "#/$defs/legacy33/$defs/phraseTemplate/properties/duration",
+      "owner": "#/$defs/legacy33/$defs/phraseTemplate",
+      "field": "duration",
+      "direct_required": true,
+      "file": "examples/03-all-legacy-profiles.ostf",
+      "instance_pointer": "/extensions/org.ostf.phrase-library.v1/data/templates/0/duration"
+    },
+    {
+      "schema_pointer": "#/$defs/legacy33/$defs/phraseTemplate/properties/id",
+      "owner": "#/$defs/legacy33/$defs/phraseTemplate",
+      "field": "id",
+      "direct_required": true,
+      "file": "examples/03-all-legacy-profiles.ostf",
+      "instance_pointer": "/extensions/org.ostf.phrase-library.v1/data/templates/0/id"
+    },
+    {
+      "schema_pointer": "#/$defs/legacy33/$defs/phraseTemplate/properties/name",
+      "owner": "#/$defs/legacy33/$defs/phraseTemplate",
+      "field": "name",
+      "direct_required": false,
+      "file": "examples/03-all-legacy-profiles.ostf",
+      "instance_pointer": "/extensions/org.ostf.phrase-library.v1/data/templates/0/name"
+    },
+    {
+      "schema_pointer": "#/$defs/legacy33/$defs/phraseTemplate/properties/notes",
+      "owner": "#/$defs/legacy33/$defs/phraseTemplate",
+      "field": "notes",
+      "direct_required": true,
+      "file": "examples/03-all-legacy-profiles.ostf",
+      "instance_pointer": "/extensions/org.ostf.phrase-library.v1/data/templates/0/notes"
+    },
+    {
+      "schema_pointer": "#/$defs/legacy33/$defs/range/properties/duration",
+      "owner": "#/$defs/legacy33/$defs/range",
+      "field": "duration",
+      "direct_required": true,
+      "file": "examples/03-all-legacy-profiles.ostf",
+      "instance_pointer": "/extensions/org.ostf.generation-context.v1/data/processes/0/inputs/0/readRange/duration"
+    },
+    {
+      "schema_pointer": "#/$defs/legacy33/$defs/range/properties/start",
+      "owner": "#/$defs/legacy33/$defs/range",
+      "field": "start",
+      "direct_required": true,
+      "file": "examples/03-all-legacy-profiles.ostf",
+      "instance_pointer": "/extensions/org.ostf.generation-context.v1/data/processes/0/inputs/0/readRange/start"
+    },
+    {
+      "schema_pointer": "#/$defs/legacy33/$defs/ref/properties/id",
+      "owner": "#/$defs/legacy33/$defs/ref",
+      "field": "id",
+      "direct_required": true,
+      "file": "examples/03-all-legacy-profiles.ostf",
+      "instance_pointer": "/extensions/org.ostf.relative-phrase.v1/dependencies/refs/0/id"
+    },
+    {
+      "schema_pointer": "#/$defs/legacy33/$defs/ref/properties/type",
+      "owner": "#/$defs/legacy33/$defs/ref",
+      "field": "type",
+      "direct_required": true,
+      "file": "examples/03-all-legacy-profiles.ostf",
+      "instance_pointer": "/extensions/org.ostf.relative-phrase.v1/dependencies/refs/0/type"
+    },
+    {
+      "schema_pointer": "#/$defs/legacy33/$defs/relativeAssignment/properties/anchorPitch",
+      "owner": "#/$defs/legacy33/$defs/relativeAssignment",
+      "field": "anchorPitch",
+      "direct_required": true,
+      "file": "examples/03-all-legacy-profiles.ostf",
+      "instance_pointer": "/extensions/org.ostf.relative-phrase.v1/data/assignments/0/anchorPitch"
+    },
+    {
+      "schema_pointer": "#/$defs/legacy33/$defs/relativeAssignment/properties/basis",
+      "owner": "#/$defs/legacy33/$defs/relativeAssignment",
+      "field": "basis",
+      "direct_required": true,
+      "file": "examples/03-all-legacy-profiles.ostf",
+      "instance_pointer": "/extensions/org.ostf.relative-phrase.v1/data/assignments/0/basis"
+    },
+    {
+      "schema_pointer": "#/$defs/legacy33/$defs/relativeAssignment/properties/chromaticOffset",
+      "owner": "#/$defs/legacy33/$defs/relativeAssignment",
+      "field": "chromaticOffset",
+      "direct_required": true,
+      "file": "examples/03-all-legacy-profiles.ostf",
+      "instance_pointer": "/extensions/org.ostf.relative-phrase.v1/data/assignments/0/chromaticOffset"
+    },
+    {
+      "schema_pointer": "#/$defs/legacy33/$defs/relativeAssignment/properties/contextId",
+      "owner": "#/$defs/legacy33/$defs/relativeAssignment",
+      "field": "contextId",
+      "direct_required": true,
+      "file": "examples/03-all-legacy-profiles.ostf",
+      "instance_pointer": "/extensions/org.ostf.relative-phrase.v1/data/assignments/0/contextId"
+    },
+    {
+      "schema_pointer": "#/$defs/legacy33/$defs/relativeAssignment/properties/index",
+      "owner": "#/$defs/legacy33/$defs/relativeAssignment",
+      "field": "index",
+      "direct_required": true,
+      "file": "examples/03-all-legacy-profiles.ostf",
+      "instance_pointer": "/extensions/org.ostf.relative-phrase.v1/data/assignments/0/index"
+    },
+    {
+      "schema_pointer": "#/$defs/legacy33/$defs/relativeAssignment/properties/noteId",
+      "owner": "#/$defs/legacy33/$defs/relativeAssignment",
+      "field": "noteId",
+      "direct_required": true,
+      "file": "examples/03-all-legacy-profiles.ostf",
+      "instance_pointer": "/extensions/org.ostf.relative-phrase.v1/data/assignments/0/noteId"
+    },
+    {
+      "schema_pointer": "#/$defs/legacy33/$defs/relativeData/properties/assignments",
+      "owner": "#/$defs/legacy33/$defs/relativeData",
+      "field": "assignments",
+      "direct_required": true,
+      "file": "examples/03-all-legacy-profiles.ostf",
+      "instance_pointer": "/extensions/org.ostf.relative-phrase.v1/data/assignments"
+    },
+    {
+      "schema_pointer": "#/$defs/legacy33/$defs/roleDefinition/properties/baseRole",
+      "owner": "#/$defs/legacy33/$defs/roleDefinition",
+      "field": "baseRole",
+      "direct_required": false,
+      "file": "examples/03-all-legacy-profiles.ostf",
+      "instance_pointer": "/extensions/org.ostf.appearance.v1/data/roleDefinitions/0/baseRole"
+    },
+    {
+      "schema_pointer": "#/$defs/legacy33/$defs/roleDefinition/properties/id",
+      "owner": "#/$defs/legacy33/$defs/roleDefinition",
+      "field": "id",
+      "direct_required": true,
+      "file": "examples/03-all-legacy-profiles.ostf",
+      "instance_pointer": "/extensions/org.ostf.appearance.v1/data/roleDefinitions/0/id"
+    },
+    {
+      "schema_pointer": "#/$defs/legacy33/$defs/roleDefinition/properties/name",
+      "owner": "#/$defs/legacy33/$defs/roleDefinition",
+      "field": "name",
+      "direct_required": true,
+      "file": "examples/03-all-legacy-profiles.ostf",
+      "instance_pointer": "/extensions/org.ostf.appearance.v1/data/roleDefinitions/0/name"
+    },
+    {
+      "schema_pointer": "#/$defs/localization/properties/dependencies",
+      "owner": "#/$defs/localization",
+      "field": "dependencies",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/localization/dependencies"
+    },
+    {
+      "schema_pointer": "#/$defs/localization/properties/entries",
+      "owner": "#/$defs/localization",
+      "field": "entries",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/localization/entries"
+    },
+    {
+      "schema_pointer": "#/$defs/localization/properties/status",
+      "owner": "#/$defs/localization",
+      "field": "status",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/localization/status"
+    },
+    {
+      "schema_pointer": "#/$defs/localizationEntry/properties/field",
+      "owner": "#/$defs/localizationEntry",
+      "field": "field",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/localization/entries/0/field"
+    },
+    {
+      "schema_pointer": "#/$defs/localizationEntry/properties/target",
+      "owner": "#/$defs/localizationEntry",
+      "field": "target",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/localization/entries/0/target"
+    },
+    {
+      "schema_pointer": "#/$defs/localizationEntry/properties/values",
+      "owner": "#/$defs/localizationEntry",
+      "field": "values",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/localization/entries/0/values"
+    },
+    {
+      "schema_pointer": "#/$defs/localizationTarget/properties/id",
+      "owner": "#/$defs/localizationTarget",
+      "field": "id",
+      "direct_required": false,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/localization/entries/1/target/id"
+    },
+    {
+      "schema_pointer": "#/$defs/localizationTarget/properties/kind",
+      "owner": "#/$defs/localizationTarget",
+      "field": "kind",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/localization/entries/0/target/kind"
+    },
+    {
+      "schema_pointer": "#/$defs/lyricAlignment/properties/id",
+      "owner": "#/$defs/lyricAlignment",
+      "field": "id",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/lyrics/alignments/0/id"
+    },
+    {
+      "schema_pointer": "#/$defs/lyricAlignment/properties/noteIds",
+      "owner": "#/$defs/lyricAlignment",
+      "field": "noteIds",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/lyrics/alignments/0/noteIds"
+    },
+    {
+      "schema_pointer": "#/$defs/lyricAlignment/properties/unitIds",
+      "owner": "#/$defs/lyricAlignment",
+      "field": "unitIds",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/lyrics/alignments/0/unitIds"
+    },
+    {
+      "schema_pointer": "#/$defs/lyricAlignment/properties/voiceId",
+      "owner": "#/$defs/lyricAlignment",
+      "field": "voiceId",
+      "direct_required": false,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/lyrics/alignments/0/voiceId"
+    },
+    {
+      "schema_pointer": "#/$defs/lyricDocument/properties/id",
+      "owner": "#/$defs/lyricDocument",
+      "field": "id",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/lyrics/documents/0/id"
+    },
+    {
+      "schema_pointer": "#/$defs/lyricDocument/properties/language",
+      "owner": "#/$defs/lyricDocument",
+      "field": "language",
+      "direct_required": false,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/lyrics/documents/0/language"
+    },
+    {
+      "schema_pointer": "#/$defs/lyricDocument/properties/title",
+      "owner": "#/$defs/lyricDocument",
+      "field": "title",
+      "direct_required": false,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/lyrics/documents/0/title"
+    },
+    {
+      "schema_pointer": "#/$defs/lyricPhrase/properties/documentId",
+      "owner": "#/$defs/lyricPhrase",
+      "field": "documentId",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/lyrics/phrases/0/documentId"
+    },
+    {
+      "schema_pointer": "#/$defs/lyricPhrase/properties/duration",
+      "owner": "#/$defs/lyricPhrase",
+      "field": "duration",
+      "direct_required": false,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/lyrics/phrases/0/duration"
+    },
+    {
+      "schema_pointer": "#/$defs/lyricPhrase/properties/id",
+      "owner": "#/$defs/lyricPhrase",
+      "field": "id",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/lyrics/phrases/0/id"
+    },
+    {
+      "schema_pointer": "#/$defs/lyricPhrase/properties/pronunciation",
+      "owner": "#/$defs/lyricPhrase",
+      "field": "pronunciation",
+      "direct_required": false,
+      "file": "examples/45-lyrics-pronunciation.ostf",
+      "instance_pointer": "/lyrics/phrases/0/pronunciation"
+    },
+    {
+      "schema_pointer": "#/$defs/lyricPhrase/properties/start",
+      "owner": "#/$defs/lyricPhrase",
+      "field": "start",
+      "direct_required": false,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/lyrics/phrases/0/start"
+    },
+    {
+      "schema_pointer": "#/$defs/lyricPhrase/properties/text",
+      "owner": "#/$defs/lyricPhrase",
+      "field": "text",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/lyrics/phrases/0/text"
+    },
+    {
+      "schema_pointer": "#/$defs/lyricUnit/properties/duration",
+      "owner": "#/$defs/lyricUnit",
+      "field": "duration",
+      "direct_required": false,
+      "file": "examples/02-all-vocal-parameters.ostf",
+      "instance_pointer": "/lyrics/units/0/duration"
+    },
+    {
+      "schema_pointer": "#/$defs/lyricUnit/properties/id",
+      "owner": "#/$defs/lyricUnit",
+      "field": "id",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/lyrics/units/0/id"
+    },
+    {
+      "schema_pointer": "#/$defs/lyricUnit/properties/phonetics",
+      "owner": "#/$defs/lyricUnit",
+      "field": "phonetics",
+      "direct_required": false,
+      "file": "examples/02-all-vocal-parameters.ostf",
+      "instance_pointer": "/lyrics/units/0/phonetics"
+    },
+    {
+      "schema_pointer": "#/$defs/lyricUnit/properties/phraseId",
+      "owner": "#/$defs/lyricUnit",
+      "field": "phraseId",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/lyrics/units/0/phraseId"
+    },
+    {
+      "schema_pointer": "#/$defs/lyricUnit/properties/pronunciation",
+      "owner": "#/$defs/lyricUnit",
+      "field": "pronunciation",
+      "direct_required": false,
+      "file": "examples/02-all-vocal-parameters.ostf",
+      "instance_pointer": "/lyrics/units/0/pronunciation"
+    },
+    {
+      "schema_pointer": "#/$defs/lyricUnit/properties/start",
+      "owner": "#/$defs/lyricUnit",
+      "field": "start",
+      "direct_required": false,
+      "file": "examples/02-all-vocal-parameters.ostf",
+      "instance_pointer": "/lyrics/units/0/start"
+    },
+    {
+      "schema_pointer": "#/$defs/lyricUnit/properties/text",
+      "owner": "#/$defs/lyricUnit",
+      "field": "text",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/lyrics/units/0/text"
+    },
+    {
+      "schema_pointer": "#/$defs/lyricVoice/properties/documentId",
+      "owner": "#/$defs/lyricVoice",
+      "field": "documentId",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/lyrics/voices/0/documentId"
+    },
+    {
+      "schema_pointer": "#/$defs/lyricVoice/properties/id",
+      "owner": "#/$defs/lyricVoice",
+      "field": "id",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/lyrics/voices/0/id"
+    },
+    {
+      "schema_pointer": "#/$defs/lyricVoice/properties/name",
+      "owner": "#/$defs/lyricVoice",
+      "field": "name",
+      "direct_required": false,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/lyrics/voices/0/name"
+    },
+    {
+      "schema_pointer": "#/$defs/lyricVoice/properties/role",
+      "owner": "#/$defs/lyricVoice",
+      "field": "role",
+      "direct_required": false,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/lyrics/voices/0/role"
+    },
+    {
+      "schema_pointer": "#/$defs/lyricVoice/properties/trackId",
+      "owner": "#/$defs/lyricVoice",
+      "field": "trackId",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/lyrics/voices/0/trackId"
+    },
+    {
+      "schema_pointer": "#/$defs/lyricVoice/properties/vocalProfile",
+      "owner": "#/$defs/lyricVoice",
+      "field": "vocalProfile",
+      "direct_required": false,
+      "file": "examples/02-all-vocal-parameters.ostf",
+      "instance_pointer": "/lyrics/voices/0/vocalProfile"
+    },
+    {
+      "schema_pointer": "#/$defs/lyrics/properties/alignments",
+      "owner": "#/$defs/lyrics",
+      "field": "alignments",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/lyrics/alignments"
+    },
+    {
+      "schema_pointer": "#/$defs/lyrics/properties/documents",
+      "owner": "#/$defs/lyrics",
+      "field": "documents",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/lyrics/documents"
+    },
+    {
+      "schema_pointer": "#/$defs/lyrics/properties/phrases",
+      "owner": "#/$defs/lyrics",
+      "field": "phrases",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/lyrics/phrases"
+    },
+    {
+      "schema_pointer": "#/$defs/lyrics/properties/units",
+      "owner": "#/$defs/lyrics",
+      "field": "units",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/lyrics/units"
+    },
+    {
+      "schema_pointer": "#/$defs/lyrics/properties/voices",
+      "owner": "#/$defs/lyrics",
+      "field": "voices",
+      "direct_required": false,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/lyrics/voices"
+    },
+    {
+      "schema_pointer": "#/$defs/meter/properties/at",
+      "owner": "#/$defs/meter",
+      "field": "at",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/timeline/meterChanges/0/at"
+    },
+    {
+      "schema_pointer": "#/$defs/meter/properties/beatGroups",
+      "owner": "#/$defs/meter",
+      "field": "beatGroups",
+      "direct_required": false,
+      "file": "examples/40-meter-map.ostf",
+      "instance_pointer": "/timeline/meterChanges/1/beatGroups"
+    },
+    {
+      "schema_pointer": "#/$defs/meter/properties/denominator",
+      "owner": "#/$defs/meter",
+      "field": "denominator",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/timeline/meterChanges/0/denominator"
+    },
+    {
+      "schema_pointer": "#/$defs/meter/properties/numerator",
+      "owner": "#/$defs/meter",
+      "field": "numerator",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/timeline/meterChanges/0/numerator"
+    },
+    {
+      "schema_pointer": "#/$defs/midi/properties/buses",
+      "owner": "#/$defs/midi",
+      "field": "buses",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/midi/buses"
+    },
+    {
+      "schema_pointer": "#/$defs/midiBus/properties/id",
+      "owner": "#/$defs/midiBus",
+      "field": "id",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/midi/buses/0/id"
+    },
+    {
+      "schema_pointer": "#/$defs/midiBus/properties/name",
+      "owner": "#/$defs/midiBus",
+      "field": "name",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/midi/buses/0/name"
+    },
+    {
+      "schema_pointer": "#/$defs/midiMapping/properties/note",
+      "owner": "#/$defs/midiMapping",
+      "field": "note",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/soundSlots/0/midiMapping/note"
+    },
+    {
+      "schema_pointer": "#/$defs/midiMapping/properties/standard",
+      "owner": "#/$defs/midiMapping",
+      "field": "standard",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/soundSlots/0/midiMapping/standard"
+    },
+    {
+      "schema_pointer": "#/$defs/mood/properties/externalUri",
+      "owner": "#/$defs/mood",
+      "field": "externalUri",
+      "direct_required": false,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/song/moods/0/externalUri"
+    },
+    {
+      "schema_pointer": "#/$defs/mood/properties/id",
+      "owner": "#/$defs/mood",
+      "field": "id",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/song/moods/0/id"
+    },
+    {
+      "schema_pointer": "#/$defs/mood/properties/name",
+      "owner": "#/$defs/mood",
+      "field": "name",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/song/moods/0/name"
+    },
+    {
+      "schema_pointer": "#/$defs/mpeSettings/properties/memberChannelCount",
+      "owner": "#/$defs/mpeSettings",
+      "field": "memberChannelCount",
+      "direct_required": true,
+      "file": "examples/23-mpe-per-note-expression.ostf",
+      "instance_pointer": "/tracks/0/midi/mpe/memberChannelCount"
+    },
+    {
+      "schema_pointer": "#/$defs/mpeSettings/properties/zone",
+      "owner": "#/$defs/mpeSettings",
+      "field": "zone",
+      "direct_required": true,
+      "file": "examples/23-mpe-per-note-expression.ostf",
+      "instance_pointer": "/tracks/0/midi/mpe/zone"
+    },
+    {
+      "schema_pointer": "#/$defs/note/properties/channel",
+      "owner": "#/$defs/note",
+      "field": "channel",
+      "direct_required": false,
+      "file": "examples/23-mpe-per-note-expression.ostf",
+      "instance_pointer": "/tracks/0/clips/0/notes/0/channel"
+    },
+    {
+      "schema_pointer": "#/$defs/note/properties/duration",
+      "owner": "#/$defs/note",
+      "field": "duration",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/tracks/0/clips/0/notes/0/duration"
+    },
+    {
+      "schema_pointer": "#/$defs/note/properties/enabled",
+      "owner": "#/$defs/note",
+      "field": "enabled",
+      "direct_required": false,
+      "file": "examples/37-note-performance-state.ostf",
+      "instance_pointer": "/tracks/0/clips/0/notes/0/enabled"
+    },
+    {
+      "schema_pointer": "#/$defs/note/properties/id",
+      "owner": "#/$defs/note",
+      "field": "id",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/tracks/0/clips/0/notes/0/id"
+    },
+    {
+      "schema_pointer": "#/$defs/note/properties/pitch",
+      "owner": "#/$defs/note",
+      "field": "pitch",
+      "direct_required": false,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/tracks/0/clips/0/notes/0/pitch"
+    },
+    {
+      "schema_pointer": "#/$defs/note/properties/pitchRole",
+      "owner": "#/$defs/note",
+      "field": "pitchRole",
+      "direct_required": false,
+      "file": "examples/44-fixed-trigger-note.ostf",
+      "instance_pointer": "/tracks/0/clips/0/notes/0/pitchRole"
+    },
+    {
+      "schema_pointer": "#/$defs/note/properties/probability",
+      "owner": "#/$defs/note",
+      "field": "probability",
+      "direct_required": false,
+      "file": "examples/38-note-probability-deviation.ostf",
+      "instance_pointer": "/tracks/0/clips/0/notes/0/probability"
+    },
+    {
+      "schema_pointer": "#/$defs/note/properties/releaseVelocity",
+      "owner": "#/$defs/note",
+      "field": "releaseVelocity",
+      "direct_required": false,
+      "file": "examples/37-note-performance-state.ostf",
+      "instance_pointer": "/tracks/0/clips/0/notes/0/releaseVelocity"
+    },
+    {
+      "schema_pointer": "#/$defs/note/properties/soundSlotId",
+      "owner": "#/$defs/note",
+      "field": "soundSlotId",
+      "direct_required": false,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/tracks/2/clips/0/notes/0/soundSlotId"
+    },
+    {
+      "schema_pointer": "#/$defs/note/properties/start",
+      "owner": "#/$defs/note",
+      "field": "start",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/tracks/0/clips/0/notes/0/start"
+    },
+    {
+      "schema_pointer": "#/$defs/note/properties/velocity",
+      "owner": "#/$defs/note",
+      "field": "velocity",
+      "direct_required": false,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/tracks/0/clips/0/notes/0/velocity"
+    },
+    {
+      "schema_pointer": "#/$defs/note/properties/velocityDeviation",
+      "owner": "#/$defs/note",
+      "field": "velocityDeviation",
+      "direct_required": false,
+      "file": "examples/38-note-probability-deviation.ostf",
+      "instance_pointer": "/tracks/0/clips/0/notes/0/velocityDeviation"
+    },
+    {
+      "schema_pointer": "#/$defs/objectColor/properties/color",
+      "owner": "#/$defs/objectColor",
+      "field": "color",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/presentation/appearance/objectColors/0/color"
+    },
+    {
+      "schema_pointer": "#/$defs/objectColor/properties/target",
+      "owner": "#/$defs/objectColor",
+      "field": "target",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/presentation/appearance/objectColors/0/target"
+    },
+    {
+      "schema_pointer": "#/$defs/phraseInstance/properties/clipId",
+      "owner": "#/$defs/phraseInstance",
+      "field": "clipId",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/phraseLibrary/instances/0/clipId"
+    },
+    {
+      "schema_pointer": "#/$defs/phraseInstance/properties/id",
+      "owner": "#/$defs/phraseInstance",
+      "field": "id",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/phraseLibrary/instances/0/id"
+    },
+    {
+      "schema_pointer": "#/$defs/phraseInstance/properties/noteMap",
+      "owner": "#/$defs/phraseInstance",
+      "field": "noteMap",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/phraseLibrary/instances/0/noteMap"
+    },
+    {
+      "schema_pointer": "#/$defs/phraseInstance/properties/noteStateMode",
+      "owner": "#/$defs/phraseInstance",
+      "field": "noteStateMode",
+      "direct_required": false,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/phraseLibrary/instances/0/noteStateMode"
+    },
+    {
+      "schema_pointer": "#/$defs/phraseInstance/properties/repeatCount",
+      "owner": "#/$defs/phraseInstance",
+      "field": "repeatCount",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/phraseLibrary/instances/0/repeatCount"
+    },
+    {
+      "schema_pointer": "#/$defs/phraseInstance/properties/templateId",
+      "owner": "#/$defs/phraseInstance",
+      "field": "templateId",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/phraseLibrary/instances/0/templateId"
+    },
+    {
+      "schema_pointer": "#/$defs/phraseInstance/properties/transpose",
+      "owner": "#/$defs/phraseInstance",
+      "field": "transpose",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/phraseLibrary/instances/0/transpose"
+    },
+    {
+      "schema_pointer": "#/$defs/phraseInstance/properties/velocityMode",
+      "owner": "#/$defs/phraseInstance",
+      "field": "velocityMode",
+      "direct_required": false,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/phraseLibrary/instances/0/velocityMode"
+    },
+    {
+      "schema_pointer": "#/$defs/phraseLibrary/properties/dependencies",
+      "owner": "#/$defs/phraseLibrary",
+      "field": "dependencies",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/phraseLibrary/dependencies"
+    },
+    {
+      "schema_pointer": "#/$defs/phraseLibrary/properties/instances",
+      "owner": "#/$defs/phraseLibrary",
+      "field": "instances",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/phraseLibrary/instances"
+    },
+    {
+      "schema_pointer": "#/$defs/phraseLibrary/properties/status",
+      "owner": "#/$defs/phraseLibrary",
+      "field": "status",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/phraseLibrary/status"
+    },
+    {
+      "schema_pointer": "#/$defs/phraseLibrary/properties/templates",
+      "owner": "#/$defs/phraseLibrary",
+      "field": "templates",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/phraseLibrary/templates"
+    },
+    {
+      "schema_pointer": "#/$defs/phraseNoteMapping/properties/noteId",
+      "owner": "#/$defs/phraseNoteMapping",
+      "field": "noteId",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/phraseLibrary/instances/0/noteMap/0/noteId"
+    },
+    {
+      "schema_pointer": "#/$defs/phraseNoteMapping/properties/repeatIndex",
+      "owner": "#/$defs/phraseNoteMapping",
+      "field": "repeatIndex",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/phraseLibrary/instances/0/noteMap/0/repeatIndex"
+    },
+    {
+      "schema_pointer": "#/$defs/phraseNoteMapping/properties/templateNoteId",
+      "owner": "#/$defs/phraseNoteMapping",
+      "field": "templateNoteId",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/phraseLibrary/instances/0/noteMap/0/templateNoteId"
+    },
+    {
+      "schema_pointer": "#/$defs/phraseTemplate/properties/duration",
+      "owner": "#/$defs/phraseTemplate",
+      "field": "duration",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/phraseLibrary/templates/0/duration"
+    },
+    {
+      "schema_pointer": "#/$defs/phraseTemplate/properties/id",
+      "owner": "#/$defs/phraseTemplate",
+      "field": "id",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/phraseLibrary/templates/0/id"
+    },
+    {
+      "schema_pointer": "#/$defs/phraseTemplate/properties/name",
+      "owner": "#/$defs/phraseTemplate",
+      "field": "name",
+      "direct_required": false,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/phraseLibrary/templates/0/name"
+    },
+    {
+      "schema_pointer": "#/$defs/phraseTemplate/properties/notes",
+      "owner": "#/$defs/phraseTemplate",
+      "field": "notes",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/phraseLibrary/templates/0/notes"
+    },
+    {
+      "schema_pointer": "#/$defs/pitchBendEvent/properties/channel",
+      "owner": "#/$defs/pitchBendEvent",
+      "field": "channel",
+      "direct_required": false,
+      "file": "examples/06-instrument-midi-unchanged.ostf",
+      "instance_pointer": "/tracks/0/clips/0/midiEvents/1/channel"
+    },
+    {
+      "schema_pointer": "#/$defs/pitchBendEvent/properties/id",
+      "owner": "#/$defs/pitchBendEvent",
+      "field": "id",
+      "direct_required": true,
+      "file": "examples/06-instrument-midi-unchanged.ostf",
+      "instance_pointer": "/tracks/0/clips/0/midiEvents/1/id"
+    },
+    {
+      "schema_pointer": "#/$defs/pitchBendEvent/properties/order",
+      "owner": "#/$defs/pitchBendEvent",
+      "field": "order",
+      "direct_required": false,
+      "file": "examples/23-mpe-per-note-expression.ostf",
+      "instance_pointer": "/tracks/0/clips/0/midiEvents/0/order"
+    },
+    {
+      "schema_pointer": "#/$defs/pitchBendEvent/properties/start",
+      "owner": "#/$defs/pitchBendEvent",
+      "field": "start",
+      "direct_required": true,
+      "file": "examples/06-instrument-midi-unchanged.ostf",
+      "instance_pointer": "/tracks/0/clips/0/midiEvents/1/start"
+    },
+    {
+      "schema_pointer": "#/$defs/pitchBendEvent/properties/targetNoteId",
+      "owner": "#/$defs/pitchBendEvent",
+      "field": "targetNoteId",
+      "direct_required": false,
+      "file": "examples/23-mpe-per-note-expression.ostf",
+      "instance_pointer": "/tracks/0/clips/0/midiEvents/0/targetNoteId"
+    },
+    {
+      "schema_pointer": "#/$defs/pitchBendEvent/properties/type",
+      "owner": "#/$defs/pitchBendEvent",
+      "field": "type",
+      "direct_required": true,
+      "file": "examples/06-instrument-midi-unchanged.ostf",
+      "instance_pointer": "/tracks/0/clips/0/midiEvents/1/type"
+    },
+    {
+      "schema_pointer": "#/$defs/pitchBendEvent/properties/value14",
+      "owner": "#/$defs/pitchBendEvent",
+      "field": "value14",
+      "direct_required": true,
+      "file": "examples/06-instrument-midi-unchanged.ostf",
+      "instance_pointer": "/tracks/0/clips/0/midiEvents/1/value14"
+    },
+    {
+      "schema_pointer": "#/$defs/pitchRangeDirection/properties/duration",
+      "owner": "#/$defs/pitchRangeDirection",
+      "field": "duration",
+      "direct_required": true,
+      "file": "examples/24-pitch-range-high-register.ostf",
+      "instance_pointer": "/tracks/0/directions/0/duration"
+    },
+    {
+      "schema_pointer": "#/$defs/pitchRangeDirection/properties/id",
+      "owner": "#/$defs/pitchRangeDirection",
+      "field": "id",
+      "direct_required": true,
+      "file": "examples/24-pitch-range-high-register.ostf",
+      "instance_pointer": "/tracks/0/directions/0/id"
+    },
+    {
+      "schema_pointer": "#/$defs/pitchRangeDirection/properties/instruction",
+      "owner": "#/$defs/pitchRangeDirection",
+      "field": "instruction",
+      "direct_required": false,
+      "file": "examples/24-pitch-range-high-register.ostf",
+      "instance_pointer": "/tracks/0/directions/0/instruction"
+    },
+    {
+      "schema_pointer": "#/$defs/pitchRangeDirection/properties/label",
+      "owner": "#/$defs/pitchRangeDirection",
+      "field": "label",
+      "direct_required": false,
+      "file": "examples/24-pitch-range-high-register.ostf",
+      "instance_pointer": "/tracks/0/directions/0/label"
+    },
+    {
+      "schema_pointer": "#/$defs/pitchRangeDirection/properties/parameters",
+      "owner": "#/$defs/pitchRangeDirection",
+      "field": "parameters",
+      "direct_required": true,
+      "file": "examples/24-pitch-range-high-register.ostf",
+      "instance_pointer": "/tracks/0/directions/0/parameters"
+    },
+    {
+      "schema_pointer": "#/$defs/pitchRangeDirection/properties/start",
+      "owner": "#/$defs/pitchRangeDirection",
+      "field": "start",
+      "direct_required": true,
+      "file": "examples/24-pitch-range-high-register.ostf",
+      "instance_pointer": "/tracks/0/directions/0/start"
+    },
+    {
+      "schema_pointer": "#/$defs/pitchRangeDirection/properties/type",
+      "owner": "#/$defs/pitchRangeDirection",
+      "field": "type",
+      "direct_required": true,
+      "file": "examples/24-pitch-range-high-register.ostf",
+      "instance_pointer": "/tracks/0/directions/0/type"
+    },
+    {
+      "schema_pointer": "#/$defs/pitchRangeDirectionParameters/properties/constraint",
+      "owner": "#/$defs/pitchRangeDirectionParameters",
+      "field": "constraint",
+      "direct_required": true,
+      "file": "examples/24-pitch-range-high-register.ostf",
+      "instance_pointer": "/tracks/0/directions/0/parameters/constraint"
+    },
+    {
+      "schema_pointer": "#/$defs/pitchRangeDirectionParameters/properties/highPitch",
+      "owner": "#/$defs/pitchRangeDirectionParameters",
+      "field": "highPitch",
+      "direct_required": true,
+      "file": "examples/24-pitch-range-high-register.ostf",
+      "instance_pointer": "/tracks/0/directions/0/parameters/highPitch"
+    },
+    {
+      "schema_pointer": "#/$defs/pitchRangeDirectionParameters/properties/lowPitch",
+      "owner": "#/$defs/pitchRangeDirectionParameters",
+      "field": "lowPitch",
+      "direct_required": true,
+      "file": "examples/24-pitch-range-high-register.ostf",
+      "instance_pointer": "/tracks/0/directions/0/parameters/lowPitch"
+    },
+    {
+      "schema_pointer": "#/$defs/playablePitchRange/properties/highPitch",
+      "owner": "#/$defs/playablePitchRange",
+      "field": "highPitch",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/tracks/0/instrument/playablePitchRange/highPitch"
+    },
+    {
+      "schema_pointer": "#/$defs/playablePitchRange/properties/lowPitch",
+      "owner": "#/$defs/playablePitchRange",
+      "field": "lowPitch",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/tracks/0/instrument/playablePitchRange/lowPitch"
+    },
+    {
+      "schema_pointer": "#/$defs/playingRoleDirection/properties/duration",
+      "owner": "#/$defs/playingRoleDirection",
+      "field": "duration",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/tracks/0/directions/0/duration"
+    },
+    {
+      "schema_pointer": "#/$defs/playingRoleDirection/properties/id",
+      "owner": "#/$defs/playingRoleDirection",
+      "field": "id",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/tracks/0/directions/0/id"
+    },
+    {
+      "schema_pointer": "#/$defs/playingRoleDirection/properties/instruction",
+      "owner": "#/$defs/playingRoleDirection",
+      "field": "instruction",
+      "direct_required": false,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/tracks/0/directions/0/instruction"
+    },
+    {
+      "schema_pointer": "#/$defs/playingRoleDirection/properties/label",
+      "owner": "#/$defs/playingRoleDirection",
+      "field": "label",
+      "direct_required": false,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/tracks/0/directions/0/label"
+    },
+    {
+      "schema_pointer": "#/$defs/playingRoleDirection/properties/parameters",
+      "owner": "#/$defs/playingRoleDirection",
+      "field": "parameters",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/tracks/0/directions/0/parameters"
+    },
+    {
+      "schema_pointer": "#/$defs/playingRoleDirection/properties/start",
+      "owner": "#/$defs/playingRoleDirection",
+      "field": "start",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/tracks/0/directions/0/start"
+    },
+    {
+      "schema_pointer": "#/$defs/playingRoleDirection/properties/type",
+      "owner": "#/$defs/playingRoleDirection",
+      "field": "type",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/tracks/0/directions/0/type"
+    },
+    {
+      "schema_pointer": "#/$defs/playingRoleDirectionParameters/properties/role",
+      "owner": "#/$defs/playingRoleDirectionParameters",
+      "field": "role",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/tracks/0/directions/0/parameters/role"
+    },
+    {
+      "schema_pointer": "#/$defs/polyPressureEvent/properties/channel",
+      "owner": "#/$defs/polyPressureEvent",
+      "field": "channel",
+      "direct_required": false,
+      "file": "examples/26-poly-pressure.ostf",
+      "instance_pointer": "/tracks/0/clips/0/midiEvents/0/channel"
+    },
+    {
+      "schema_pointer": "#/$defs/polyPressureEvent/properties/id",
+      "owner": "#/$defs/polyPressureEvent",
+      "field": "id",
+      "direct_required": true,
+      "file": "examples/26-poly-pressure.ostf",
+      "instance_pointer": "/tracks/0/clips/0/midiEvents/0/id"
+    },
+    {
+      "schema_pointer": "#/$defs/polyPressureEvent/properties/order",
+      "owner": "#/$defs/polyPressureEvent",
+      "field": "order",
+      "direct_required": false,
+      "file": "examples/26-poly-pressure.ostf",
+      "instance_pointer": "/tracks/0/clips/0/midiEvents/0/order"
+    },
+    {
+      "schema_pointer": "#/$defs/polyPressureEvent/properties/pitch",
+      "owner": "#/$defs/polyPressureEvent",
+      "field": "pitch",
+      "direct_required": true,
+      "file": "examples/26-poly-pressure.ostf",
+      "instance_pointer": "/tracks/0/clips/0/midiEvents/0/pitch"
+    },
+    {
+      "schema_pointer": "#/$defs/polyPressureEvent/properties/start",
+      "owner": "#/$defs/polyPressureEvent",
+      "field": "start",
+      "direct_required": true,
+      "file": "examples/26-poly-pressure.ostf",
+      "instance_pointer": "/tracks/0/clips/0/midiEvents/0/start"
+    },
+    {
+      "schema_pointer": "#/$defs/polyPressureEvent/properties/targetNoteId",
+      "owner": "#/$defs/polyPressureEvent",
+      "field": "targetNoteId",
+      "direct_required": false,
+      "file": "examples/26-poly-pressure.ostf",
+      "instance_pointer": "/tracks/0/clips/0/midiEvents/0/targetNoteId"
+    },
+    {
+      "schema_pointer": "#/$defs/polyPressureEvent/properties/type",
+      "owner": "#/$defs/polyPressureEvent",
+      "field": "type",
+      "direct_required": true,
+      "file": "examples/26-poly-pressure.ostf",
+      "instance_pointer": "/tracks/0/clips/0/midiEvents/0/type"
+    },
+    {
+      "schema_pointer": "#/$defs/polyPressureEvent/properties/value",
+      "owner": "#/$defs/polyPressureEvent",
+      "field": "value",
+      "direct_required": true,
+      "file": "examples/26-poly-pressure.ostf",
+      "instance_pointer": "/tracks/0/clips/0/midiEvents/0/value"
+    },
+    {
+      "schema_pointer": "#/$defs/presentation/properties/appearance",
+      "owner": "#/$defs/presentation",
+      "field": "appearance",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/presentation/appearance"
+    },
+    {
+      "schema_pointer": "#/$defs/presentation/properties/appearance/properties/customRoleColors",
+      "owner": "#/$defs/presentation/properties/appearance",
+      "field": "customRoleColors",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/presentation/appearance/customRoleColors"
+    },
+    {
+      "schema_pointer": "#/$defs/presentation/properties/appearance/properties/objectColors",
+      "owner": "#/$defs/presentation/properties/appearance",
+      "field": "objectColors",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/presentation/appearance/objectColors"
+    },
+    {
+      "schema_pointer": "#/$defs/presentation/properties/appearance/properties/roleColors",
+      "owner": "#/$defs/presentation/properties/appearance",
+      "field": "roleColors",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/presentation/appearance/roleColors"
+    },
+    {
+      "schema_pointer": "#/$defs/presentation/properties/dependencies",
+      "owner": "#/$defs/presentation",
+      "field": "dependencies",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/presentation/dependencies"
+    },
+    {
+      "schema_pointer": "#/$defs/presentation/properties/roleDefinitions",
+      "owner": "#/$defs/presentation",
+      "field": "roleDefinitions",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/presentation/roleDefinitions"
+    },
+    {
+      "schema_pointer": "#/$defs/presentation/properties/sectionRoleAssignments",
+      "owner": "#/$defs/presentation",
+      "field": "sectionRoleAssignments",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/presentation/sectionRoleAssignments"
+    },
+    {
+      "schema_pointer": "#/$defs/presentation/properties/status",
+      "owner": "#/$defs/presentation",
+      "field": "status",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/presentation/status"
+    },
+    {
+      "schema_pointer": "#/$defs/programChangeEvent/properties/channel",
+      "owner": "#/$defs/programChangeEvent",
+      "field": "channel",
+      "direct_required": false,
+      "file": "examples/30-bank-select-program-change.ostf",
+      "instance_pointer": "/tracks/0/clips/0/midiEvents/2/channel"
+    },
+    {
+      "schema_pointer": "#/$defs/programChangeEvent/properties/id",
+      "owner": "#/$defs/programChangeEvent",
+      "field": "id",
+      "direct_required": true,
+      "file": "examples/30-bank-select-program-change.ostf",
+      "instance_pointer": "/tracks/0/clips/0/midiEvents/2/id"
+    },
+    {
+      "schema_pointer": "#/$defs/programChangeEvent/properties/order",
+      "owner": "#/$defs/programChangeEvent",
+      "field": "order",
+      "direct_required": false,
+      "file": "examples/30-bank-select-program-change.ostf",
+      "instance_pointer": "/tracks/0/clips/0/midiEvents/2/order"
+    },
+    {
+      "schema_pointer": "#/$defs/programChangeEvent/properties/program",
+      "owner": "#/$defs/programChangeEvent",
+      "field": "program",
+      "direct_required": true,
+      "file": "examples/30-bank-select-program-change.ostf",
+      "instance_pointer": "/tracks/0/clips/0/midiEvents/2/program"
+    },
+    {
+      "schema_pointer": "#/$defs/programChangeEvent/properties/start",
+      "owner": "#/$defs/programChangeEvent",
+      "field": "start",
+      "direct_required": true,
+      "file": "examples/30-bank-select-program-change.ostf",
+      "instance_pointer": "/tracks/0/clips/0/midiEvents/2/start"
+    },
+    {
+      "schema_pointer": "#/$defs/programChangeEvent/properties/type",
+      "owner": "#/$defs/programChangeEvent",
+      "field": "type",
+      "direct_required": true,
+      "file": "examples/30-bank-select-program-change.ostf",
+      "instance_pointer": "/tracks/0/clips/0/midiEvents/2/type"
+    },
+    {
+      "schema_pointer": "#/$defs/provenance/properties/records",
+      "owner": "#/$defs/provenance",
+      "field": "records",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/provenance/records"
+    },
+    {
+      "schema_pointer": "#/$defs/provenanceRecord/properties/action",
+      "owner": "#/$defs/provenanceRecord",
+      "field": "action",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/provenance/records/0/action"
+    },
+    {
+      "schema_pointer": "#/$defs/provenanceRecord/properties/afterKey",
+      "owner": "#/$defs/provenanceRecord",
+      "field": "afterKey",
+      "direct_required": false,
+      "file": "examples/35-provenance.ostf",
+      "instance_pointer": "/provenance/records/1/afterKey"
+    },
+    {
+      "schema_pointer": "#/$defs/provenanceRecord/properties/beforeKey",
+      "owner": "#/$defs/provenanceRecord",
+      "field": "beforeKey",
+      "direct_required": false,
+      "file": "examples/35-provenance.ostf",
+      "instance_pointer": "/provenance/records/1/beforeKey"
+    },
+    {
+      "schema_pointer": "#/$defs/provenanceRecord/properties/description",
+      "owner": "#/$defs/provenanceRecord",
+      "field": "description",
+      "direct_required": false,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/provenance/records/0/description"
+    },
+    {
+      "schema_pointer": "#/$defs/provenanceRecord/properties/id",
+      "owner": "#/$defs/provenanceRecord",
+      "field": "id",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/provenance/records/0/id"
+    },
+    {
+      "schema_pointer": "#/$defs/provenanceRecord/properties/semitones",
+      "owner": "#/$defs/provenanceRecord",
+      "field": "semitones",
+      "direct_required": false,
+      "file": "examples/35-provenance.ostf",
+      "instance_pointer": "/provenance/records/1/semitones"
+    },
+    {
+      "schema_pointer": "#/$defs/provenanceRecord/properties/sources",
+      "owner": "#/$defs/provenanceRecord",
+      "field": "sources",
+      "direct_required": false,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/provenance/records/0/sources"
+    },
+    {
+      "schema_pointer": "#/$defs/provenanceRecord/properties/tool",
+      "owner": "#/$defs/provenanceRecord",
+      "field": "tool",
+      "direct_required": false,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/provenance/records/0/tool"
+    },
+    {
+      "schema_pointer": "#/$defs/provenanceSource/properties/documentId",
+      "owner": "#/$defs/provenanceSource",
+      "field": "documentId",
+      "direct_required": false,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/provenance/records/0/sources/0/documentId"
+    },
+    {
+      "schema_pointer": "#/$defs/provenanceSource/properties/format",
+      "owner": "#/$defs/provenanceSource",
+      "field": "format",
+      "direct_required": false,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/provenance/records/0/sources/0/format"
+    },
+    {
+      "schema_pointer": "#/$defs/provenanceSource/properties/resourceId",
+      "owner": "#/$defs/provenanceSource",
+      "field": "resourceId",
+      "direct_required": false,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/provenance/records/0/sources/0/resourceId"
+    },
+    {
+      "schema_pointer": "#/$defs/provenanceSource/properties/revisionId",
+      "owner": "#/$defs/provenanceSource",
+      "field": "revisionId",
+      "direct_required": false,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/provenance/records/0/sources/0/revisionId"
+    },
+    {
+      "schema_pointer": "#/$defs/provenanceSource/properties/sha256",
+      "owner": "#/$defs/provenanceSource",
+      "field": "sha256",
+      "direct_required": false,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/provenance/records/0/sources/0/sha256"
+    },
+    {
+      "schema_pointer": "#/$defs/provenanceSource/properties/uri",
+      "owner": "#/$defs/provenanceSource",
+      "field": "uri",
+      "direct_required": false,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/provenance/records/0/sources/0/uri"
+    },
+    {
+      "schema_pointer": "#/$defs/provenanceSource/properties/version",
+      "owner": "#/$defs/provenanceSource",
+      "field": "version",
+      "direct_required": false,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/provenance/records/0/sources/0/version"
+    },
+    {
+      "schema_pointer": "#/$defs/range/properties/duration",
+      "owner": "#/$defs/range",
+      "field": "duration",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/generation/processes/0/targetRange/duration"
+    },
+    {
+      "schema_pointer": "#/$defs/range/properties/start",
+      "owner": "#/$defs/range",
+      "field": "start",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/generation/processes/0/targetRange/start"
+    },
+    {
+      "schema_pointer": "#/$defs/ref/properties/id",
+      "owner": "#/$defs/ref",
+      "field": "id",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/relativePhrases/dependencies/refs/0/id"
+    },
+    {
+      "schema_pointer": "#/$defs/ref/properties/type",
+      "owner": "#/$defs/ref",
+      "field": "type",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/relativePhrases/dependencies/refs/0/type"
+    },
+    {
+      "schema_pointer": "#/$defs/relativeAssignment/properties/anchorPitch",
+      "owner": "#/$defs/relativeAssignment",
+      "field": "anchorPitch",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/relativePhrases/assignments/0/anchorPitch"
+    },
+    {
+      "schema_pointer": "#/$defs/relativeAssignment/properties/basis",
+      "owner": "#/$defs/relativeAssignment",
+      "field": "basis",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/relativePhrases/assignments/0/basis"
+    },
+    {
+      "schema_pointer": "#/$defs/relativeAssignment/properties/chromaticOffset",
+      "owner": "#/$defs/relativeAssignment",
+      "field": "chromaticOffset",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/relativePhrases/assignments/0/chromaticOffset"
+    },
+    {
+      "schema_pointer": "#/$defs/relativeAssignment/properties/contextId",
+      "owner": "#/$defs/relativeAssignment",
+      "field": "contextId",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/relativePhrases/assignments/0/contextId"
+    },
+    {
+      "schema_pointer": "#/$defs/relativeAssignment/properties/index",
+      "owner": "#/$defs/relativeAssignment",
+      "field": "index",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/relativePhrases/assignments/0/index"
+    },
+    {
+      "schema_pointer": "#/$defs/relativeAssignment/properties/noteId",
+      "owner": "#/$defs/relativeAssignment",
+      "field": "noteId",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/relativePhrases/assignments/0/noteId"
+    },
+    {
+      "schema_pointer": "#/$defs/relativePhrases/properties/assignments",
+      "owner": "#/$defs/relativePhrases",
+      "field": "assignments",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/relativePhrases/assignments"
+    },
+    {
+      "schema_pointer": "#/$defs/relativePhrases/properties/dependencies",
+      "owner": "#/$defs/relativePhrases",
+      "field": "dependencies",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/relativePhrases/dependencies"
+    },
+    {
+      "schema_pointer": "#/$defs/relativePhrases/properties/status",
+      "owner": "#/$defs/relativePhrases",
+      "field": "status",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/relativePhrases/status"
+    },
+    {
+      "schema_pointer": "#/$defs/resource/properties/id",
+      "owner": "#/$defs/resource",
+      "field": "id",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/resources/0/id"
+    },
+    {
+      "schema_pointer": "#/$defs/resource/properties/kind",
+      "owner": "#/$defs/resource",
+      "field": "kind",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/resources/0/kind"
+    },
+    {
+      "schema_pointer": "#/$defs/resource/properties/name",
+      "owner": "#/$defs/resource",
+      "field": "name",
+      "direct_required": false,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/resources/0/name"
+    },
+    {
+      "schema_pointer": "#/$defs/resource/properties/sha256",
+      "owner": "#/$defs/resource",
+      "field": "sha256",
+      "direct_required": false,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/resources/0/sha256"
+    },
+    {
+      "schema_pointer": "#/$defs/resource/properties/uri",
+      "owner": "#/$defs/resource",
+      "field": "uri",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/resources/0/uri"
+    },
+    {
+      "schema_pointer": "#/$defs/revisionRef/properties/documentId",
+      "owner": "#/$defs/revisionRef",
+      "field": "documentId",
+      "direct_required": true,
+      "file": "examples/32-document-identity-revision.ostf",
+      "instance_pointer": "/document/parents/0/documentId"
+    },
+    {
+      "schema_pointer": "#/$defs/revisionRef/properties/revisionId",
+      "owner": "#/$defs/revisionRef",
+      "field": "revisionId",
+      "direct_required": true,
+      "file": "examples/32-document-identity-revision.ostf",
+      "instance_pointer": "/document/parents/0/revisionId"
+    },
+    {
+      "schema_pointer": "#/$defs/revisionRef/properties/sha256",
+      "owner": "#/$defs/revisionRef",
+      "field": "sha256",
+      "direct_required": false,
+      "file": "examples/32-document-identity-revision.ostf",
+      "instance_pointer": "/document/parents/0/sha256"
+    },
+    {
+      "schema_pointer": "#/$defs/rightsStatement/properties/licenseUri",
+      "owner": "#/$defs/rightsStatement",
+      "field": "licenseUri",
+      "direct_required": false,
+      "file": "examples/47-rights-statement.ostf",
+      "instance_pointer": "/song/rights/licenseUri"
+    },
+    {
+      "schema_pointer": "#/$defs/rightsStatement/properties/notice",
+      "owner": "#/$defs/rightsStatement",
+      "field": "notice",
+      "direct_required": false,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/song/rights/notice"
+    },
+    {
+      "schema_pointer": "#/$defs/rightsStatement/properties/rightsHolderIds",
+      "owner": "#/$defs/rightsStatement",
+      "field": "rightsHolderIds",
+      "direct_required": false,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/song/rights/rightsHolderIds"
+    },
+    {
+      "schema_pointer": "#/$defs/roleDefinition/properties/baseRole",
+      "owner": "#/$defs/roleDefinition",
+      "field": "baseRole",
+      "direct_required": false,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/presentation/roleDefinitions/0/baseRole"
+    },
+    {
+      "schema_pointer": "#/$defs/roleDefinition/properties/id",
+      "owner": "#/$defs/roleDefinition",
+      "field": "id",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/presentation/roleDefinitions/0/id"
+    },
+    {
+      "schema_pointer": "#/$defs/roleDefinition/properties/name",
+      "owner": "#/$defs/roleDefinition",
+      "field": "name",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/presentation/roleDefinitions/0/name"
+    },
+    {
+      "schema_pointer": "#/$defs/scale/properties/duration",
+      "owner": "#/$defs/scale",
+      "field": "duration",
+      "direct_required": true,
+      "file": "examples/25-integrated-jazz-session.ostf",
+      "instance_pointer": "/harmony/scales/0/duration"
+    },
+    {
+      "schema_pointer": "#/$defs/scale/properties/id",
+      "owner": "#/$defs/scale",
+      "field": "id",
+      "direct_required": true,
+      "file": "examples/25-integrated-jazz-session.ostf",
+      "instance_pointer": "/harmony/scales/0/id"
+    },
+    {
+      "schema_pointer": "#/$defs/scale/properties/intervals",
+      "owner": "#/$defs/scale",
+      "field": "intervals",
+      "direct_required": true,
+      "file": "examples/25-integrated-jazz-session.ostf",
+      "instance_pointer": "/harmony/scales/0/intervals"
+    },
+    {
+      "schema_pointer": "#/$defs/scale/properties/label",
+      "owner": "#/$defs/scale",
+      "field": "label",
+      "direct_required": false,
+      "file": "examples/43-timed-harmony-scales.ostf",
+      "instance_pointer": "/harmony/scales/0/label"
+    },
+    {
+      "schema_pointer": "#/$defs/scale/properties/start",
+      "owner": "#/$defs/scale",
+      "field": "start",
+      "direct_required": true,
+      "file": "examples/25-integrated-jazz-session.ostf",
+      "instance_pointer": "/harmony/scales/0/start"
+    },
+    {
+      "schema_pointer": "#/$defs/scale/properties/targets",
+      "owner": "#/$defs/scale",
+      "field": "targets",
+      "direct_required": false,
+      "file": "examples/25-integrated-jazz-session.ostf",
+      "instance_pointer": "/harmony/scales/0/targets"
+    },
+    {
+      "schema_pointer": "#/$defs/scale/properties/tonic",
+      "owner": "#/$defs/scale",
+      "field": "tonic",
+      "direct_required": true,
+      "file": "examples/25-integrated-jazz-session.ostf",
+      "instance_pointer": "/harmony/scales/0/tonic"
+    },
+    {
+      "schema_pointer": "#/$defs/scaleDefinition/properties/id",
+      "owner": "#/$defs/scaleDefinition",
+      "field": "id",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/song/scale/id"
+    },
+    {
+      "schema_pointer": "#/$defs/scaleDefinition/properties/intervals",
+      "owner": "#/$defs/scaleDefinition",
+      "field": "intervals",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/song/scale/intervals"
+    },
+    {
+      "schema_pointer": "#/$defs/scaleDefinition/properties/label",
+      "owner": "#/$defs/scaleDefinition",
+      "field": "label",
+      "direct_required": false,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/song/scale/label"
+    },
+    {
+      "schema_pointer": "#/$defs/scaleDefinition/properties/tonic",
+      "owner": "#/$defs/scaleDefinition",
+      "field": "tonic",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/song/scale/tonic"
+    },
+    {
+      "schema_pointer": "#/$defs/scaleTarget/properties/id",
+      "owner": "#/$defs/scaleTarget",
+      "field": "id",
+      "direct_required": true,
+      "file": "examples/25-integrated-jazz-session.ostf",
+      "instance_pointer": "/harmony/scales/0/targets/0/id"
+    },
+    {
+      "schema_pointer": "#/$defs/scaleTarget/properties/type",
+      "owner": "#/$defs/scaleTarget",
+      "field": "type",
+      "direct_required": true,
+      "file": "examples/25-integrated-jazz-session.ostf",
+      "instance_pointer": "/harmony/scales/0/targets/0/type"
+    },
+    {
+      "schema_pointer": "#/$defs/section/properties/duration",
+      "owner": "#/$defs/section",
+      "field": "duration",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/timeline/sections/0/duration"
+    },
+    {
+      "schema_pointer": "#/$defs/section/properties/id",
+      "owner": "#/$defs/section",
+      "field": "id",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/timeline/sections/0/id"
+    },
+    {
+      "schema_pointer": "#/$defs/section/properties/localizedNames",
+      "owner": "#/$defs/section",
+      "field": "localizedNames",
+      "direct_required": false,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/timeline/sections/0/localizedNames"
+    },
+    {
+      "schema_pointer": "#/$defs/section/properties/name",
+      "owner": "#/$defs/section",
+      "field": "name",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/timeline/sections/0/name"
+    },
+    {
+      "schema_pointer": "#/$defs/section/properties/role",
+      "owner": "#/$defs/section",
+      "field": "role",
+      "direct_required": false,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/timeline/sections/0/role"
+    },
+    {
+      "schema_pointer": "#/$defs/section/properties/start",
+      "owner": "#/$defs/section",
+      "field": "start",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/timeline/sections/0/start"
+    },
+    {
+      "schema_pointer": "#/$defs/software/properties/name",
+      "owner": "#/$defs/software",
+      "field": "name",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/document/createdBy/name"
+    },
+    {
+      "schema_pointer": "#/$defs/software/properties/version",
+      "owner": "#/$defs/software",
+      "field": "version",
+      "direct_required": false,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/document/createdBy/version"
+    },
+    {
+      "schema_pointer": "#/$defs/song/properties/alternateTitles",
+      "owner": "#/$defs/song",
+      "field": "alternateTitles",
+      "direct_required": false,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/song/alternateTitles"
+    },
+    {
+      "schema_pointer": "#/$defs/song/properties/credits",
+      "owner": "#/$defs/song",
+      "field": "credits",
+      "direct_required": false,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/song/credits"
+    },
+    {
+      "schema_pointer": "#/$defs/song/properties/description",
+      "owner": "#/$defs/song",
+      "field": "description",
+      "direct_required": false,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/song/description"
+    },
+    {
+      "schema_pointer": "#/$defs/song/properties/genres",
+      "owner": "#/$defs/song",
+      "field": "genres",
+      "direct_required": false,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/song/genres"
+    },
+    {
+      "schema_pointer": "#/$defs/song/properties/key",
+      "owner": "#/$defs/song",
+      "field": "key",
+      "direct_required": false,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/song/key"
+    },
+    {
+      "schema_pointer": "#/$defs/song/properties/languages",
+      "owner": "#/$defs/song",
+      "field": "languages",
+      "direct_required": false,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/song/languages"
+    },
+    {
+      "schema_pointer": "#/$defs/song/properties/localizedTitles",
+      "owner": "#/$defs/song",
+      "field": "localizedTitles",
+      "direct_required": false,
+      "file": "examples/36-localized-names.ostf",
+      "instance_pointer": "/song/localizedTitles"
+    },
+    {
+      "schema_pointer": "#/$defs/song/properties/melodyTrackIds",
+      "owner": "#/$defs/song",
+      "field": "melodyTrackIds",
+      "direct_required": false,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/song/melodyTrackIds"
+    },
+    {
+      "schema_pointer": "#/$defs/song/properties/moods",
+      "owner": "#/$defs/song",
+      "field": "moods",
+      "direct_required": false,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/song/moods"
+    },
+    {
+      "schema_pointer": "#/$defs/song/properties/primaryLyricDocumentId",
+      "owner": "#/$defs/song",
+      "field": "primaryLyricDocumentId",
+      "direct_required": false,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/song/primaryLyricDocumentId"
+    },
+    {
+      "schema_pointer": "#/$defs/song/properties/primaryMelodyTrackId",
+      "owner": "#/$defs/song",
+      "field": "primaryMelodyTrackId",
+      "direct_required": false,
+      "file": "examples/02-all-vocal-parameters.ostf",
+      "instance_pointer": "/song/primaryMelodyTrackId"
+    },
+    {
+      "schema_pointer": "#/$defs/song/properties/rights",
+      "owner": "#/$defs/song",
+      "field": "rights",
+      "direct_required": false,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/song/rights"
+    },
+    {
+      "schema_pointer": "#/$defs/song/properties/scale",
+      "owner": "#/$defs/song",
+      "field": "scale",
+      "direct_required": false,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/song/scale"
+    },
+    {
+      "schema_pointer": "#/$defs/song/properties/subtitle",
+      "owner": "#/$defs/song",
+      "field": "subtitle",
+      "direct_required": false,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/song/subtitle"
+    },
+    {
+      "schema_pointer": "#/$defs/song/properties/title",
+      "owner": "#/$defs/song",
+      "field": "title",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/song/title"
+    },
+    {
+      "schema_pointer": "#/$defs/soundSlot/properties/id",
+      "owner": "#/$defs/soundSlot",
+      "field": "id",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/soundSlots/0/id"
+    },
+    {
+      "schema_pointer": "#/$defs/soundSlot/properties/localizedNames",
+      "owner": "#/$defs/soundSlot",
+      "field": "localizedNames",
+      "direct_required": false,
+      "file": "examples/36-localized-names.ostf",
+      "instance_pointer": "/soundSlots/0/localizedNames"
+    },
+    {
+      "schema_pointer": "#/$defs/soundSlot/properties/midiMapping",
+      "owner": "#/$defs/soundSlot",
+      "field": "midiMapping",
+      "direct_required": false,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/soundSlots/0/midiMapping"
+    },
+    {
+      "schema_pointer": "#/$defs/soundSlot/properties/midiNote",
+      "owner": "#/$defs/soundSlot",
+      "field": "midiNote",
+      "direct_required": false,
+      "file": "examples/39-sound-slot-midi-mapping.ostf",
+      "instance_pointer": "/soundSlots/0/midiNote"
+    },
+    {
+      "schema_pointer": "#/$defs/soundSlot/properties/name",
+      "owner": "#/$defs/soundSlot",
+      "field": "name",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/soundSlots/0/name"
+    },
+    {
+      "schema_pointer": "#/$defs/soundSlot/properties/role",
+      "owner": "#/$defs/soundSlot",
+      "field": "role",
+      "direct_required": false,
+      "file": "examples/39-sound-slot-midi-mapping.ostf",
+      "instance_pointer": "/soundSlots/0/role"
+    },
+    {
+      "schema_pointer": "#/$defs/soundSource/properties/identifier",
+      "owner": "#/$defs/soundSource",
+      "field": "identifier",
+      "direct_required": false,
+      "file": "examples/34-sound-source-external-midi.ostf",
+      "instance_pointer": "/tracks/0/soundSource/identifier"
+    },
+    {
+      "schema_pointer": "#/$defs/soundSource/properties/kind",
+      "owner": "#/$defs/soundSource",
+      "field": "kind",
+      "direct_required": true,
+      "file": "examples/34-sound-source-external-midi.ostf",
+      "instance_pointer": "/tracks/0/soundSource/kind"
+    },
+    {
+      "schema_pointer": "#/$defs/spelledPitchClass/properties/alter",
+      "owner": "#/$defs/spelledPitchClass",
+      "field": "alter",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/song/key/tonic/alter"
+    },
+    {
+      "schema_pointer": "#/$defs/spelledPitchClass/properties/step",
+      "owner": "#/$defs/spelledPitchClass",
+      "field": "step",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/song/key/tonic/step"
+    },
+    {
+      "schema_pointer": "#/$defs/tempo/properties/at",
+      "owner": "#/$defs/tempo",
+      "field": "at",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/timeline/tempoChanges/0/at"
+    },
+    {
+      "schema_pointer": "#/$defs/tempo/properties/bpm",
+      "owner": "#/$defs/tempo",
+      "field": "bpm",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/timeline/tempoChanges/0/bpm"
+    },
+    {
+      "schema_pointer": "#/$defs/timeline/properties/barOrigin",
+      "owner": "#/$defs/timeline",
+      "field": "barOrigin",
+      "direct_required": false,
+      "file": "examples/41-bar-origin.ostf",
+      "instance_pointer": "/timeline/barOrigin"
+    },
+    {
+      "schema_pointer": "#/$defs/timeline/properties/duration",
+      "owner": "#/$defs/timeline",
+      "field": "duration",
+      "direct_required": false,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/timeline/duration"
+    },
+    {
+      "schema_pointer": "#/$defs/timeline/properties/keyChanges",
+      "owner": "#/$defs/timeline",
+      "field": "keyChanges",
+      "direct_required": false,
+      "file": "examples/31-effective-key-scale.ostf",
+      "instance_pointer": "/timeline/keyChanges"
+    },
+    {
+      "schema_pointer": "#/$defs/timeline/properties/meterChanges",
+      "owner": "#/$defs/timeline",
+      "field": "meterChanges",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/timeline/meterChanges"
+    },
+    {
+      "schema_pointer": "#/$defs/timeline/properties/sections",
+      "owner": "#/$defs/timeline",
+      "field": "sections",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/timeline/sections"
+    },
+    {
+      "schema_pointer": "#/$defs/timeline/properties/tempoChanges",
+      "owner": "#/$defs/timeline",
+      "field": "tempoChanges",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/timeline/tempoChanges"
+    },
+    {
+      "schema_pointer": "#/$defs/track/properties/clips",
+      "owner": "#/$defs/track",
+      "field": "clips",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/tracks/0/clips"
+    },
+    {
+      "schema_pointer": "#/$defs/track/properties/directions",
+      "owner": "#/$defs/track",
+      "field": "directions",
+      "direct_required": false,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/tracks/0/directions"
+    },
+    {
+      "schema_pointer": "#/$defs/track/properties/drumKitId",
+      "owner": "#/$defs/track",
+      "field": "drumKitId",
+      "direct_required": false,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/tracks/2/drumKitId"
+    },
+    {
+      "schema_pointer": "#/$defs/track/properties/enabled",
+      "owner": "#/$defs/track",
+      "field": "enabled",
+      "direct_required": false,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/tracks/0/enabled"
+    },
+    {
+      "schema_pointer": "#/$defs/track/properties/id",
+      "owner": "#/$defs/track",
+      "field": "id",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/tracks/0/id"
+    },
+    {
+      "schema_pointer": "#/$defs/track/properties/instrument",
+      "owner": "#/$defs/track",
+      "field": "instrument",
+      "direct_required": false,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/tracks/0/instrument"
+    },
+    {
+      "schema_pointer": "#/$defs/track/properties/localizedNames",
+      "owner": "#/$defs/track",
+      "field": "localizedNames",
+      "direct_required": false,
+      "file": "examples/36-localized-names.ostf",
+      "instance_pointer": "/tracks/0/localizedNames"
+    },
+    {
+      "schema_pointer": "#/$defs/track/properties/midi",
+      "owner": "#/$defs/track",
+      "field": "midi",
+      "direct_required": false,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/tracks/0/midi"
+    },
+    {
+      "schema_pointer": "#/$defs/track/properties/name",
+      "owner": "#/$defs/track",
+      "field": "name",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/tracks/0/name"
+    },
+    {
+      "schema_pointer": "#/$defs/track/properties/preferredView",
+      "owner": "#/$defs/track",
+      "field": "preferredView",
+      "direct_required": false,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/tracks/2/preferredView"
+    },
+    {
+      "schema_pointer": "#/$defs/track/properties/role",
+      "owner": "#/$defs/track",
+      "field": "role",
+      "direct_required": false,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/tracks/0/role"
+    },
+    {
+      "schema_pointer": "#/$defs/track/properties/soundSource",
+      "owner": "#/$defs/track",
+      "field": "soundSource",
+      "direct_required": false,
+      "file": "examples/34-sound-source-external-midi.ostf",
+      "instance_pointer": "/tracks/0/soundSource"
+    },
+    {
+      "schema_pointer": "#/$defs/track/properties/trackType",
+      "owner": "#/$defs/track",
+      "field": "trackType",
+      "direct_required": false,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/tracks/0/trackType"
+    },
+    {
+      "schema_pointer": "#/$defs/trackMidi/properties/busId",
+      "owner": "#/$defs/trackMidi",
+      "field": "busId",
+      "direct_required": false,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/tracks/0/midi/busId"
+    },
+    {
+      "schema_pointer": "#/$defs/trackMidi/properties/channel",
+      "owner": "#/$defs/trackMidi",
+      "field": "channel",
+      "direct_required": false,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/tracks/0/midi/channel"
+    },
+    {
+      "schema_pointer": "#/$defs/trackMidi/properties/mode",
+      "owner": "#/$defs/trackMidi",
+      "field": "mode",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/tracks/0/midi/mode"
+    },
+    {
+      "schema_pointer": "#/$defs/trackMidi/properties/mpe",
+      "owner": "#/$defs/trackMidi",
+      "field": "mpe",
+      "direct_required": false,
+      "file": "examples/23-mpe-per-note-expression.ostf",
+      "instance_pointer": "/tracks/0/midi/mpe"
+    },
+    {
+      "schema_pointer": "#/$defs/vendorDirectionParameters/properties/data",
+      "owner": "#/$defs/vendorDirectionParameters",
+      "field": "data",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/tracks/0/directions/2/parameters/data"
+    },
+    {
+      "schema_pointer": "#/$defs/vendorDirectionParameters/properties/name",
+      "owner": "#/$defs/vendorDirectionParameters",
+      "field": "name",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/tracks/0/directions/2/parameters/name"
+    },
+    {
+      "schema_pointer": "#/$defs/vendorDirectionParameters/properties/namespace",
+      "owner": "#/$defs/vendorDirectionParameters",
+      "field": "namespace",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/tracks/0/directions/2/parameters/namespace"
+    },
+    {
+      "schema_pointer": "#/$defs/vendorDirectionParameters/properties/version",
+      "owner": "#/$defs/vendorDirectionParameters",
+      "field": "version",
+      "direct_required": false,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/tracks/0/directions/2/parameters/version"
+    },
+    {
+      "schema_pointer": "#/$defs/vendorPointDirection/properties/at",
+      "owner": "#/$defs/vendorPointDirection",
+      "field": "at",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/tracks/0/directions/2/at"
+    },
+    {
+      "schema_pointer": "#/$defs/vendorPointDirection/properties/id",
+      "owner": "#/$defs/vendorPointDirection",
+      "field": "id",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/tracks/0/directions/2/id"
+    },
+    {
+      "schema_pointer": "#/$defs/vendorPointDirection/properties/instruction",
+      "owner": "#/$defs/vendorPointDirection",
+      "field": "instruction",
+      "direct_required": false,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/tracks/0/directions/2/instruction"
+    },
+    {
+      "schema_pointer": "#/$defs/vendorPointDirection/properties/label",
+      "owner": "#/$defs/vendorPointDirection",
+      "field": "label",
+      "direct_required": false,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/tracks/0/directions/2/label"
+    },
+    {
+      "schema_pointer": "#/$defs/vendorPointDirection/properties/parameters",
+      "owner": "#/$defs/vendorPointDirection",
+      "field": "parameters",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/tracks/0/directions/2/parameters"
+    },
+    {
+      "schema_pointer": "#/$defs/vendorPointDirection/properties/type",
+      "owner": "#/$defs/vendorPointDirection",
+      "field": "type",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/tracks/0/directions/2/type"
+    },
+    {
+      "schema_pointer": "#/$defs/vendorRangeDirection/properties/duration",
+      "owner": "#/$defs/vendorRangeDirection",
+      "field": "duration",
+      "direct_required": true,
+      "file": "examples/29-vendor-range-direction.ostf",
+      "instance_pointer": "/tracks/0/directions/0/duration"
+    },
+    {
+      "schema_pointer": "#/$defs/vendorRangeDirection/properties/id",
+      "owner": "#/$defs/vendorRangeDirection",
+      "field": "id",
+      "direct_required": true,
+      "file": "examples/29-vendor-range-direction.ostf",
+      "instance_pointer": "/tracks/0/directions/0/id"
+    },
+    {
+      "schema_pointer": "#/$defs/vendorRangeDirection/properties/instruction",
+      "owner": "#/$defs/vendorRangeDirection",
+      "field": "instruction",
+      "direct_required": false,
+      "file": "examples/29-vendor-range-direction.ostf",
+      "instance_pointer": "/tracks/0/directions/0/instruction"
+    },
+    {
+      "schema_pointer": "#/$defs/vendorRangeDirection/properties/label",
+      "owner": "#/$defs/vendorRangeDirection",
+      "field": "label",
+      "direct_required": false,
+      "file": "examples/29-vendor-range-direction.ostf",
+      "instance_pointer": "/tracks/0/directions/0/label"
+    },
+    {
+      "schema_pointer": "#/$defs/vendorRangeDirection/properties/parameters",
+      "owner": "#/$defs/vendorRangeDirection",
+      "field": "parameters",
+      "direct_required": true,
+      "file": "examples/29-vendor-range-direction.ostf",
+      "instance_pointer": "/tracks/0/directions/0/parameters"
+    },
+    {
+      "schema_pointer": "#/$defs/vendorRangeDirection/properties/start",
+      "owner": "#/$defs/vendorRangeDirection",
+      "field": "start",
+      "direct_required": true,
+      "file": "examples/29-vendor-range-direction.ostf",
+      "instance_pointer": "/tracks/0/directions/0/start"
+    },
+    {
+      "schema_pointer": "#/$defs/vendorRangeDirection/properties/type",
+      "owner": "#/$defs/vendorRangeDirection",
+      "field": "type",
+      "direct_required": true,
+      "file": "examples/29-vendor-range-direction.ostf",
+      "instance_pointer": "/tracks/0/directions/0/type"
+    },
+    {
+      "schema_pointer": "#/$defs/vocalBreathEvent/properties/duration",
+      "owner": "#/$defs/vocalBreathEvent",
+      "field": "duration",
+      "direct_required": true,
+      "file": "examples/02-all-vocal-parameters.ostf",
+      "instance_pointer": "/tracks/0/clips/0/vocalPerformances/0/breathEvents/0/duration"
+    },
+    {
+      "schema_pointer": "#/$defs/vocalBreathEvent/properties/id",
+      "owner": "#/$defs/vocalBreathEvent",
+      "field": "id",
+      "direct_required": true,
+      "file": "examples/02-all-vocal-parameters.ostf",
+      "instance_pointer": "/tracks/0/clips/0/vocalPerformances/0/breathEvents/0/id"
+    },
+    {
+      "schema_pointer": "#/$defs/vocalBreathEvent/properties/intensity",
+      "owner": "#/$defs/vocalBreathEvent",
+      "field": "intensity",
+      "direct_required": false,
+      "file": "examples/02-all-vocal-parameters.ostf",
+      "instance_pointer": "/tracks/0/clips/0/vocalPerformances/0/breathEvents/0/intensity"
+    },
+    {
+      "schema_pointer": "#/$defs/vocalBreathEvent/properties/kind",
+      "owner": "#/$defs/vocalBreathEvent",
+      "field": "kind",
+      "direct_required": true,
+      "file": "examples/02-all-vocal-parameters.ostf",
+      "instance_pointer": "/tracks/0/clips/0/vocalPerformances/0/breathEvents/0/kind"
+    },
+    {
+      "schema_pointer": "#/$defs/vocalBreathEvent/properties/start",
+      "owner": "#/$defs/vocalBreathEvent",
+      "field": "start",
+      "direct_required": true,
+      "file": "examples/02-all-vocal-parameters.ostf",
+      "instance_pointer": "/tracks/0/clips/0/vocalPerformances/0/breathEvents/0/start"
+    },
+    {
+      "schema_pointer": "#/$defs/vocalCurvePointNormalized/properties/at",
+      "owner": "#/$defs/vocalCurvePointNormalized",
+      "field": "at",
+      "direct_required": true,
+      "file": "examples/02-all-vocal-parameters.ostf",
+      "instance_pointer": "/tracks/0/clips/0/vocalPerformances/0/expressionCurves/0/points/0/at"
+    },
+    {
+      "schema_pointer": "#/$defs/vocalCurvePointNormalized/properties/value",
+      "owner": "#/$defs/vocalCurvePointNormalized",
+      "field": "value",
+      "direct_required": true,
+      "file": "examples/02-all-vocal-parameters.ostf",
+      "instance_pointer": "/tracks/0/clips/0/vocalPerformances/0/expressionCurves/0/points/0/value"
+    },
+    {
+      "schema_pointer": "#/$defs/vocalCurvePointPitch/properties/at",
+      "owner": "#/$defs/vocalCurvePointPitch",
+      "field": "at",
+      "direct_required": true,
+      "file": "examples/02-all-vocal-parameters.ostf",
+      "instance_pointer": "/tracks/0/clips/0/vocalPerformances/0/pitchCurves/0/points/0/at"
+    },
+    {
+      "schema_pointer": "#/$defs/vocalCurvePointPitch/properties/value",
+      "owner": "#/$defs/vocalCurvePointPitch",
+      "field": "value",
+      "direct_required": true,
+      "file": "examples/02-all-vocal-parameters.ostf",
+      "instance_pointer": "/tracks/0/clips/0/vocalPerformances/0/pitchCurves/0/points/0/value"
+    },
+    {
+      "schema_pointer": "#/$defs/vocalExpressionCurve/properties/id",
+      "owner": "#/$defs/vocalExpressionCurve",
+      "field": "id",
+      "direct_required": true,
+      "file": "examples/02-all-vocal-parameters.ostf",
+      "instance_pointer": "/tracks/0/clips/0/vocalPerformances/0/expressionCurves/0/id"
+    },
+    {
+      "schema_pointer": "#/$defs/vocalExpressionCurve/properties/interpolation",
+      "owner": "#/$defs/vocalExpressionCurve",
+      "field": "interpolation",
+      "direct_required": true,
+      "file": "examples/02-all-vocal-parameters.ostf",
+      "instance_pointer": "/tracks/0/clips/0/vocalPerformances/0/expressionCurves/0/interpolation"
+    },
+    {
+      "schema_pointer": "#/$defs/vocalExpressionCurve/properties/parameter",
+      "owner": "#/$defs/vocalExpressionCurve",
+      "field": "parameter",
+      "direct_required": true,
+      "file": "examples/02-all-vocal-parameters.ostf",
+      "instance_pointer": "/tracks/0/clips/0/vocalPerformances/0/expressionCurves/0/parameter"
+    },
+    {
+      "schema_pointer": "#/$defs/vocalExpressionCurve/properties/points",
+      "owner": "#/$defs/vocalExpressionCurve",
+      "field": "points",
+      "direct_required": true,
+      "file": "examples/02-all-vocal-parameters.ostf",
+      "instance_pointer": "/tracks/0/clips/0/vocalPerformances/0/expressionCurves/0/points"
+    },
+    {
+      "schema_pointer": "#/$defs/vocalExpressionCurve/properties/targetNoteId",
+      "owner": "#/$defs/vocalExpressionCurve",
+      "field": "targetNoteId",
+      "direct_required": false,
+      "file": "examples/02-all-vocal-parameters.ostf",
+      "instance_pointer": "/tracks/0/clips/0/vocalPerformances/0/expressionCurves/5/targetNoteId"
+    },
+    {
+      "schema_pointer": "#/$defs/vocalPerformance/properties/breathEvents",
+      "owner": "#/$defs/vocalPerformance",
+      "field": "breathEvents",
+      "direct_required": false,
+      "file": "examples/02-all-vocal-parameters.ostf",
+      "instance_pointer": "/tracks/0/clips/0/vocalPerformances/0/breathEvents"
+    },
+    {
+      "schema_pointer": "#/$defs/vocalPerformance/properties/expressionCurves",
+      "owner": "#/$defs/vocalPerformance",
+      "field": "expressionCurves",
+      "direct_required": false,
+      "file": "examples/02-all-vocal-parameters.ostf",
+      "instance_pointer": "/tracks/0/clips/0/vocalPerformances/0/expressionCurves"
+    },
+    {
+      "schema_pointer": "#/$defs/vocalPerformance/properties/id",
+      "owner": "#/$defs/vocalPerformance",
+      "field": "id",
+      "direct_required": true,
+      "file": "examples/02-all-vocal-parameters.ostf",
+      "instance_pointer": "/tracks/0/clips/0/vocalPerformances/0/id"
+    },
+    {
+      "schema_pointer": "#/$defs/vocalPerformance/properties/noteIds",
+      "owner": "#/$defs/vocalPerformance",
+      "field": "noteIds",
+      "direct_required": false,
+      "file": "examples/02-all-vocal-parameters.ostf",
+      "instance_pointer": "/tracks/0/clips/0/vocalPerformances/0/noteIds"
+    },
+    {
+      "schema_pointer": "#/$defs/vocalPerformance/properties/phonemeEvents",
+      "owner": "#/$defs/vocalPerformance",
+      "field": "phonemeEvents",
+      "direct_required": false,
+      "file": "examples/02-all-vocal-parameters.ostf",
+      "instance_pointer": "/tracks/0/clips/0/vocalPerformances/0/phonemeEvents"
+    },
+    {
+      "schema_pointer": "#/$defs/vocalPerformance/properties/pitchCurves",
+      "owner": "#/$defs/vocalPerformance",
+      "field": "pitchCurves",
+      "direct_required": false,
+      "file": "examples/02-all-vocal-parameters.ostf",
+      "instance_pointer": "/tracks/0/clips/0/vocalPerformances/0/pitchCurves"
+    },
+    {
+      "schema_pointer": "#/$defs/vocalPerformance/properties/techniques",
+      "owner": "#/$defs/vocalPerformance",
+      "field": "techniques",
+      "direct_required": false,
+      "file": "examples/02-all-vocal-parameters.ostf",
+      "instance_pointer": "/tracks/0/clips/0/vocalPerformances/0/techniques"
+    },
+    {
+      "schema_pointer": "#/$defs/vocalPerformance/properties/voiceId",
+      "owner": "#/$defs/vocalPerformance",
+      "field": "voiceId",
+      "direct_required": true,
+      "file": "examples/02-all-vocal-parameters.ostf",
+      "instance_pointer": "/tracks/0/clips/0/vocalPerformances/0/voiceId"
+    },
+    {
+      "schema_pointer": "#/$defs/vocalPhonemeEvent/properties/alphabet",
+      "owner": "#/$defs/vocalPhonemeEvent",
+      "field": "alphabet",
+      "direct_required": true,
+      "file": "examples/02-all-vocal-parameters.ostf",
+      "instance_pointer": "/tracks/0/clips/0/vocalPerformances/0/phonemeEvents/0/alphabet"
+    },
+    {
+      "schema_pointer": "#/$defs/vocalPhonemeEvent/properties/duration",
+      "owner": "#/$defs/vocalPhonemeEvent",
+      "field": "duration",
+      "direct_required": true,
+      "file": "examples/02-all-vocal-parameters.ostf",
+      "instance_pointer": "/tracks/0/clips/0/vocalPerformances/0/phonemeEvents/0/duration"
+    },
+    {
+      "schema_pointer": "#/$defs/vocalPhonemeEvent/properties/id",
+      "owner": "#/$defs/vocalPhonemeEvent",
+      "field": "id",
+      "direct_required": true,
+      "file": "examples/02-all-vocal-parameters.ostf",
+      "instance_pointer": "/tracks/0/clips/0/vocalPerformances/0/phonemeEvents/0/id"
+    },
+    {
+      "schema_pointer": "#/$defs/vocalPhonemeEvent/properties/namespace",
+      "owner": "#/$defs/vocalPhonemeEvent",
+      "field": "namespace",
+      "direct_required": false,
+      "file": "examples/02-all-vocal-parameters.ostf",
+      "instance_pointer": "/tracks/0/clips/0/vocalPerformances/0/phonemeEvents/0/namespace"
+    },
+    {
+      "schema_pointer": "#/$defs/vocalPhonemeEvent/properties/noteId",
+      "owner": "#/$defs/vocalPhonemeEvent",
+      "field": "noteId",
+      "direct_required": false,
+      "file": "examples/02-all-vocal-parameters.ostf",
+      "instance_pointer": "/tracks/0/clips/0/vocalPerformances/0/phonemeEvents/0/noteId"
+    },
+    {
+      "schema_pointer": "#/$defs/vocalPhonemeEvent/properties/order",
+      "owner": "#/$defs/vocalPhonemeEvent",
+      "field": "order",
+      "direct_required": false,
+      "file": "examples/02-all-vocal-parameters.ostf",
+      "instance_pointer": "/tracks/0/clips/0/vocalPerformances/0/phonemeEvents/0/order"
+    },
+    {
+      "schema_pointer": "#/$defs/vocalPhonemeEvent/properties/start",
+      "owner": "#/$defs/vocalPhonemeEvent",
+      "field": "start",
+      "direct_required": true,
+      "file": "examples/02-all-vocal-parameters.ostf",
+      "instance_pointer": "/tracks/0/clips/0/vocalPerformances/0/phonemeEvents/0/start"
+    },
+    {
+      "schema_pointer": "#/$defs/vocalPhonemeEvent/properties/symbol",
+      "owner": "#/$defs/vocalPhonemeEvent",
+      "field": "symbol",
+      "direct_required": true,
+      "file": "examples/02-all-vocal-parameters.ostf",
+      "instance_pointer": "/tracks/0/clips/0/vocalPerformances/0/phonemeEvents/0/symbol"
+    },
+    {
+      "schema_pointer": "#/$defs/vocalPhonemeEvent/properties/unitId",
+      "owner": "#/$defs/vocalPhonemeEvent",
+      "field": "unitId",
+      "direct_required": true,
+      "file": "examples/02-all-vocal-parameters.ostf",
+      "instance_pointer": "/tracks/0/clips/0/vocalPerformances/0/phonemeEvents/0/unitId"
+    },
+    {
+      "schema_pointer": "#/$defs/vocalPhonetics/properties/alphabet",
+      "owner": "#/$defs/vocalPhonetics",
+      "field": "alphabet",
+      "direct_required": true,
+      "file": "examples/02-all-vocal-parameters.ostf",
+      "instance_pointer": "/lyrics/units/0/phonetics/0/alphabet"
+    },
+    {
+      "schema_pointer": "#/$defs/vocalPhonetics/properties/language",
+      "owner": "#/$defs/vocalPhonetics",
+      "field": "language",
+      "direct_required": false,
+      "file": "examples/02-all-vocal-parameters.ostf",
+      "instance_pointer": "/lyrics/units/0/phonetics/0/language"
+    },
+    {
+      "schema_pointer": "#/$defs/vocalPhonetics/properties/namespace",
+      "owner": "#/$defs/vocalPhonetics",
+      "field": "namespace",
+      "direct_required": false,
+      "file": "examples/02-all-vocal-parameters.ostf",
+      "instance_pointer": "/lyrics/units/0/phonetics/1/namespace"
+    },
+    {
+      "schema_pointer": "#/$defs/vocalPhonetics/properties/preferred",
+      "owner": "#/$defs/vocalPhonetics",
+      "field": "preferred",
+      "direct_required": false,
+      "file": "examples/02-all-vocal-parameters.ostf",
+      "instance_pointer": "/lyrics/units/0/phonetics/0/preferred"
+    },
+    {
+      "schema_pointer": "#/$defs/vocalPhonetics/properties/symbols",
+      "owner": "#/$defs/vocalPhonetics",
+      "field": "symbols",
+      "direct_required": true,
+      "file": "examples/02-all-vocal-parameters.ostf",
+      "instance_pointer": "/lyrics/units/0/phonetics/0/symbols"
+    },
+    {
+      "schema_pointer": "#/$defs/vocalPitchCurve/properties/id",
+      "owner": "#/$defs/vocalPitchCurve",
+      "field": "id",
+      "direct_required": true,
+      "file": "examples/02-all-vocal-parameters.ostf",
+      "instance_pointer": "/tracks/0/clips/0/vocalPerformances/0/pitchCurves/0/id"
+    },
+    {
+      "schema_pointer": "#/$defs/vocalPitchCurve/properties/interpolation",
+      "owner": "#/$defs/vocalPitchCurve",
+      "field": "interpolation",
+      "direct_required": true,
+      "file": "examples/02-all-vocal-parameters.ostf",
+      "instance_pointer": "/tracks/0/clips/0/vocalPerformances/0/pitchCurves/0/interpolation"
+    },
+    {
+      "schema_pointer": "#/$defs/vocalPitchCurve/properties/points",
+      "owner": "#/$defs/vocalPitchCurve",
+      "field": "points",
+      "direct_required": true,
+      "file": "examples/02-all-vocal-parameters.ostf",
+      "instance_pointer": "/tracks/0/clips/0/vocalPerformances/0/pitchCurves/0/points"
+    },
+    {
+      "schema_pointer": "#/$defs/vocalPitchCurve/properties/targetNoteId",
+      "owner": "#/$defs/vocalPitchCurve",
+      "field": "targetNoteId",
+      "direct_required": true,
+      "file": "examples/02-all-vocal-parameters.ostf",
+      "instance_pointer": "/tracks/0/clips/0/vocalPerformances/0/pitchCurves/0/targetNoteId"
+    },
+    {
+      "schema_pointer": "#/$defs/vocalPitchCurve/properties/unit",
+      "owner": "#/$defs/vocalPitchCurve",
+      "field": "unit",
+      "direct_required": true,
+      "file": "examples/02-all-vocal-parameters.ostf",
+      "instance_pointer": "/tracks/0/clips/0/vocalPerformances/0/pitchCurves/0/unit"
+    },
+    {
+      "schema_pointer": "#/$defs/vocalProfile/properties/deliveryMode",
+      "owner": "#/$defs/vocalProfile",
+      "field": "deliveryMode",
+      "direct_required": false,
+      "file": "examples/02-all-vocal-parameters.ostf",
+      "instance_pointer": "/lyrics/voices/0/vocalProfile/deliveryMode"
+    },
+    {
+      "schema_pointer": "#/$defs/vocalProfile/properties/language",
+      "owner": "#/$defs/vocalProfile",
+      "field": "language",
+      "direct_required": false,
+      "file": "examples/02-all-vocal-parameters.ostf",
+      "instance_pointer": "/lyrics/voices/0/vocalProfile/language"
+    },
+    {
+      "schema_pointer": "#/$defs/vocalProfile/properties/voiceDescription",
+      "owner": "#/$defs/vocalProfile",
+      "field": "voiceDescription",
+      "direct_required": false,
+      "file": "examples/02-all-vocal-parameters.ostf",
+      "instance_pointer": "/lyrics/voices/0/vocalProfile/voiceDescription"
+    },
+    {
+      "schema_pointer": "#/$defs/vocalTechnique/properties/duration",
+      "owner": "#/$defs/vocalTechnique",
+      "field": "duration",
+      "direct_required": true,
+      "file": "examples/02-all-vocal-parameters.ostf",
+      "instance_pointer": "/tracks/0/clips/0/vocalPerformances/0/techniques/0/duration"
+    },
+    {
+      "schema_pointer": "#/$defs/vocalTechnique/properties/id",
+      "owner": "#/$defs/vocalTechnique",
+      "field": "id",
+      "direct_required": true,
+      "file": "examples/02-all-vocal-parameters.ostf",
+      "instance_pointer": "/tracks/0/clips/0/vocalPerformances/0/techniques/0/id"
+    },
+    {
+      "schema_pointer": "#/$defs/vocalTechnique/properties/intensity",
+      "owner": "#/$defs/vocalTechnique",
+      "field": "intensity",
+      "direct_required": false,
+      "file": "examples/02-all-vocal-parameters.ostf",
+      "instance_pointer": "/tracks/0/clips/0/vocalPerformances/0/techniques/0/intensity"
+    },
+    {
+      "schema_pointer": "#/$defs/vocalTechnique/properties/kind",
+      "owner": "#/$defs/vocalTechnique",
+      "field": "kind",
+      "direct_required": true,
+      "file": "examples/02-all-vocal-parameters.ostf",
+      "instance_pointer": "/tracks/0/clips/0/vocalPerformances/0/techniques/0/kind"
+    },
+    {
+      "schema_pointer": "#/$defs/vocalTechnique/properties/start",
+      "owner": "#/$defs/vocalTechnique",
+      "field": "start",
+      "direct_required": true,
+      "file": "examples/02-all-vocal-parameters.ostf",
+      "instance_pointer": "/tracks/0/clips/0/vocalPerformances/0/techniques/0/start"
+    },
+    {
+      "schema_pointer": "#/$defs/vocalTechnique/properties/targetNoteId",
+      "owner": "#/$defs/vocalTechnique",
+      "field": "targetNoteId",
+      "direct_required": false,
+      "file": "examples/02-all-vocal-parameters.ostf",
+      "instance_pointer": "/tracks/0/clips/0/vocalPerformances/0/techniques/0/targetNoteId"
+    },
+    {
+      "schema_pointer": "#/$defs/voicing/properties/pitches",
+      "owner": "#/$defs/voicing",
+      "field": "pitches",
+      "direct_required": true,
+      "file": "examples/33-chord-voicing.ostf",
+      "instance_pointer": "/harmony/chords/0/voicing/pitches"
+    },
+    {
+      "schema_pointer": "#/$defs/voicing/properties/velocities",
+      "owner": "#/$defs/voicing",
+      "field": "velocities",
+      "direct_required": false,
+      "file": "examples/33-chord-voicing.ostf",
+      "instance_pointer": "/harmony/chords/0/voicing/velocities"
+    },
+    {
+      "schema_pointer": "#/properties/clipChoices",
+      "owner": "#",
+      "field": "clipChoices",
+      "direct_required": false,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/clipChoices"
+    },
+    {
+      "schema_pointer": "#/properties/contributors",
+      "owner": "#",
+      "field": "contributors",
+      "direct_required": false,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/contributors"
+    },
+    {
+      "schema_pointer": "#/properties/document",
+      "owner": "#",
+      "field": "document",
+      "direct_required": false,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/document"
+    },
+    {
+      "schema_pointer": "#/properties/drumKits",
+      "owner": "#",
+      "field": "drumKits",
+      "direct_required": false,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/drumKits"
+    },
+    {
+      "schema_pointer": "#/properties/extensions",
+      "owner": "#",
+      "field": "extensions",
+      "direct_required": false,
+      "file": "examples/03-all-legacy-profiles.ostf",
+      "instance_pointer": "/extensions"
+    },
+    {
+      "schema_pointer": "#/properties/format",
+      "owner": "#",
+      "field": "format",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/format"
+    },
+    {
+      "schema_pointer": "#/properties/generation",
+      "owner": "#",
+      "field": "generation",
+      "direct_required": false,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/generation"
+    },
+    {
+      "schema_pointer": "#/properties/harmony",
+      "owner": "#",
+      "field": "harmony",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/harmony"
+    },
+    {
+      "schema_pointer": "#/properties/localization",
+      "owner": "#",
+      "field": "localization",
+      "direct_required": false,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/localization"
+    },
+    {
+      "schema_pointer": "#/properties/lyrics",
+      "owner": "#",
+      "field": "lyrics",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/lyrics"
+    },
+    {
+      "schema_pointer": "#/properties/midi",
+      "owner": "#",
+      "field": "midi",
+      "direct_required": false,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/midi"
+    },
+    {
+      "schema_pointer": "#/properties/phraseLibrary",
+      "owner": "#",
+      "field": "phraseLibrary",
+      "direct_required": false,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/phraseLibrary"
+    },
+    {
+      "schema_pointer": "#/properties/ppq",
+      "owner": "#",
+      "field": "ppq",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/ppq"
+    },
+    {
+      "schema_pointer": "#/properties/presentation",
+      "owner": "#",
+      "field": "presentation",
+      "direct_required": false,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/presentation"
+    },
+    {
+      "schema_pointer": "#/properties/provenance",
+      "owner": "#",
+      "field": "provenance",
+      "direct_required": false,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/provenance"
+    },
+    {
+      "schema_pointer": "#/properties/relativePhrases",
+      "owner": "#",
+      "field": "relativePhrases",
+      "direct_required": false,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/relativePhrases"
+    },
+    {
+      "schema_pointer": "#/properties/resources",
+      "owner": "#",
+      "field": "resources",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/resources"
+    },
+    {
+      "schema_pointer": "#/properties/song",
+      "owner": "#",
+      "field": "song",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/song"
+    },
+    {
+      "schema_pointer": "#/properties/soundSlots",
+      "owner": "#",
+      "field": "soundSlots",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/soundSlots"
+    },
+    {
+      "schema_pointer": "#/properties/timeline",
+      "owner": "#",
+      "field": "timeline",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/timeline"
+    },
+    {
+      "schema_pointer": "#/properties/tracks",
+      "owner": "#",
+      "field": "tracks",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/tracks"
+    },
+    {
+      "schema_pointer": "#/properties/version",
+      "owner": "#",
+      "field": "version",
+      "direct_required": true,
+      "file": "examples/01-all-core.ostf",
+      "instance_pointer": "/version"
+    }
+  ]
+}
